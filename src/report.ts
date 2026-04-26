@@ -17,7 +17,21 @@ export const LLM_TOKENS_WEB = 8192;
 export const LLM_TOKENS_ROLLUP = 8192;
 import { type LlmProvider, createProvider } from "./providers/index.ts";
 
-const provider: LlmProvider = createProvider();
+const NO_LLM = process.env["NO_LLM"] === "1";
+
+let _provider: LlmProvider | null = null;
+function getProvider(): LlmProvider | null {
+  if (NO_LLM) return null;
+  if (!_provider) {
+    try {
+      _provider = createProvider();
+    } catch (err) {
+      console.error(`[llm] Provider creation failed: ${err}`);
+      return null;
+    }
+  }
+  return _provider;
+}
 
 // ---------------------------------------------------------------------------
 // Concurrency limiter — prevents rate-limit (429) errors when many LLM calls
@@ -58,6 +72,11 @@ export function is429(err: unknown): boolean {
 }
 
 export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): Promise<string> {
+  const provider = getProvider();
+  if (!provider) {
+    console.log("[llm] NO_LLM mode — skipping LLM call");
+    return "";
+  }
   for (let attempt = 0; ; attempt++) {
     await acquireSlot();
     let released = false;
