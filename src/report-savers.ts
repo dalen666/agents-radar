@@ -132,12 +132,17 @@ export async function saveTrendingReport(
   // Fallback: generate simple list if trendingSummary is empty (NO_LLM mode)
   let summary = trendingSummary;
   if (!summary) {
-    const tItems = trendingData.trendingRepos.slice(0, 20).map((r, i) =>
-      `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars} (${lang === "en" ? r.description : r.description})`
-    ).join("\n");
-    const sItems = trendingData.searchRepos.slice(0, 10).map((r, i) =>
-      `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars}`
-    ).join("\n");
+    const tItems = trendingData.trendingRepos
+      .slice(0, 20)
+      .map(
+        (r, i) =>
+          `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars} (${lang === "en" ? r.description : r.description})`,
+      )
+      .join("\n");
+    const sItems = trendingData.searchRepos
+      .slice(0, 10)
+      .map((r, i) => `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars}`)
+      .join("\n");
     const tSection = tItems ? `### Trending\n${tItems}\n\n` : "";
     const sSection = sItems ? `### Search\n${sItems}\n` : "";
     summary = tSection + sSection;
@@ -182,9 +187,16 @@ export async function saveHnReport(
     let hnSummary = await callLlm(buildHnPrompt(hnData, dateStr, lang));
     // Fallback: generate simple list if LLM is unavailable
     if (!hnSummary) {
-      hnSummary = lang === "en"
-        ? hnData.stories.slice(0, 30).map((s, i) => `${i + 1}. [${s.title}](${s.url}) (${s.points} points, ${s.comments} comments)`).join("\n")
-        : hnData.stories.slice(0, 30).map((s, i) => `${i + 1}. [${s.title}](${s.url})（${s.points} 分，${s.comments} 评论）`).join("\n");
+      hnSummary =
+        lang === "en"
+          ? hnData.stories
+              .slice(0, 30)
+              .map((s, i) => `${i + 1}. [${s.title}](${s.url}) (${s.points} points, ${s.comments} comments)`)
+              .join("\n")
+          : hnData.stories
+              .slice(0, 30)
+              .map((s, i) => `${i + 1}. [${s.title}](${s.url})（${s.points} 分，${s.comments} 评论）`)
+              .join("\n");
     }
     const fileName = lang === "en" ? "ai-hn-en.md" : "ai-hn.md";
     const header =
@@ -235,9 +247,16 @@ export async function savePhReport(
     let phSummary = await callLlm(buildPhPrompt(phData, dateStr, lang));
     // Fallback: generate simple list if LLM is unavailable
     if (!phSummary) {
-      phSummary = lang === "en"
-        ? phData.products.slice(0, 20).map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline} (${p.votes} upvotes)`).join("\n")
-        : phData.products.slice(0, 20).map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline}（${p.votes} 票）`).join("\n");
+      phSummary =
+        lang === "en"
+          ? phData.products
+              .slice(0, 20)
+              .map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline} (${p.votes} upvotes)`)
+              .join("\n")
+          : phData.products
+              .slice(0, 20)
+              .map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline}（${p.votes} 票）`)
+              .join("\n");
     }
     const fileName = lang === "en" ? "ai-ph-en.md" : "ai-ph.md";
     const header =
@@ -288,9 +307,16 @@ export async function saveArxivReport(
     let summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
     // Fallback: generate simple list if LLM is unavailable
     if (!summary) {
-      summary = lang === "en"
-        ? arxivData.papers.slice(0, 20).map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`).join("\n")
-        : arxivData.papers.slice(0, 20).map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`).join("\n");
+      summary =
+        lang === "en"
+          ? arxivData.papers
+              .slice(0, 20)
+              .map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`)
+              .join("\n")
+          : arxivData.papers
+              .slice(0, 20)
+              .map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`)
+              .join("\n");
     }
     const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
     const header =
@@ -341,9 +367,16 @@ export async function saveHfReport(
     let summary = await callLlm(buildHfPrompt(hfData, dateStr, lang));
     // Fallback: generate simple list if LLM is unavailable
     if (!summary) {
-      summary = lang === "en"
-        ? hfData.models.slice(0, 20).map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} likes`).join("\n")
-        : hfData.models.slice(0, 20).map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} 赞`).join("\n");
+      summary =
+        lang === "en"
+          ? hfData.models
+              .slice(0, 20)
+              .map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} likes`)
+              .join("\n")
+          : hfData.models
+              .slice(0, 20)
+              .map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} 赞`)
+              .join("\n");
     }
     const fileName = lang === "en" ? "ai-hf-en.md" : "ai-hf.md";
     const header =
@@ -396,8 +429,14 @@ export async function saveCommunityReport(
     let summary = await callLlm(buildCommunityPrompt(devtoData, lobstersData, dateStr, lang));
     // Fallback: generate simple list if LLM is unavailable
     if (!summary) {
-      const devtoItems = devtoData.articles.slice(0, 15).map((a, i) => `${i + 1}. [${a.title}](${a.url})`).join("\n");
-      const lobstersItems = lobstersData.stories.slice(0, 15).map((s, i) => `${i + 1}. [${s.title}](${s.url})`).join("\n");
+      const devtoItems = devtoData.articles
+        .slice(0, 15)
+        .map((a, i) => `${i + 1}. [${a.title}](${a.url})`)
+        .join("\n");
+      const lobstersItems = lobstersData.stories
+        .slice(0, 15)
+        .map((s, i) => `${i + 1}. [${s.title}](${s.url})`)
+        .join("\n");
       const devtoSection = devtoItems ? `### Dev.to\n${devtoItems}\n\n` : "";
       const lobstersSection = lobstersItems ? `### Lobste.rs\n${lobstersItems}\n` : "";
       summary = devtoSection + lobstersSection;
