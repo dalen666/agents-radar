@@ -313,6 +313,22 @@ async function main(): Promise<void> {
     lobstersData,
   } = await fetchAllData(since, webState);
 
+  // 1.5 Save raw data for dashboard visualization (no LLM needed)
+  console.log("  Saving dashboard data...");
+  const dashboardData = {
+    date: dateStr,
+    generated: new Date().toISOString(),
+    trending: trendingData.trendingRepos.slice(0, 30).map(r => ({ name: r.fullName, stars: r.todayStars, totalStars: r.totalStars, forks: r.forks, language: r.language, description: r.description, url: r.url })),
+    search: trendingData.searchRepos.slice(0, 20).map(r => ({ name: r.fullName, stars: r.stargazersCount, language: r.language, query: r.searchQuery, url: r.url })),
+    hn: hnData.stories.slice(0, 30).map(s => ({ title: s.title, points: s.points, comments: s.comments, author: s.author, url: s.url, hnUrl: s.hnUrl })),
+    ph: phData.products.slice(0, 20).map(p => ({ name: p.name, tagline: p.tagline, votes: p.votesCount, comments: p.commentsCount, topics: p.topics, url: p.url })),
+    arxiv: arxivData.papers.slice(0, 20).map(p => ({ title: p.title, categories: p.categories, authors: p.authors.slice(0, 3), url: p.url })),
+    hf: hfData.models.slice(0, 20).map(m => ({ id: m.id, likes: m.likes, downloads: m.downloads, pipeline: m.pipelineTag, author: m.author, url: m.url })),
+    devto: devtoData.articles.slice(0, 20).map(a => ({ title: a.title, reactions: a.positiveReactionsCount, comments: a.commentsCount, tags: a.tags, url: a.url })),
+    lobsters: lobstersData.stories.slice(0, 20).map(s => ({ title: s.title, score: s.score, comments: s.commentCount, tags: s.tags, url: s.url })),
+  };
+  saveFile(JSON.stringify(dashboardData, null, 2), dateStr, "dashboard.json");
+
   const peerIds = new Set(OPENCLAW_PEERS.map((p) => p.id));
   const fetchedCli = fetched.filter((f) => f.cfg.id !== OPENCLAW.id && !peerIds.has(f.cfg.id));
   const fetchedOpenclaw = fetched.find((f) => f.cfg.id === OPENCLAW.id)!;
