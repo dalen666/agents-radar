@@ -34,9 +34,10 @@ jobs:
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_PROVIDER: openrouter
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: deepseek/deepseek-chat
+          LLM_PROVIDER: openai
+          OPENAI_API_KEY: sk-daf4aad10eac4732a27975e1d7a84ed0
+          OPENAI_BASE_URL: https://api.deepseek.com
+          OPENAI_MODEL: deepseek-chat
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm start
