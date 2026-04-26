@@ -615,13 +615,16 @@ async function loadDashboard() {
   cwrap.scrollTop = 0;
 
   try {
-    const res = await fetch('./manifest.json');
-    const { dates } = await res.json();
-    if (!dates?.length) throw new Error('No data');
-    const latestDate = dates[0].date;
-    const dRes = await fetch(`./digests/${latestDate}/dashboard.json`);
-    if (!dRes.ok) throw new Error('dashboard.json not found');
-    const d = await dRes.json();
+    // Try today's date first, then yesterday (for UTC timezone difference)
+    const today = new Date();
+    const fmt = d => d.toISOString().slice(0, 10);
+    const dates = [fmt(today), fmt(new Date(today.getTime() - 86400000))];
+    let d = null;
+    for (const date of dates) {
+      const r = await fetch(`./digests/${date}/dashboard.json`);
+      if (r.ok) { d = await r.json(); break; }
+    }
+    if (!d) throw new Error('dashboard.json not found');
 
     destroyCharts();
     const isDark = document.documentElement.dataset.theme === 'dark';
