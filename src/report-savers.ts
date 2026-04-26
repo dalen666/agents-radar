@@ -51,7 +51,20 @@ export async function saveWebReport(
   if (hasNewContent) {
     console.log(`  [web/${lang}] Calling LLM for web content report...`);
     try {
-      const webSummary = await callLlm(buildWebReportPrompt(webResults, dateStr, lang), LLM_TOKENS_WEB);
+      let webSummary = await callLlm(buildWebReportPrompt(webResults, dateStr, lang), LLM_TOKENS_WEB);
+      // Fallback: generate simple list if LLM is unavailable
+      if (!webSummary) {
+        const items: string[] = [];
+        for (const r of webResults) {
+          if (r.newItems.length > 0) {
+            items.push(`### ${r.siteName}`);
+            for (const item of r.newItems.slice(0, 10)) {
+              items.push(`- [${item.title}](${item.url})`);
+            }
+          }
+        }
+        webSummary = items.join("\n\n");
+      }
       const isFirstRun = webResults.some((r) => r.isFirstRun);
       const totalNew = webResults.reduce((sum, r) => sum + r.newItems.length, 0);
 
@@ -116,12 +129,26 @@ export async function saveTrendingReport(
     return;
   }
 
+  // Fallback: generate simple list if trendingSummary is empty (NO_LLM mode)
+  let summary = trendingSummary;
+  if (!summary) {
+    const tItems = trendingData.trendingRepos.slice(0, 20).map((r, i) =>
+      `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars} (${lang === "en" ? r.description : r.description})`
+    ).join("\n");
+    const sItems = trendingData.searchRepos.slice(0, 10).map((r, i) =>
+      `${i + 1}. [${r.name}](${r.url}) — ⭐ ${r.stars}`
+    ).join("\n");
+    const tSection = tItems ? `### Trending\n${tItems}\n\n` : "";
+    const sSection = sItems ? `### Search\n${sItems}\n` : "";
+    summary = tSection + sSection;
+  }
+
   const fileName = lang === "en" ? "ai-trending-en.md" : "ai-trending.md";
   const header =
     `# ${TRENDING_REPORT.title[lang]} ${dateStr}\n\n` +
     `> ${TRENDING_REPORT.sources[lang]} | ${lang === "en" ? "Generated" : "生成时间"}: ${utcStr} UTC\n\n---\n\n`;
 
-  const trendingContent = header + trendingSummary + footer;
+  const trendingContent = header + summary + footer;
 
   console.log(`  Saved ${saveFile(trendingContent, dateStr, fileName)}`);
 
@@ -152,7 +179,13 @@ export async function saveHnReport(
 
   console.log(`  [hn/${lang}] Calling LLM for HN report...`);
   try {
-    const hnSummary = await callLlm(buildHnPrompt(hnData, dateStr, lang));
+    let hnSummary = await callLlm(buildHnPrompt(hnData, dateStr, lang));
+    // Fallback: generate simple list if LLM is unavailable
+    if (!hnSummary) {
+      hnSummary = lang === "en"
+        ? hnData.stories.slice(0, 30).map((s, i) => `${i + 1}. [${s.title}](${s.url}) (${s.points} points, ${s.comments} comments)`).join("\n")
+        : hnData.stories.slice(0, 30).map((s, i) => `${i + 1}. [${s.title}](${s.url})（${s.points} 分，${s.comments} 评论）`).join("\n");
+    }
     const fileName = lang === "en" ? "ai-hn-en.md" : "ai-hn.md";
     const header =
       lang === "en"
@@ -199,7 +232,13 @@ export async function savePhReport(
 
   console.log(`  [ph/${lang}] Calling LLM for Product Hunt report...`);
   try {
-    const phSummary = await callLlm(buildPhPrompt(phData, dateStr, lang));
+    let phSummary = await callLlm(buildPhPrompt(phData, dateStr, lang));
+    // Fallback: generate simple list if LLM is unavailable
+    if (!phSummary) {
+      phSummary = lang === "en"
+        ? phData.products.slice(0, 20).map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline} (${p.votes} upvotes)`).join("\n")
+        : phData.products.slice(0, 20).map((p, i) => `${i + 1}. [${p.name}](${p.url}) — ${p.tagline}（${p.votes} 票）`).join("\n");
+    }
     const fileName = lang === "en" ? "ai-ph-en.md" : "ai-ph.md";
     const header =
       lang === "en"
@@ -246,7 +285,13 @@ export async function saveArxivReport(
 
   console.log(`  [arxiv/${lang}] Calling LLM for ArXiv report...`);
   try {
-    const summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
+    let summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
+    // Fallback: generate simple list if LLM is unavailable
+    if (!summary) {
+      summary = lang === "en"
+        ? arxivData.papers.slice(0, 20).map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`).join("\n")
+        : arxivData.papers.slice(0, 20).map((p, i) => `${i + 1}. [${p.title}](${p.url}) — ${p.categories.join(", ")}`).join("\n");
+    }
     const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
     const header =
       lang === "en"
@@ -293,7 +338,13 @@ export async function saveHfReport(
 
   console.log(`  [hf/${lang}] Calling LLM for Hugging Face report...`);
   try {
-    const summary = await callLlm(buildHfPrompt(hfData, dateStr, lang));
+    let summary = await callLlm(buildHfPrompt(hfData, dateStr, lang));
+    // Fallback: generate simple list if LLM is unavailable
+    if (!summary) {
+      summary = lang === "en"
+        ? hfData.models.slice(0, 20).map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} likes`).join("\n")
+        : hfData.models.slice(0, 20).map((m, i) => `${i + 1}. [${m.id}](${m.url}) — ${m.likes ?? 0} 赞`).join("\n");
+    }
     const fileName = lang === "en" ? "ai-hf-en.md" : "ai-hf.md";
     const header =
       lang === "en"
@@ -342,7 +393,15 @@ export async function saveCommunityReport(
 
   console.log(`  [community/${lang}] Calling LLM for community report...`);
   try {
-    const summary = await callLlm(buildCommunityPrompt(devtoData, lobstersData, dateStr, lang));
+    let summary = await callLlm(buildCommunityPrompt(devtoData, lobstersData, dateStr, lang));
+    // Fallback: generate simple list if LLM is unavailable
+    if (!summary) {
+      const devtoItems = devtoData.articles.slice(0, 15).map((a, i) => `${i + 1}. [${a.title}](${a.url})`).join("\n");
+      const lobstersItems = lobstersData.stories.slice(0, 15).map((s, i) => `${i + 1}. [${s.title}](${s.url})`).join("\n");
+      const devtoSection = devtoItems ? `### Dev.to\n${devtoItems}\n\n` : "";
+      const lobstersSection = lobstersItems ? `### Lobste.rs\n${lobstersItems}\n` : "";
+      summary = devtoSection + lobstersSection;
+    }
     const fileName = lang === "en" ? "ai-community-en.md" : "ai-community.md";
     const devtoCount = devtoData.articles.length;
     const lobstersCount = lobstersData.stories.length;
