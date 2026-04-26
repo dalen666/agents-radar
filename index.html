@@ -1,136 +1,258 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="dark">
+<html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>📡 agents-radar</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: { 50:'#fff7ed',100:'#ffedd5',200:'#fed7aa',300:'#fdba74',400:'#fb923c',500:'#f97316',600:'#ea580c',700:'#c2410c',800:'#9a3412',900:'#7c2d12' },
-            surface: { 50:'#f8fafc',100:'#f1f5f9',200:'#e2e8f0',300:'#cbd5e1',400:'#94a3b8',500:'#64748b',600:'#475569',700:'#334155',800:'#1e293b',900:'#0f172a',950:'#020617' }
-          },
-          fontFamily: { mono:['"Space Mono"','"Courier New"','monospace'], serif:['"Source Serif 4"','Georgia','"PingFang SC"','"Microsoft YaHei"','serif'] }
-        }
-      }
-    }
-  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="agents-radar RSS" href="./feed.xml">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
   <style>
-    @keyframes pulse-glow { 0%,100%{box-shadow:0 0 4px rgba(249,115,22,0.6)} 50%{box-shadow:0 0 12px rgba(249,115,22,0.3)} }
+    /* ═══ Design Tokens ═══ */
+    :root {
+      --brand-50:#fff7ed;--brand-100:#ffedd5;--brand-200:#fed7aa;--brand-300:#fdba74;
+      --brand-400:#fb923c;--brand-500:#f97316;--brand-600:#ea580c;--brand-700:#c2410c;
+      --sf-50:#f8fafc;--sf-100:#f1f5f9;--sf-200:#e2e8f0;--sf-300:#cbd5e1;--sf-400:#94a3b8;
+      --sf-500:#64748b;--sf-600:#475569;--sf-700:#334155;--sf-800:#1e293b;--sf-900:#0f172a;--sf-950:#020617;
+    }
+    [data-theme="dark"] {
+      --bg: #020617; --bg-side: #0f172a; --bg-hover: #1e293b; --bg-active: #0f172a;
+      --border: #1e293b; --text: #e2e8f0; --text-secondary: #94a3b8; --text-muted: #64748b;
+      --accent: #f97316; --accent-bg: rgba(249,115,22,0.08); --accent-border: rgba(249,115,22,0.3);
+      --code-bg: #0f172a; --link: #60a5fa;
+      --shadow: 0 1px 3px rgba(0,0,0,0.4);
+    }
+    [data-theme="light"] {
+      --bg: #ffffff; --bg-side: #f8fafc; --bg-hover: #f1f5f9; --bg-active: #f1f5f9;
+      --border: #e2e8f0; --text: #1e293b; --text-secondary: #64748b; --text-muted: #94a3b8;
+      --accent: #ea580c; --accent-bg: rgba(234,88,12,0.06); --accent-border: rgba(234,88,12,0.3);
+      --code-bg: #f1f5f9; --link: #2563eb;
+      --shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg); color: var(--text);
+      line-height: 1.6; overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ═══ Layout ═══ */
+    #app { display: flex; flex-direction: column; height: 100vh; }
+
+    /* ═══ Header ═══ */
+    #hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 20px; height: 56px; flex-shrink: 0; z-index: 50;
+      background: rgba(2,6,23,0.8); border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+    [data-theme="light"] #hdr { background: rgba(255,255,255,0.8); }
+    .brand { display: flex; align-items: center; gap: 10px; font-family: 'Space Mono', monospace; font-weight: 700; font-size: 14px; letter-spacing: -0.02em; }
+    .brand-icon { font-size: 20px; }
+    .brand em { color: var(--accent); font-style: normal; }
+    .hdr-right { display: flex; align-items: center; gap: 8px; }
+    .signal { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pulse-glow 2.5s ease-in-out infinite; }
+    @keyframes pulse-glow { 0%,100%{box-shadow:0 0 4px rgba(249,115,22,0.6)} 50%{box-shadow:0 0 14px rgba(249,115,22,0.2)} }
+    .hdr-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 12px; border-radius: 8px; font-size: 12px; font-weight: 500;
+      color: var(--text-muted); border: 1px solid var(--border);
+      background: none; cursor: pointer; text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .hdr-btn:hover { color: var(--accent); border-color: var(--accent-border); background: var(--accent-bg); }
+    .hdr-btn.icon-only { padding: 8px; }
+    .hdr-btn svg { display: block; }
+
+    /* ═══ Body ═══ */
+    #body { display: flex; flex: 1; overflow: hidden; }
+
+    /* ═══ Sidebar ═══ */
+    #sidebar {
+      width: 288px; flex-shrink: 0;
+      background: var(--bg-side); border-right: 1px solid var(--border);
+      overflow-y: auto; display: flex; flex-direction: column;
+    }
+    #sidebar::-webkit-scrollbar { width: 4px; }
+    #sidebar::-webkit-scrollbar-thumb { background: var(--sf-700); border-radius: 4px; }
+    .side-header { padding: 16px 16px 8px; }
+    .side-label { font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; }
+    .search-wrap { position: relative; }
+    .search-icon { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 14px; height: 14px; color: var(--text-muted); }
+    #searchInput {
+      width: 100%; height: 36px; padding: 0 12px 0 34px;
+      border: 1px solid var(--border); border-radius: 8px;
+      background: var(--bg); color: var(--text);
+      font-family: inherit; font-size: 13px;
+      transition: all 0.15s ease;
+    }
+    #searchInput:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+    #searchInput::placeholder { color: var(--text-muted); }
+    #searchStatus { min-height: 16px; margin-top: 4px; font-size: 10px; color: var(--text-muted); }
+    #nav { padding: 4px 8px 16px; flex: 1; }
+
+    /* ── Month group ── */
+    .month-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 12px; cursor: pointer; border-radius: 8px;
+      font-size: 11px; font-weight: 700; color: var(--text-muted);
+      letter-spacing: 0.08em; text-transform: uppercase;
+      transition: all 0.15s ease; user-select: none;
+    }
+    .month-hdr:hover { color: var(--text-secondary); background: var(--bg-hover); }
+    .month-hdr.lit { color: var(--accent); }
+    .month-body { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+    .month-group.open .month-body { max-height: 9999px; }
+
+    /* ── Date group ── */
+    .date-hdr {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 7px 12px; cursor: pointer; border-radius: 8px;
+      font-size: 13px; font-weight: 600; color: var(--text-secondary);
+      transition: all 0.15s ease; user-select: none;
+    }
+    .date-hdr:hover { color: var(--text); background: var(--bg-hover); }
+    .date-hdr.lit { color: var(--accent); }
+    .date-hdr.search-hit { color: var(--accent); background: var(--accent-bg); }
+    .arr { font-size: 9px; transition: transform 0.2s ease; display: inline-block; }
+    .date-group.open .arr, .month-group.open > .month-hdr .arr { transform: rotate(90deg); }
+    .rpt-list { max-height: 0; overflow: hidden; transition: max-height 0.25s ease; }
+    .date-group.open .rpt-list { max-height: 600px; }
+
+    /* ── Report buttons ── */
+    .rpt-row { display: flex; align-items: center; justify-content: space-between; padding: 5px 12px; border-radius: 8px; transition: background 0.1s; }
+    .rpt-row:hover { background: var(--bg-hover); }
+    .rpt-label { flex: 1; font-size: 13px; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .lang-btns { display: flex; gap: 4px; flex-shrink: 0; }
+    .lang-btn {
+      padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600;
+      letter-spacing: 0.05em; cursor: pointer; border: 1px solid var(--border);
+      color: var(--text-muted); background: none; transition: all 0.1s ease;
+    }
+    .lang-btn:hover { border-color: var(--text-secondary); color: var(--text-secondary); }
+    .lang-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+    .rpt-btn {
+      display: block; width: 100%; padding: 5px 12px; border-radius: 8px;
+      background: none; border: none; border-left: 2px solid transparent;
+      text-align: left; cursor: pointer; font-family: inherit; font-size: 13px;
+      color: var(--text-secondary); transition: all 0.1s ease;
+    }
+    .rpt-btn:hover { background: var(--bg-hover); color: var(--text); }
+    .rpt-btn.active { color: var(--accent); border-left-color: var(--accent); background: var(--accent-bg); }
+
+    /* ═══ Content ═══ */
+    #cwrap { flex: 1; overflow-y: auto; }
+    #cwrap::-webkit-scrollbar { width: 5px; }
+    #cwrap::-webkit-scrollbar-thumb { background: var(--sf-700); border-radius: 4px; }
+    #content { max-width: 780px; margin: 0 auto; padding: 40px 48px 80px; }
+
+    .msg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; height: 240px; color: var(--text-muted); font-size: 13px; }
+    .msg-icon { font-size: 36px; opacity: 0.4; }
+
     @keyframes fade-up { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:none} }
-    .fade-up { animation: fade-up 0.35s ease-out; }
-    .signal-dot { animation: pulse-glow 2.5s ease-in-out infinite; }
-    /* Scrollbar */
-    ::-webkit-scrollbar { width: 5px; }
-    ::-webkit-scrollbar-track { background: transparent; }
-    .dark ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
-    /* Markdown content */
+    .fade-up { animation: fade-up 0.3s ease-out; }
+
+    /* ═══ Markdown ═══ */
+    .md {
+      font-family: 'Source Serif 4', Georgia, 'PingFang SC', 'Microsoft YaHei', serif;
+      font-size: 16px; line-height: 1.8; color: var(--text);
+    }
     .md h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 1.25rem; line-height: 1.3; }
-    .md h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid; }
-    .dark .md h2 { border-color: #1e293b; }
-    .md h2 { border-color: #e2e8f0; }
+    .md h2 { font-size: 1.2rem; font-weight: 600; margin: 2rem 0 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
     .md h3 { font-size: 1.05rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
-    .md h4 { font-size: 0.85rem; font-weight: 700; margin: 1rem 0 0.4rem; }
+    .md h4 { font-size: 0.85rem; font-weight: 700; margin: 1rem 0 0.4rem; color: var(--text-secondary); font-family: 'Space Mono', monospace; }
     .md p { margin-bottom: 0.75rem; }
-    .md a { text-decoration: none; }
+    .md a { color: var(--link); text-decoration: none; }
     .md a:hover { text-decoration: underline; }
-    .md hr { border: none; border-top: 1px solid; margin: 1.5rem 0; }
-    .dark .md hr { border-color: #1e293b; }
-    .md hr { border-color: #e2e8f0; }
+    .md strong { font-weight: 600; }
+    .md hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
     .md ul, .md ol { padding-left: 1.5rem; margin-bottom: 0.75rem; }
     .md li { margin-bottom: 0.25rem; }
-    .md blockquote { border-left: 3px solid #f97316; padding: 0.5rem 1rem; margin: 0.75rem 0; }
-    .md code { font-family: 'Space Mono', monospace; font-size: 0.8rem; padding: 2px 6px; border-radius: 4px; }
-    .dark .md code { background: #0f172a; border: 1px solid #1e293b; }
-    .md code { background: #f1f5f9; border: 1px solid #e2e8f0; }
-    .md pre { border-radius: 8px; padding: 1rem; overflow-x: auto; margin: 1rem 0; }
-    .dark .md pre { background: #0f172a; border: 1px solid #1e293b; }
-    .md pre { background: #f1f5f9; border: 1px solid #e2e8f0; }
-    .md pre code { background: none; border: none; padding: 0; }
-    .md table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; }
-    .md th { padding: 8px 12px; font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; text-align: left; }
-    .dark .md th { background: #0f172a; border-bottom: 1px solid #1e293b; color: #94a3b8; }
-    .md th { background: #f1f5f9; border-bottom: 1px solid #e2e8f0; color: #64748b; }
-    .md td { padding: 8px 12px; vertical-align: top; }
-    .dark .md td { border-bottom: 1px solid #1e293b; }
-    .md td { border-bottom: 1px solid #e2e8f0; }
-    .dark .md tr:nth-child(even) td { background: #0f172a; }
-    .md tr:nth-child(even) td { background: #f8fafc; }
-    .md details { border-radius: 8px; margin: 0.75rem 0; overflow: hidden; }
-    .dark .md details { border: 1px solid #1e293b; }
-    .md details { border: 1px solid #e2e8f0; }
-    .md summary { cursor: pointer; padding: 10px 14px; font-family: 'Space Mono', monospace; font-size: 0.8rem; user-select: none; list-style: none; display: flex; align-items: center; gap: 8px; }
-    .dark .md summary { background: #0f172a; color: #94a3b8; }
-    .md summary { background: #f1f5f9; color: #64748b; }
+    .md blockquote { border-left: 3px solid var(--accent); padding: 0.5rem 1rem; margin: 0.75rem 0; color: var(--text-secondary); font-style: italic; }
+    .md code { font-family: 'Space Mono', monospace; font-size: 0.8rem; background: var(--code-bg); border: 1px solid var(--border); padding: 2px 6px; border-radius: 4px; }
+    .md pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; overflow-x: auto; margin: 1rem 0; }
+    .md pre code { background: none; border: none; padding: 0; font-size: 0.78rem; }
+    .md table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; font-family: 'Space Mono', monospace; }
+    .md th { background: var(--code-bg); border-bottom: 1px solid var(--border); padding: 8px 12px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--text-muted); text-align: left; }
+    .md td { border-bottom: 1px solid var(--border); padding: 8px 12px; vertical-align: top; }
+    .md tr:nth-child(even) td { background: var(--bg-hover); }
+    .md details { border: 1px solid var(--border); border-radius: 8px; margin: 0.75rem 0; overflow: hidden; }
+    .md summary { cursor: pointer; padding: 10px 14px; font-family: 'Space Mono', monospace; font-size: 0.8rem; color: var(--text-muted); background: var(--code-bg); user-select: none; list-style: none; display: flex; align-items: center; gap: 8px; transition: color 0.15s; }
     .md summary::-webkit-details-marker { display: none; }
     .md summary::before { content: '▶'; font-size: 8px; flex-shrink: 0; }
     .md details[open] summary::before { content: '▼'; }
+    .md summary:hover { color: var(--text); }
     .md details > *:not(summary) { padding: 12px 14px; }
+
+    /* ═══ Mobile ═══ */
+    #mob-toggle { display: none; }
+    @media (max-width: 680px) {
+      #hdr { padding: 0 12px; }
+      .hdr-right { gap: 4px; }
+      .hdr-join { display: none; }
+      body { overflow: auto; }
+      #app { height: auto; min-height: 100vh; }
+      #body { flex-direction: column; overflow: visible; }
+      #cwrap { overflow: visible; }
+      #sidebar {
+        width: 100%; border-right: none; border-bottom: 1px solid var(--border);
+        max-height: 48px; overflow: hidden; padding: 0;
+        transition: max-height 0.3s ease;
+      }
+      #sidebar.open { max-height: 60vh; overflow-y: auto; padding: 0 0 8px; }
+      #mob-toggle {
+        display: flex; align-items: center; gap: 8px;
+        height: 48px; padding: 0 16px; cursor: pointer;
+        font-size: 13px; color: var(--text-muted);
+      }
+      #content { padding: 20px 16px 48px; }
+      .md { font-size: 15px; }
+    }
   </style>
 </head>
-<body class="font-sans bg-white dark:bg-surface-950 text-surface-800 dark:text-surface-200 antialiased">
-
-<div id="app" class="flex flex-col h-screen">
-
-  <!-- ═══ Header ═══ -->
-  <header id="hdr" class="flex items-center justify-between px-5 h-14 border-b border-surface-200 dark:border-surface-800 bg-white/80 dark:bg-surface-950/80 backdrop-blur-md flex-shrink-0 z-50">
-    <div class="flex items-center gap-3">
-      <span class="text-xl">📡</span>
-      <span class="font-mono font-bold text-sm tracking-tight">agents-<span class="text-brand-500">radar</span></span>
+<body>
+<div id="app">
+  <div id="hdr">
+    <div class="brand">
+      <span class="brand-icon">📡</span>
+      <span>agents-<em>radar</em></span>
     </div>
-    <div class="flex items-center gap-2">
-      <div class="signal-dot w-2 h-2 rounded-full bg-brand-500"></div>
-      <a class="p-2 rounded-lg text-surface-400 hover:text-brand-500 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors" href="https://github.com/duanyytop/agents-radar" target="_blank" rel="noopener noreferrer" title="GitHub">
+    <div class="hdr-right">
+      <div class="signal"></div>
+      <a class="hdr-btn icon-only" href="https://github.com/duanyytop/agents-radar" target="_blank" rel="noopener noreferrer" title="GitHub">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
       </a>
-      <a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-surface-400 border border-surface-200 dark:border-surface-700 hover:border-brand-500 hover:text-brand-500 transition-colors" href="https://t.me/agents_radar" target="_blank" rel="noopener noreferrer">✈ Telegram</a>
-      <a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-surface-400 border border-surface-200 dark:border-surface-700 hover:border-brand-500 hover:text-brand-500 transition-colors" href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=478g7865-04a8-4fab-a7f8-23af85ba927b" target="_blank" rel="noopener noreferrer">◈ 飞书群</a>
-      <a class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-surface-400 border border-surface-200 dark:border-surface-700 hover:border-brand-500 hover:text-brand-500 transition-colors" href="./feed.xml">⊕ RSS</a>
-      <button id="themeBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium text-surface-400 border border-surface-200 dark:border-surface-700 hover:border-brand-500 hover:text-brand-500 transition-colors">
-        <span id="themeIcon">◐</span><span id="themeLabel">LIGHT</span>
-      </button>
+      <a class="hdr-btn hdr-join" href="https://t.me/agents_radar" target="_blank" rel="noopener noreferrer">✈ Telegram</a>
+      <a class="hdr-btn hdr-join" href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=478g7865-04a8-4fab-a7f8-23af85ba927b" target="_blank" rel="noopener noreferrer">◈ 飞书群</a>
+      <a class="hdr-btn hdr-join" href="./feed.xml">⊕ RSS</a>
+      <button id="themeBtn" class="hdr-btn"><span id="themeIcon">◐</span><span id="themeLabel">LIGHT</span></button>
     </div>
-  </header>
+  </div>
 
-  <!-- ═══ Body ═══ -->
-  <div id="body" class="flex flex-1 overflow-hidden">
-
-    <!-- Sidebar -->
-    <aside id="sidebar" class="w-72 flex-shrink-0 border-r border-surface-200 dark:border-surface-800 bg-surface-50 dark:bg-surface-900 overflow-y-auto">
-      <div id="mob-toggle" class="hidden sm:hidden flex items-center gap-2 h-12 px-4 cursor-pointer text-sm text-surface-400" onclick="document.getElementById('sidebar').classList.toggle('open')">
-        ☰ 选择报告
-      </div>
-      <div class="p-4 pb-2">
-        <div class="text-[10px] font-semibold tracking-widest uppercase text-surface-400 dark:text-surface-500 mb-3">REPORTS</div>
-        <div class="relative">
-          <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-surface-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-          <input id="searchInput" type="search" placeholder="搜索全文，如 Claude" class="w-full h-9 pl-9 pr-3 rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 text-sm placeholder:text-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500/30 focus:border-brand-500 transition-all">
+  <div id="body">
+    <div id="sidebar">
+      <div id="mob-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ 选择报告</div>
+      <div class="side-header">
+        <div class="side-label">REPORTS</div>
+        <div class="search-wrap">
+          <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input id="searchInput" type="search" placeholder="搜索全文，如 Claude">
         </div>
-        <div id="searchStatus" class="min-h-[14px] mt-1 text-[10px] text-surface-400 dark:text-surface-500"></div>
+        <div id="searchStatus"></div>
       </div>
-      <div id="nav" class="px-2 pb-4"></div>
-    </aside>
+      <div id="nav"></div>
+    </div>
 
-    <!-- Content -->
-    <main id="cwrap" class="flex-1 overflow-y-auto">
-      <div id="content" class="max-w-3xl mx-auto px-6 py-10 sm:px-10 sm:py-14">
-        <div class="flex flex-col items-center justify-center gap-3 h-60 text-surface-400">
-          <div class="text-4xl opacity-40">📡</div>
-          <div class="text-sm">正在加载…</div>
-        </div>
+    <div id="cwrap">
+      <div id="content">
+        <div class="msg"><div class="msg-icon">📡</div><div>正在加载…</div></div>
       </div>
-    </main>
-
+    </div>
   </div>
 </div>
 
@@ -160,7 +282,7 @@ let theme = localStorage.getItem('ar-theme') || 'dark';
 
 function applyTheme(t) {
   theme = t;
-  htmlEl.classList.toggle('dark', t === 'dark');
+  htmlEl.dataset.theme = t;
   themeIcon.textContent = t === 'dark' ? '◐' : '●';
   themeLabel.textContent = t === 'dark' ? 'LIGHT' : 'DARK';
   localStorage.setItem('ar-theme', t);
@@ -187,10 +309,9 @@ function applyDateSearch(query) {
   document.querySelectorAll('.date-group').forEach(grp => {
     const hdr = grp.querySelector('.date-hdr');
     if (!hdr) return;
-    if (!needle || !searchIndex) { hdr.classList.remove('search-hit','bg-brand-500/5'); return; }
+    if (!needle || !searchIndex) { hdr.classList.remove('search-hit'); return; }
     const matched = (searchIndex.get(grp.dataset.date) || '').includes(needle);
     hdr.classList.toggle('search-hit', matched);
-    hdr.classList.toggle('bg-brand-500/5', matched);
     if (matched) hits++;
   });
   if (!needle) setSearchStatus('');
@@ -226,25 +347,25 @@ async function loadReport(date, report, push = true) {
   document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.key === key));
   document.querySelectorAll('.date-hdr').forEach(h => {
     const grp = h.closest('.date-group');
-    h.classList.toggle('text-brand-500', !!(grp.querySelector('.rpt-btn.active') || grp.querySelector('.lang-btn.active')));
+    h.classList.toggle('lit', !!(grp.querySelector('.rpt-btn.active') || grp.querySelector('.lang-btn.active')));
   });
   document.querySelectorAll('.month-hdr').forEach(h => {
     const mGrp = h.closest('.month-group');
-    h.classList.toggle('text-brand-500', !!(mGrp.querySelector('.lang-btn.active') || mGrp.querySelector('.rpt-btn.active')));
+    h.classList.toggle('lit', !!(mGrp.querySelector('.lang-btn.active') || mGrp.querySelector('.rpt-btn.active')));
   });
   document.querySelectorAll('.date-group').forEach(g => {
     if (g.dataset.date === date) { g.classList.add('open'); const m = g.closest('.month-group'); if (m) m.classList.add('open'); }
   });
   document.getElementById('sidebar').classList.remove('open');
   const cwrap = document.getElementById('cwrap');
-  setContent('<div class="flex flex-col items-center justify-center gap-3 h-60 text-surface-400"><div class="text-4xl opacity-40 animate-pulse">⏳</div><div class="text-sm">Loading…</div></div>');
+  setContent('<div class="msg"><div class="msg-icon">⏳</div><div>Loading…</div></div>');
   cwrap.scrollTop = 0;
   try {
     const res = await fetch(`./digests/${date}/${report}.md`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    setContent(`<div class="md font-serif text-base leading-relaxed fade-up">${renderMarkdown(await res.text())}</div>`);
+    setContent(`<div class="md fade-up">${renderMarkdown(await res.text())}</div>`);
   } catch (e) {
-    setContent(`<div class="flex flex-col items-center justify-center gap-3 h-60 text-surface-400"><div class="text-4xl opacity-40">⚠️</div><div class="text-sm">加载失败：${e.message}</div></div>`);
+    setContent(`<div class="msg"><div class="msg-icon">⚠️</div><div>加载失败：${e.message}</div></div>`);
   }
 }
 
@@ -254,16 +375,18 @@ function buildDateGroup(date, reports, isFirst) {
   grp.dataset.date = date;
 
   const hdr = document.createElement('div');
-  hdr.className = 'date-hdr flex items-center justify-between px-3 py-2 cursor-pointer rounded-lg text-sm font-semibold text-surface-500 dark:text-surface-400 hover:text-surface-700 dark:hover:text-surface-200 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
+  hdr.className = 'date-hdr';
   const dayLabel = date.slice(8);
-  hdr.innerHTML = `<span>${dayLabel}</span><span class="text-[10px] transition-transform duration-200 ${isFirst ? 'rotate-90' : ''}">▶</span>`;
-  hdr.onclick = () => { grp.classList.toggle('open'); hdr.querySelector('span:last-child').classList.toggle('rotate-90'); };
+  const dateText = document.createTextNode(dayLabel + '\u00a0');
+  const arrSpan = document.createElement('span');
+  arrSpan.className = 'arr';
+  arrSpan.textContent = '▶';
+  hdr.appendChild(dateText);
+  hdr.appendChild(arrSpan);
+  hdr.onclick = () => grp.classList.toggle('open');
 
   const list = document.createElement('div');
-  list.className = 'rpt-list max-h-0 overflow-hidden transition-all duration-300';
-  if (isFirst) list.style.maxHeight = '600px';
-  // Watch for open class changes
-  new MutationObserver(() => { list.style.maxHeight = grp.classList.contains('open') ? '600px' : '0'; }).observe(grp, { attributes: true, attributeFilter: ['class'] });
+  list.className = 'rpt-list';
 
   const baseReports = reports.filter(r => !r.endsWith('-en'));
   baseReports.forEach(r => {
@@ -271,28 +394,24 @@ function buildDateGroup(date, reports, isFirst) {
     const hasEn = reports.includes(enKey);
     if (hasEn) {
       const row = document.createElement('div');
-      row.className = 'flex items-center justify-between px-3 py-1.5 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors group';
+      row.className = 'rpt-row';
       const label = document.createElement('span');
-      label.className = 'flex-1 text-[13px] text-surface-500 dark:text-surface-400 truncate';
+      label.className = 'rpt-label';
       const baseLabel = LABELS[r] || r;
       label.textContent = baseLabel;
       label.title = baseLabel;
       const btns = document.createElement('div');
-      btns.className = 'flex gap-1 flex-shrink-0';
-      ['ZH','EN'].forEach((lang, i) => {
-        const btn = document.createElement('button');
-        btn.className = 'lang-btn px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider border transition-all';
-        btn.dataset.key = `${date}/${i === 0 ? r : enKey}`;
-        btn.textContent = lang;
-        btn.onclick = () => loadReport(date, i === 0 ? r : enKey);
-        btns.appendChild(btn);
-      });
+      btns.className = 'lang-btns';
+      const zhBtn = document.createElement('button');
+      zhBtn.className = 'lang-btn'; zhBtn.dataset.key = `${date}/${r}`; zhBtn.textContent = 'ZH'; zhBtn.onclick = () => loadReport(date, r);
+      const enBtn = document.createElement('button');
+      enBtn.className = 'lang-btn'; enBtn.dataset.key = `${date}/${enKey}`; enBtn.textContent = 'EN'; enBtn.onclick = () => loadReport(date, enKey);
+      btns.append(zhBtn, enBtn);
       row.append(label, btns);
       list.appendChild(row);
     } else {
       const btn = document.createElement('button');
-      btn.className = 'rpt-btn w-full text-left px-3 py-1.5 rounded-lg text-[13px] text-surface-500 dark:text-surface-400 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
-      btn.dataset.key = `${date}/${r}`;
+      btn.className = 'rpt-btn'; btn.dataset.key = `${date}/${r}`;
       btn.textContent = LABELS[r] || r;
       btn.onclick = () => loadReport(date, r);
       list.appendChild(btn);
@@ -311,17 +430,18 @@ function buildNav(dates) {
   let isFirstDate = true, isFirstMonth = true;
   months.forEach((entries, month) => {
     const mGrp = document.createElement('div');
-    mGrp.className = 'month-group mb-1' + (isFirstMonth ? ' open' : '');
+    mGrp.className = 'month-group' + (isFirstMonth ? ' open' : '');
 
     const mHdr = document.createElement('div');
-    mHdr.className = 'month-hdr flex items-center justify-between px-3 py-2 cursor-pointer rounded-lg text-xs font-bold tracking-wider uppercase text-surface-400 dark:text-surface-500 hover:text-surface-600 dark:hover:text-surface-300 transition-colors';
-    mHdr.innerHTML = `<span>${month}</span><span class="text-[10px] transition-transform duration-200 ${isFirstMonth ? 'rotate-90' : ''}">▶</span>`;
-    mHdr.onclick = () => { mGrp.classList.toggle('open'); mHdr.querySelector('span:last-child').classList.toggle('rotate-90'); };
+    mHdr.className = 'month-hdr';
+    const mText = document.createTextNode(month + '\u00a0');
+    const mArr = document.createElement('span');
+    mArr.className = 'arr'; mArr.textContent = '▶';
+    mHdr.appendChild(mText); mHdr.appendChild(mArr);
+    mHdr.onclick = () => mGrp.classList.toggle('open');
 
     const mBody = document.createElement('div');
-    mBody.className = 'month-body overflow-hidden transition-all duration-300';
-    mBody.style.maxHeight = isFirstMonth ? '9999px' : '0';
-    new MutationObserver(() => { mBody.style.maxHeight = mGrp.classList.contains('open') ? '9999px' : '0'; }).observe(mGrp, { attributes: true, attributeFilter: ['class'] });
+    mBody.className = 'month-body';
 
     entries.forEach(({ date, reports }) => { mBody.appendChild(buildDateGroup(date, reports, isFirstDate)); isFirstDate = false; });
     mGrp.append(mHdr, mBody);
@@ -329,25 +449,6 @@ function buildNav(dates) {
     isFirstMonth = false;
   });
 }
-
-// Update active button styles
-const observer = new MutationObserver(() => {
-  document.querySelectorAll('.lang-btn').forEach(b => {
-    if (b.classList.contains('active')) {
-      b.className = 'lang-btn px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider border border-brand-500 text-brand-500 bg-brand-500/10 transition-all';
-    } else {
-      b.className = 'lang-btn px-2 py-0.5 rounded text-[10px] font-semibold tracking-wider border border-surface-200 dark:border-surface-700 text-surface-400 hover:border-surface-400 dark:hover:border-surface-500 transition-all';
-    }
-  });
-  document.querySelectorAll('.rpt-btn').forEach(b => {
-    if (b.classList.contains('active')) {
-      b.classList.add('text-brand-500','bg-brand-500/5','border-l-2','border-brand-500');
-    } else {
-      b.classList.remove('text-brand-500','bg-brand-500/5','border-l-2','border-brand-500');
-    }
-  });
-});
-observer.observe(document.getElementById('nav'), { childList: true, subtree: true, attributes: true, attributeFilter: ['class'] });
 
 window.addEventListener('popstate', () => { const h = getHash(); if (h) loadReport(h.date, h.report, false); });
 
@@ -370,8 +471,8 @@ window.addEventListener('popstate', () => { const h = getHash(); if (h) loadRepo
       loadReport(first.date, r0, false);
     }
   } catch (e) {
-    document.getElementById('nav').innerHTML = `<div class="flex flex-col items-center justify-center h-20 text-xs text-surface-400">⚠️ ${e.message}</div>`;
-    setContent('<div class="flex flex-col items-center justify-center gap-3 h-60 text-surface-400"><div class="text-4xl opacity-40">📡</div><div>无法加载 manifest.json</div></div>');
+    document.getElementById('nav').innerHTML = '<div class="msg" style="height:80px;font-size:12px">⚠️ ' + e.message + '</div>';
+    setContent('<div class="msg"><div class="msg-icon">📡</div><div>无法加载 manifest.json</div></div>');
   }
 })();
 </script>
