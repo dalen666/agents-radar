@@ -2,8 +2,8 @@ name: Daily Agents Radar
 
 on:
   schedule:
-    # 每天 00:00 UTC = 08:00 CST (UTC+8)
-    - cron: "0 0 * * *"
+    # 每天 01:00 UTC = 09:00 CST (UTC+8)
+    - cron: "0 1 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,8 +13,6 @@ permissions:
 jobs:
   digest:
     runs-on: ubuntu-latest
-    # Web content fetching adds ~60-120 s of HTTP requests on incremental runs;
-    # the first-ever run (fetching 50 articles) may need up to 20 min.
     timeout-minutes: 40
 
     steps:
@@ -36,8 +34,9 @@ jobs:
       - name: Run daily digest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_BASE_URL: ${{ secrets.ANTHROPIC_BASE_URL }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_PROVIDER: openrouter
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: deepseek/deepseek-chat
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
         run: pnpm start
@@ -68,16 +67,9 @@ jobs:
             git push
           fi
 
-      - name: Send Telegram notification
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || '@agents_radar' }}
-          PAGES_URL: https://duanyytop.github.io/agents-radar
-        run: pnpm notify
-
       - name: Send Feishu notification
         env:
           FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
-          PAGES_URL: https://duanyytop.github.io/agents-radar
+          FEISHU_SECRET: ${{ secrets.FEISHU_SECRET }}
+          PAGES_URL: https://dalen666.github.io/agents-radar
         run: pnpm notify:feishu
-
