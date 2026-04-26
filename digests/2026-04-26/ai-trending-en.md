@@ -1,84 +1,84 @@
 # AI Open Source Trends 2026-04-26
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-26 09:06 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-04-26 15:21 UTC
 
 ---
 
-# AI Open Source Trends Report — 2026-04-26
+Okay, let's analyze the provided GitHub data for 2026-04-26.
 
-## Today's Highlights
+**Step 1: Filter for AI Relevance**
 
-The open-source AI landscape today is dominated by two explosive trends: **agentic IDE tools** and **Claude Code ecosystem expansions**. The #1 trending repo, `free-claude-code` (+4007 stars today), demonstrates massive demand for freely accessible Claude Code capabilities. Meanwhile, Hugging Face's `ml-intern` (+1240 stars) signals a shift toward **autonomous ML research agents** that read papers and train models. DeepSeek's `DeepEP` communication library and several new agent-oriented projects point to an ecosystem rapidly converging on **agent-to-agent communication protocols** and **sandboxed execution environments**.
+From the Trending list, I will remove non-AI projects:
+- `Z4nzu/hackingtool` (General hacking tool)
+- `microsoft/typescript-go` (Language port)
+- `curl/curl` (Data transfer tool)
+- `home-assistant/core` (Home automation)
+- `codecrafters-io/build-your-own-x` (Tutorials)
 
-## Top Projects by Category
+The remaining Trending projects are highly AI-relevant. All projects from the Topic Search are AI-relevant.
 
-### 🔧 AI Infrastructure (Frameworks, SDKs, Inference Engines, CLI Tools)
+**Step 2: Categorize**
 
-- **[deepseek-ai/DeepEP](https://github.com/deepseek-ai/DeepEP)** — ⭐189 today. Efficient expert-parallel communication library for MoE models, critical for scaling Mixture-of-Experts inference across GPU clusters.
-- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** — ⭐78,167 total. High-throughput LLM serving engine, remains the standard for production inference with PagedAttention.
-- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** — ⭐183,761 total. Vision of accessible AI for everyone; continuing to evolve as an agent platform.
-- **[mattpocock/skills](https://github.com/mattpocock/skills)** — ⭐1139 today. Personal skill directory for Claude Code; exemplifies the emerging "skills-as-code" pattern.
-- **[raw-labs/mxcp](https://github.com/raw-labs/mxcp)** — ⭐66 total. Model eXecution + Context Protocol — enterprise-grade data-to-AI infrastructure standard.
+I will categorize the primary focus of each relevant project.
 
-### 🤖 AI Agents / Workflows
+---
 
-- **[huggingface/ml-intern](https://github.com/huggingface/ml-intern)** — ⭐1240 today. Open-source ML engineer agent that autonomously reads papers, trains models, and ships ML projects.
-- **[RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)** — ⭐57 today. Multi-agent coding assistant inside VS Code; a full dev team as AI agents.
-- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)** — ⭐117,298 total. "The agent that grows with you" — adaptive, long-lived agent architecture.
-- **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** — ⭐63,813 total. Long-horizon SuperAgent harness with sandboxes, memories, and subagents from ByteDance.
-- **[zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)** — ⭐43,724 total. Super AI assistant with active thinking, task planning, and multi-platform integration (WeChat, DingTalk, etc.).
-- **[trycua/cua](https://github.com/trycua/cua)** — ⭐14,194 total. Open-source infrastructure for Computer-Use Agents; sandboxes, SDKs for desktop-controlling agents.
+## AI Open Source Trends Report: 2026-04-26
 
-### 📦 AI Applications (Specific Apps, Vertical Solutions)
+### 1. Today's Highlights
 
-- **[CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio)** — ⭐44,413 total. AI productivity studio with smart chat, 300+ assistants, unified frontier LLM access.
-- **[santifer/career-ops](https://github.com/santifer/career-ops)** — ⭐39,771 total. AI-powered job search system built on Claude Code with 14 skill modes and batch processing.
-- **[saturndec/waoowaoo](https://github.com/saturndec/waoowaoo)** — ⭐11,750 total. First industrial-grade AI film & video production platform with Hollywood-standard workflows.
-- **[hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)** — ⭐8,182 total. AI generates natively editable PPTX with real PowerPoint shapes, not images.
-- **[iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi)** — ⭐22,584 total. Free, local, open-source cowork app supporting Gemini, Claude Code, Codex, Qwen Code, and more.
-- **[OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)** — ⭐66,529 total. Financial data platform for analysts and AI agents.
+Today's GitHub ecosystem is dominated by the explosive growth of **AI Agent tooling**, specifically around enhancing, jailbreaking, and standardizing coding agents like Claude Code and Codex. The trending list is flooded with projects that aim to augment agent memory (`beads`, `claude-mem`), provide free access to premium tools (`free-claude-code`), and create standardized skill ecosystems (`awesome-codex-skills`, `skills`). This signals a shift from simply building agent frameworks to building the **developer experience (DX) and infrastructure** around them, focusing on persistence, context, and seamless integration. The emergence of "Computer-Use" infrastructure with `trycua/cua` also marks a significant step towards agents that can interact with entire operating systems.
 
-### 🧠 LLMs / Training
+### 2. Top Projects by Category
 
-- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** — ⭐48,315 total. Train a 64M-parameter GPT from scratch in just 2 hours — rapid education tool.
-- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** — ⭐70,618 total. Unified efficient fine-tuning for 100+ LLMs/VLMs; ACL 2024 paper.
-- **[galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining)** — ⭐202 total. Reliable, minimal library for pretraining foundation and world models.
-- **[testtimescaling/testtimescaling.github.io](https://github.com/testtimescaling/testtimescaling.github.io)** — ⭐95 total. Survey on test-time scaling in LLMs — "what, how, where, and how well."
-- **[FonaTech/Project_Chronos](https://github.com/FonaTech/Project_Chronos)** — ⭐50 total. Zero-Stall MoE inference via lookahead prediction and async DMA prefetching.
+#### 🤖 AI Agents / Workflows
+Agent frameworks and automation tools continue to be the hottest area, with a focus on memory, skill management, and GUI interaction.
 
-### 🔍 RAG / Knowledge
+- **[gastownhall/beads](https://github.com/gastownhall/beads)** ⭐133 today. A "memory upgrade" for coding agents, likely using a semantic cache or RAG to provide persistent context across sessions, addressing a major pain point.
+- **[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)** ⭐518 today. A curated list of skills for the Codex CLI, indicating a growing ecosystem and desire for reusable, community-driven agent capabilities.
+- **[mattpocock/skills](https://github.com/mattpocock/skills)** ⭐2507 today. A personal public directory of skills for Claude Code, showcasing the trend of developers sharing and standardizing agent instructions.
+- **[trycua/cua](https://github.com/trycua/cua)** ⭐204 today (14.3k total). Open-source infrastructure (sandboxes, SDKs) for Computer-Use Agents. This is a critical piece of infrastructure for agents that can control full desktops.
+- **[OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)** ⭐72.1k total. A leading open-source platform for AI-driven software development.
 
-- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** — ⭐54,084 total. Universal memory layer for AI agents — persistent, contextual memory.
-- **[microsoft/graphrag](https://github.com/microsoft/graphrag)** — ⭐32,507 total. Microsoft's modular graph-based RAG system for structured knowledge retrieval.
-- **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** — ⭐34,288 total. EMNLP2025; simple and fast Retrieval-Augmented Generation.
-- **[Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)** — ⭐59,004 total. All-in-one AI productivity accelerator with local, privacy-first RAG.
-- **[milvus-io/milvus](https://github.com/milvus-io/milvus)** — ⭐43,991 total. High-performance, cloud-native vector database for scalable ANN search.
-- **[yichuan-w/LEANN](https://github.com/yichuan-w/LEANN)** — ⭐10,911 total. MLsys2026: 97% storage savings for private RAG on personal devices.
-- **[zilliztech/claude-context](https://github.com/zilliztech/claude-context)** — ⭐9,466 total. Code search MCP for Claude Code — makes entire codebase context for coding agents.
+#### 🔧 AI Infrastructure (Frameworks, SDKs, Dev Tools)
+Core frameworks, inference engines, and developer tools that power the AI ecosystem.
 
-## Trend Signal Analysis
+- **[langgenius/dify](https://github.com/langgenius/dify)** ⭐139.2k total. A production-ready platform for agentic workflow development, solidifying its position as a key infrastructure player.
+- **[vllm-project/vllm](https://github.com/vllm-project/vllm)** ⭐78.2k total. The high-throughput LLM inference engine remains essential for running models efficiently.
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** ⭐112.4k total. The API-first web scraping tool designed for AI agents has become a standard part of the agentic stack.
+- **[microsoft/synthetic-rag-index](https://github.com/microsoft/synthetic-rag-index)** ⭐37 today. A new service from Microsoft to create high-quality, condensed indexes for RAG, using LLMs to improve relevance and reduce data size by 90%.
 
-**Explosive Agent IDE Integration**: The most powerful signal is the emergence of Claude Code as a platform. Three trending repos today (`free-claude-code`, `skills`, `claude-code-templates`) all serve the Claude Code ecosystem, suggesting that **agent-native IDEs are becoming the new operating system for AI developers**. The fact that `free-claude-code` gained 4007 stars in a single day indicates pent-up demand for decentralized access to frontier coding agents.
+#### 🔍 RAG / Knowledge (Vector Databases & Retrieval)
+The infrastructure for grounding AI in external data continues to mature with new, more efficient engines.
 
-**Autonomous ML Research Agents**: Hugging Face's `ml-intern` (+1240 today) represents a new category — agents that don't just write code but conduct ML research end-to-end. This signals a move beyond coding assistants to **AI scientists that train models autonomously**. Combined with `miniMind` (train GPT in 2 hours), the community is lowering barriers to real model training through agent orchestration.
+- **[HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)** ⭐34.3k total. A fast and simple RAG system, showing the community's appetite for efficient, graph-based retrieval.
+- **[yichuan-w/LEANN](https://github.com/yichuan-w/LEANN)** ⭐10.9k total. A new project promising 97% storage savings for RAG, making it viable on personal devices. This is a strong signal for edge and private RAG.
+- **[lancedb/lancedb](https://github.com/lancedb/lancedb)** ⭐10.1k total. An OSS embedded retrieval library for multimodal AI, trending towards developer-friendly, local-first vector databases.
+- **[alibaba/zvec](https://github.com/alibaba/zvec)** ⭐9.5k total. A new lightweight, lightning-fast, in-process vector database from Alibaba, adding to the diversity of high-performance local search options.
 
-**Sandboxed Agent Infrastructure**: Multiple projects (`trycua/cua`, `alibaba/OpenSandbox`, `E2B`) focus on providing secure, sandboxed execution environments for agents. This represents the emerging **"safety and isolation layer"** for agent operating systems, crucial for enterprise adoption.
+#### 🧠 LLMs / Training (Models & Fine-tuning)
+The focus is on fine-tuning, efficient inference, and scaling.
 
-**Memory and Skills as Infrastructure**: Projects like `mem0` (universal memory), `claude-mem` (session compression), and `mattpocock/skills` (personal skill directories) point to **persistent agent memory and skill registries** becoming core infrastructure components, not afterthoughts.
+- **[hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory)** ⭐70.6k total. The unified fine-tuning framework remains the go-to tool for adapting LLMs.
+- **[jingyaogong/minimind](https://github.com/jingyaogong/minimind)** ⭐48.3k total. A project showing how to train a 64M-parameter GPT from scratch in 2 hours, democratizing the understanding of LLM training.
+- **[FonaTech/Project_Chronos](https://github.com/FonaTech/Project_Chronos)** ⭐66 today. A new project focused on "Zero-Stall" MoE (Mixture of Experts) inference using lookahead prediction, representing cutting-edge optimization for large model serving.
+- **[raw-labs/mxcp](https://github.com/raw-labs/mxcp)** ⭐66 today. A new "Model eXecution + Context Protocol" aiming to be enterprise-grade data-to-AI infrastructure.
 
-**Connection to LLM Releases**: The mention of Kimi-K2.5, GLM-5, and MiniMax in Ollama's README signals rapid model diversification. DeepEP's popularity aligns with rising MoE architecture adoption. The proliferation of protocol projects (UCP, AG-UI, MCP, mxcp) indicates **the industry is actively standardizing agent-to-agent and agent-to-tool communication**.
+### 3. Trend Signal Analysis
 
-## Community Hot Spots
+The dominant signal today is the **commoditization and augmentation of the AI Coding Agent**. The huge star count for projects like `skills`, `free-claude-code`, and `awesome-codex-skills` reveals a community actively building a layer of tools *on top of* base agent CLIs (Claude Code, Codex). The trend is not about creating a new agent, but about making existing ones more powerful, persistent, and accessible. The "memory" problem is a key focus, with `beads` and `claude-mem` attempting to solve context window limitations.
 
-- **🥇 Claude Code Ecosystem (free-claude-code, claude-code-templates, skills)** — The single most explosive area; building tools, templates, and skill registries for Claude Code is where the most community energy is flowing. Developers should explore creating reusable "skills" packages.
+A secondary, powerful signal is the rise of **Computer-Use Agents** as a first-class infrastructure concern. While browser-based agents have been popular, `trycua/cua` provides sandboxed environments for agents to control entire macOS, Linux, and Windows desktops. This suggests the next frontier for agentic automation is full OS-level interaction, moving beyond just websites.
 
-- **🤖 ML Research Agents (ml-intern, AutoGPT)** — The concept of agents that autonomously conduct ML research is nascent but growing fast. Hugging Face's entry validates this direction. Worth watching for productivity gains in experimental ML workflows.
+Finally, we see **infrastructure for efficiency** booming. Projects like `LEANN` (97% RAG storage savings), `zvec` (lightweight vector DB), and `Project_Chronos` (efficient MoE inference) indicate a maturing market where raw capability is being superseded by the need for cost-effective, performance-optimized, and privacy-preserving deployment. This is likely a lagging reaction to the massive computational costs associated with large models and RAG pipelines.
 
-- **🏗️ Agent Infrastructure (DeepEP, OpenSandbox, cua)** — Infrastructure for communicating, sandboxing, and running agents at scale. DeepEP's expert-parallel library is critical for anyone running MoE models. Sandbox solutions (cua, OpenSandbox) address the "how to safely run agents" problem.
+### 4. Community Hot Spots
 
-- **🧠 Persistent Agent Memory (mem0, claude-mem, cognee)** — Memory is the missing piece for long-running agents. Projects solving cross-session context injection and memory compression are solving the "agent amnesia" problem. Essential for production agents.
-
-- **📊 RAG Optimization (LEANN, graphrag, LightRAG)** — The RAG space is maturing toward efficiency (97% storage savings with LEANN) and structured knowledge (graphrag). For teams building knowledge-intensive agents, these projects offer significant performance improvements over naive RAG.
+- **Agent Skill Ecosystems:** The rise of `skills`, `awesome-codex-skills`, and `beads` makes this area critical. The community is standardizing how agents learn and use tools. Developers should explore creating and contributing skills, as this is becoming the "plugin" ecosystem of the AI agent world.
+- **Free & Open Agent Access:** `free-claude-code` and `openclaw` (which re-emerged from the topic search) are attracting significant attention. This points to a strong desire for democratizing access to premium coding agents, potentially through API proxying or local model alternatives.
+- **Zero-Server Code Intelligence:** `GitNexus` (client-side Graph RAG for code) is a novel direction. Its heavy traction (667 stars today) suggests developers want powerful code analysis tools that operate entirely in the browser, prioritizing privacy and ease of use.
+- **Computer-Use Agent Infrastructure:** `trycua/cua` is a project to watch. As agents become more capable, the need for safe, scalable sandboxes for them to operate in will explode. This is foundational infrastructure for the next generation of automation.
+- **Edge-Optimized RAG:** Projects like `LEANN` and `lancedb` signal a clear shift towards local, private, and storage-efficient RAG. This is a direct response to the high cost and latency of cloud-based vector databases and is crucial for on-device AI.
 
 ---
 *This digest is auto-generated by [agents-radar](https://github.com/dalen666/agents-radar).*

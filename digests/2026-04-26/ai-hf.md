@@ -1,112 +1,142 @@
 # Hugging Face 热门模型日报 2026-04-26
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-26 09:06 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-04-26 15:21 UTC
 
 ---
 
-好的，作为AI模型生态分析师，以下是根据您提供的2026-04-26数据生成的《Hugging Face 热门模型日报》。
+好的，这是基于您提供的数据生成的《Hugging Face 热门模型日报》。
 
 ---
 
-### Hugging Face 热门模型日报 | 2026-04-26
+### Hugging Face 热门模型日报 | 2026年04月26日
 
-#### 1. 今日速览
+#### 今日速览
 
-本周Hugging Face生态呈现“三强争霸”与“多模爆发”的格局。**DeepSeek-V4** 系列与 **Qwen3.6** 系列成为绝对主角，分别统治了纯文本生成与多模态理解两大高地，其周点赞数远超其他模型。特别值得注意的是，**Google Gemma-4** 凭借强大的下载量（超过600万）展现了其作为“基础设施”的庞大部署规模。此外，以 **OpenBMB VoxCPM2** 和 **Tencent HY-World-2.0** 为代表的多模态与3D生成模型，以及社区火热的各种 **GGUF** 量化与“uncensored”微调版本，共同构成了本周“模型民主化”的强劲浪潮。
+本周 Hugging Face 生态呈现出“三巨头争霸”的态势：**DeepSeek V4**、**Qwen 3.6** 和 **Google Gemma 4** 的系列模型占据了榜单的绝对核心。其中，**Qwen 3.6** 的 MoE 变体（35B-A3B）及其量化版本在社区中下载量巨大，显示出开发者对高效、可本地部署的多模态模型的强烈需求。**DeepSeek V4 Pro** 以最高的周点赞数领跑纯文本生成赛道。值得注意的是，**OpenAI** 和 **Baidu** 分别发布了专注于安全和图像生成的专用模型，显示了巨头在特定垂直领域的布局。此外，基于先进模型（如 Claude Opus）的“蒸馏”与“无审查”微调版本依然火爆，反映了社区对特定性能调优的持续热情。
 
-#### 2. 热门模型
+#### 热门模型
 
 ##### 🧠 语言模型（LLM、对话模型、指令微调）
 
--   **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)**
-    -   **作者**: deepseek-ai | **点赞**: 2,737 | **下载**: 123,431
-    -   **说明**: DeepSeek最新的旗舰级文本生成模型，凭借顶尖性能成为本周最受关注的纯LLM，引爆了社区讨论。
+- **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)**  
+  作者: deepseek-ai | 👍 2,790 | ⬇️ 123,431  
+  DeepSeek V4 系列的旗舰版，凭借强大的对话和文本生成能力，成为本周社区关注度最高的模型。
 
--   **[deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)**
-    -   **作者**: deepseek-ai | **点赞**: 703 | **下载**: 45,986
-    -   **说明**: DeepSeek-V4的轻量级“闪击”版，兼顾效率与性能，采用MIT协议开源，降低了商业使用门槛。
+- **[deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)**  
+  作者: deepseek-ai | 👍 714 | ⬇️ 45,986  
+  V4 系列的轻量级版本，采用 MIT 协议，为开发者提供了更灵活、更开放的部署选择。
 
--   **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)**
-    -   **作者**: zai-org | **点赞**: 1,516 | **下载**: 230,865
-    -   **说明**: 智谱AI最新一代MoE架构的大模型，在多轮对话和推理任务上表现出色，是国产大模型的重要力量。
+- **[zai-org/GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)**  
+  作者: zai-org | 👍 1,517 | ⬇️ 230,865  
+  智谱AI最新一代GLM模型，采用MoE架构，在中文和多语言对话场景中表现优异，获得了广泛关注。
 
--   **[MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)**
-    -   **作者**: MiniMaxAI | **点赞**: 1,067 | **下载**: 484,595
-    -   **说明**: MiniMax最新旗舰模型，主打长文本处理能力，以高下载量证明了其在商用和社区中的受欢迎程度。
+- **[MiniMaxAI/MiniMax-M2.7](https://huggingface.co/MiniMaxAI/MiniMax-M2.7)**  
+  作者: MiniMaxAI | 👍 1,068 | ⬇️ 484,595  
+  MiniMax 的最新旗舰模型，主打高质量对话，下载量巨大，显示出其在商业和开源社区中的受欢迎程度。
 
--   **[tencent/Hy3-preview](https://huggingface.co/tencent/Hy3-preview)**
-    -   **作者**: tencent | **点赞**: 148 | **下载**: 4,064
-    -   **说明**: 腾讯推出的新一代Hy系列文本生成模型预览版，值得关注的国产大模型新品。
+- **[tencent/Hy3-preview](https://huggingface.co/tencent/Hy3-preview)**  
+  作者: tencent | 👍 150 | ⬇️ 4,064  
+  腾讯混元大模型的最新预览版，展示了其在基础语言模型能力上的持续迭代。
 
--   **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)**
-    -   **作者**: Qwen | **点赞**: 1,411 | **下载**: 1,181,968
-    -   **说明**: 通义千问3.6系列的旗舰MoE模型，以35B总参数、仅3B激活参数实现高效推理，是多模态聊天领域的性能标杆。
+- **[OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)**  
+  作者: OBLITERATUS | 👍 511 | ⬇️ 120,432  
+  基于 Google Gemma 4 的“无害化移除”微调版，释放模型更自由的生成能力，是一个很受欢迎的社区实验。
+
+- **[Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF)**  
+  作者: Jackrong | 👍 207 | ⬇️ 75,797  
+  采用“Frankenmerge”技术融合 Qwen 和 GLM 模型，旨在提升推理能力，并通过GGUF实现本地部署。
+
+- **[lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled](https://huggingface.co/lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled)**  
+  作者: lordx64 | 👍 77 | ⬇️ 48,933  
+  将Claude-4.7-Opus的推理能力蒸馏到Qwen-3.6-MoE模型中，是社区追求顶级性能的典型代表。
 
 ##### 🎨 多模态与生成（图像、视频、音频、文本到X）
 
--   **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)**
-    -   **作者**: moonshotai | **点赞**: 1,039 | **下载**: 376,485
-    -   **说明**: 月之暗面Kimi的多模态版本（图像+文本输入），在理解和推理任务上表现强劲。
+- **[moonshotai/Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6)**  
+  作者: moonshotai | 👍 1,043 | ⬇️ 376,485  
+  月之暗面新一代多模态模型，支持图像与文本交互，在理解与生成的结合上表现突出。
 
--   **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)**
-    -   **作者**: openbmb | **点赞**: 1,237 | **下载**: 99,542
-    -   **说明**: 面壁智能推出的第二代语音合成模型，在多语言TTS领域表现突出，展示了开源语音合成的突破。
+- **[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B)**  
+  作者: Qwen | 👍 842 | ⬇️ 329,571  
+  Qwen家族的标准多模态旗舰模型，性能强大，下载量极高。
 
--   **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)**
-    -   **作者**: google | **点赞**: 2,365 | **下载**: 6,042,134
-    -   **说明**: Google开源的多模态对话模型，拥有惊人的600万+下载量，已成为社区基础设施级别的模型。
+- **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)**  
+  作者: Qwen | 👍 1,417 | ⬇️ 1,181,968  
+  Qwen 3.6 的“活化参数仅 3B”的混合专家（MoE）版本，以极低的推理成本实现了接近 27B 模型的性能，是本周的明星模型之一。
 
--   **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)**
-    -   **作者**: tencent | **点赞**: 606 | **下载**: 2,969
-    -   **说明**: 腾讯推出的图像转3D世界模型，代表了生成式AI向空间智能迈进的趋势。
+- **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)**  
+  作者: google | 👍 2,372 | ⬇️ 6,042,134  
+  Google 最新开源多模态旗舰，性能强劲，凭借 Google 生态和开源策略，本周下载量惊人。
 
--   **[baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image)**
-    -   **作者**: baidu | **点赞**: 566 | **下载**: 7,800
-    -   **说明**: 百度的文本到图像生成模型，基于Diffusers框架，采用宽松的Apache-2.0协议，丰富了文生图领域的生态。
+- **[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0)**  
+  作者: tencent | 👍 608 | ⬇️ 2,969  
+  腾讯的“世界模型”新作，专注于从单张图片生成3D内容，是3D生成领域的一个重要进展。
 
--   **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)**
-    -   **作者**: nvidia | **点赞**: 274 | **下载**: 569
-    -   **说明**: 英伟达推出的高保真图像转3D模型，代表了业界顶尖的3D重建能力。
+- **[baidu/ERNIE-Image](https://huggingface.co/baidu/ERNIE-Image)**  
+  作者: baidu | 👍 569 | ⬇️ 7,800  
+  百度的文心系列图像生成模型，采用8B参数量并开放Apache-2.0协议，为文本到图像生成提供了新的选择。
 
--   **[inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni)**
-    -   **作者**: inclusionAI | **点赞**: 180 | **下载**: 346
-    -   **说明**: 首个“any-to-any”多模态理解与生成模型，能处理文本、图像、音频等多种输入输出，极具前沿性。
+- **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)**  
+  作者: openbmb | 👍 1,237 | ⬇️ 99,542  
+  面壁智能（OpenBMB）推出的多语言语音合成（TTS）模型，在语音生成领域取得了突破性进展。
 
-##### 🔧 专用模型（代码、数学、医疗、嵌入）
+- **[nvidia/Lyra-2.0](https://huggingface.co/nvidia/Lyra-2.0)**  
+  作者: nvidia | 👍 275 | ⬇️ 569  
+  NVIDIA 推出的“世界模型”，探索从图像生成3D场景的前沿技术，代表了研究前沿方向。
 
--   **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)**
-    -   **作者**: openai | **点赞**: 793 | **下载**: 35,807
-    -   **说明**: OpenAI推出的隐私过滤模型，用于识别和标记敏感信息，体现了大模型应用中对安全性的关注。
+##### 🔧 专用模型（代码、数学、医疗、嵌入等）
+
+- **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)**  
+  作者: openai | 👍 816 | ⬇️ 35,807  
+  OpenAI推出的一个词元分类模型，用于检测和过滤敏感隐私信息，是AI安全领域的重要工具。
+
+- **[inclusionAI/LLaDA2.0-Uni](https://huggingface.co/inclusionAI/LLaDA2.0-Uni)**  
+  作者: inclusionAI | 👍 182 | ⬇️ 346  
+  “任意到任意”的通用模型，融合了transformers和diffusers技术，代表了通用感知模型的前沿探索。
+
+- **[robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map)**  
+  作者: robbyant | 👍 175 | ⬇️ 0  
+  一个与学术论文（arXiv:2604.14141）关联的地图/表示模型，用途未知，但引起了学术社区的关注。
 
 ##### 📦 微调与量化（社区微调、GGUF、AWQ）
 
--   **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)**
-    -   **作者**: unsloth | **点赞**: 775 | **下载**: 1,574,581
-    -   **说明**: 由知名量化团队unsloth提供的Qwen 3.6 MoE模型的GGUF版本，下载量极高，是本地部署首选。
+- **[unsloth/Qwen3.6-35B-A3B-GGUF](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)**  
+  作者: unsloth | 👍 783 | ⬇️ 1,574,581  
+  通过GGUF量化，将Qwen 3.6 MoE模型压缩至可在消费级硬件上运行，是榜单中下载量最高的模型之一，满足了本地部署的巨大需求。
 
--   **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)**
-    -   **作者**: HauhauCS | **点赞**: 439 | **下载**: 460,832
-    -   **说明**: 社区对Qwen3.6进行“越狱”微调后的激进版本，反映了社区对模型控制权和自由度的强烈需求。
+- **[unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)**  
+  作者: unsloth | 👍 418 | ⬇️ 553,179  
+  Qwen 3.6-27B 的 GGUF 量化版本，为本地运行高质量多模态模型提供了便捷途径。
 
--   **[OBLITERATUS/gemma-4-E4B-it-OBLITERATED](https://huggingface.co/OBLITERATUS/gemma-4-E4B-it-OBLITERATED)**
-    -   **作者**: OBLITERATUS | **点赞**: 509 | **下载**: 120,432
-    -   **说明**: 针对Google Gemma-4的“无限制”（abliterated）微调版，移除了安全护栏，是社区最活跃的微调方向之一。
+- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)**  
+  作者: HauhauCS | 👍 447 | ⬇️ 460,832  
+  社区制作的“激进无审查”版Qwen MoE模型，配合GGUF格式，代表了社区“定制化”模型的一股潮流。
 
--   **[Jackrong/Qwopus-GLM-18B-Merged-GGUF](https://huggingface.co/Jackrong/Qwopus-GLM-18B-Merged-GGUF)**
-    -   **作者**: Jackrong | **点赞**: 205 | **下载**: 75,797
-    -   **说明**: 社区通过“模型融合”（Frankenmerge）技术，整合Qwen和GLM能力创造的新模型，代表了社区创新的活跃度。
+- **[hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF](https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF)**  
+  作者: hesamation | 👍 186 | ⬇️ 117,163  
+  将 Claude-4.6 的推理能力蒸馏至Qwen MoE模型，并以GGUF形式发布，是“能力蒸馏+量化”的经典案例。
 
-#### 3. 生态信号
+- **[z-lab/Qwen3.6-35B-A3B-DFlash](https://huggingface.co/z-lab/Qwen3.6-35B-A3B-DFlash)**  
+  作者: z-lab | 👍 160 | ⬇️ 26,760  
+  对 Qwen 3.6 MoE 模型的一种特殊微调版本，名为“DFlash”，代表了社区对 MoE 模型高效推理探索。
 
-本周生态呈现出高度集中的“头部效应”。**Qwen3.6** 和 **DeepSeek-V4** 家族势力空前强大，几乎包揽了榜单前20中的大部分名额，其基座模型的强大性能驱动了后续的海量量化与微调工作。开源权重的趋势依然坚挺，以Google Gemma-4为代表，开源模型下载量级已攀升至百万级别，真正成为应用基石。
+- **[z-lab/Qwen3.6-27B-DFlash](https://huggingface.co/z-lab/Qwen3.6-27B-DFlash)**  
+  作者: z-lab | 👍 102 | ⬇️ 3,447  
+  Qwen 3.6-27B 的 “DFlash” 微调版本，与上述 35B MoE 版本类似，是一个专注于特定性能优化的系列。
 
-值得关注的是，社区微调活动异常火爆，特别是“**Uncensored**” 和 “**Abliterated**” 版本的热度极高，这表明用户在积极寻求更自由的控制权和探索模型能力的边界，这将对模型安全研究提出新的挑战。此外，以 **unsloth** 为代表的量化团队通过提供高质量的GGUF版本，已实质性地降低了AI模型的部署门槛，成为连接前沿模型与普通用户的关键纽带。
+#### 生态信号
 
-#### 4. 值得探索
+1.  **Qwen 3.6 生态系统爆发**：Qwen 3.6 系列，特别是其 MoE 变体，已成为本周的绝对焦点。从基础模型、官方量化（FP8）到社区的多版本微调（Uncensored、Distilled），再到广泛的GGUF量化，围绕 Qwen 3.6 形成了一个完整且高度活跃的生态链，显示出强大的社区生命力。
 
-1.  **🧠 DeepSeek-V4系列 (Pro & Flash)**：如果您追求极致的纯文本生成性能，或对新一代MoE架构感兴趣，DeepSeek-V4是本周最必试的模型。特别是Flash版本采用MIT协议，商业友好度极高。
-2.  **🌍 Tencent/HY-World-2.0**：如果你想探索当前最前沿的“世界模型”概念，从一张图片生成一个可交互的3D世界，这个模型提供了最直观的体验，代表了多模态生成的下一个方向。
-3.  **🎤 OpenBMB/VoxCPM2**：如果你有高质量的语音合成需求，或对多语言TTS感兴趣，这个模型在多语言上的出色表现值得深入研究，其开源性质也为定制化应用提供了无限可能。
+2.  **MoE 架构成为主流，高效推理是关键**：无论是 Qwen 3.6 MoE、GLM 5.1 还是 MiniMax M2.7，混合专家（MoE）架构已全面开花。其中，Qwen 3.6-35B-A3B（仅3B活跃参数）的巨大成功，印证了开发者对“高智价比”模型（即性能高、占用资源少）的极致追求。
+
+3.  **“蒸馏 + 量化” 双流水线盛行**：本周榜单多次出现“Claude Opus 蒸馏版 + GGUF”的组合。社区正形成一条清晰的“神级模型能力蒸馏 -> 开源基座模型 -> 量化本地部署”的流水线，这大大降低了普通用户和开发者获取前沿AI能力的门槛。
+
+#### 值得探索
+
+1.  **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)**：最值得研究的模型之一。它是“高效多模态”的典范，展示了如何通过 MoE 架构以极低成本实现顶级性能。如果资源有限但想要获得强大的多模态能力，这是不二之选。
+
+2.  **[openbmb/VoxCPM2](https://huggingface.co/openbmb/VoxCPM2)**：在多模态热潮中，高质量的语音合成模型依然稀缺。VoxCPM2 以其多语言能力和高下载量，是探索 TTS 前沿技术的绝佳起点，值得语音领域的研究者和开发者深入研究。
 
 ---
 *本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*

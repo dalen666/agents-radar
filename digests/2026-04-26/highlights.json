@@ -1,118 +1,118 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code 单个Issue获799个👍，社区遭遇模型退化与TUI问题",
-      "OpenAI Codex发布2个Alpha版本，但用户正面临配额焦虑",
-      "Gemini CLI PR活跃度激增，Agent不可靠与权限混乱成焦点",
-      "Kimi Code CLI遭遇模型过载与Web模式Bug，今日零评论",
-      "OpenCode发布v1.14.25，聚焦模型兼容性与远程开发改进",
-      "Qwen Code发布v0.15.3，着力解决并发控制与本地部署"
+      "Claude Code尝试平台化开源，社区功能请求与Bug报告火热",
+      "OpenAI Codex严重Bug频发，macOS高CPU占用问题突出",
+      "Gemini CLI代理可靠性成头号痛点，UI/UX问题引关注",
+      "Kimi Code CLI功能迭代惊人，贡献者提交桌面化PR",
+      "OpenCode社区呼声极高，VS Code扩展获56👍",
+      "Qwen Code发布v0.15.3，修复DeepSeek等模型兼容性"
     ],
     "ai-agents": [
-      "OpenClaw今日发布6个新版本，引入Google Meet作为内置插件",
-      "DeepSeek V4 Flash和V4 Pro模型正式获得OpenClaw支持",
-      "修复exec工具允许列表前的shell续接符安全绕过漏洞",
-      "子代理完成交付增强：失败时自动退回到外部路由",
-      "新增symlink_escape审计探针，防止符号链接安全绕过",
-      "权限与安全修复：密钥掩码与审批流程得到改进"
+      "OpenClaw发布5个新版本，TTS全面升级支持多家提供商",
+      "新版本集成Google Meet，支持实时会话与考勤导出",
+      "新增DeepSeek V4 Flash和V4 Pro模型支持",
+      "社区报告500条Issue，新功能带来回归Bug挑战",
+      "多用户权限管理和Slack Block Kit成呼声最高需求",
+      "v2026.4.25版引入角色支持与聊天维度的自动TTS"
     ],
     "ai-trending": [
-      "Hugging Face的ml-intern项目今日暴涨1240星，开源ML工程师",
-      "Claude Code生态爆发，一半以上AI Trending项目围绕它展开",
-      "DeepSeek开源MoE通信库DeepEP，今日新增189星",
-      "ollama以170k星稳居榜首，本地LLM工具基石依旧火热",
-      "AutoGPT（183k星）与dify引领AI智能体与工作流潮流",
-      "LlamaFactory与deer-flow代表模型微调与长周期Agent新趋势"
+      "mattpocock/skills成今日新星，定义个人AI技能标准化",
+      "trycua/cua开源计算机使用代理基础设施，获14257星",
+      "free-claude-code让你免费使用Claude Code，今日涨1694星",
+      "activepieces集成400+ MCP服务器，AI工作流自动化枢纽",
+      "GitNexus纯浏览器端代码知识图谱，内置Graph RAG代理",
+      "ComposioHQ收集Codex CLI实用技能，构建编码Agent生态"
     ],
     "ai-hn": [
-      "OpenAI为GPT-5.5设立生物漏洞赏金计划，获145分热议",
-      "DeepSeek-V4发布技术博客，展示快速推理与验证性RL结合",
-      "观点文‘嵌入Agent而非视作同事’获45分，引发工程共鸣",
-      "Show HN: 10倍速BeautifulSoup替代品WhiskeySour获关注",
-      "Chatnik概念：在Shell环境中直接运行LLM，6分新探索",
-      "AI Agent运行11天烧掉4.7万美元，成本失控成警示故事"
+      "DeepSeek-V4发布获67分最高分，工程框架成焦点",
+      "OpenAI弃用SWE-bench引发激烈讨论，质疑基准有效性",
+      "论文揭示LLM在委派任务时会‘污染’文档引关注",
+      "AI Visibility Monitor可监控网站是否被大模型引用",
+      "社区热议AI钱荒，产业泡沫与模型质疑此起彼伏",
+      "Claude模型被吐槽‘变笨’，AI能力审视转向务实"
     ],
     "ai-ph": [
-      "Ask Product Hunt AI获519票，用自然语言搜索推荐产品",
-      "BAND获177票，多Agent编排治理引入权限边界与冲突仲裁",
-      "Yutori Delegate（83票）将任务拆解分配给AI执行",
-      "OpenAI Codex 3.0与DeepSeek-V4同日登场，硬核工具密集",
-      "多Agent协作和AI情感智能从概念走向产品化",
-      "Spira AI与Mozart Studio展示消费级AI的创意边界"
+      "Ask Product Hunt AI用自然语言替代标签筛选，获519票",
+      "BAND多Agent编排框架内置治理层，防系统失控",
+      "OpenAI Codex 3.0与DeepSeek-V4密集亮相开发者工具赛道",
+      "Yutori Delegate倡导‘AI员工’而非‘AI工具’模式",
+      "Spira AI展示AI网红，Mozart Studio探索生成式音频",
+      "投票呈头部集中，前5名占总票数62%"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro以2737周点赞登顶，社区讨论火爆",
-      "Google Gemma-4下载量超600万，成基础设施级模型",
-      "Qwen3.6-35B-A3B以118万下载量刷新多模态聊天标杆",
-      "MiniMax-M2.7下载量达48万，主打长文本处理能力",
-      "智谱GLM-5.1获1516点赞，MoE架构国产模型实力强劲",
-      "DeepSeek-V4-Flash采用MIT协议开源，降低商业使用门槛"
+      "DeepSeek-V4-Pro获2790周点赞，领跑文本生成赛道",
+      "Qwen 3.6 MoE变体下载量巨大，受本地部署开发者热捧",
+      "zai-org GLM-5.1采用MoE架构，中文对话表现优异",
+      "MiniMax-M2.7下载量达48万，商业与开源社区双赢",
+      "Gemma 4‘无害化移除’微调版火爆，社区实验引关注",
+      "Jackrong用Frankenmerge融合Qwen和GLM，提升推理能力"
     ],
     "ai-community": [
-      "开源替代Claude Code教程走红：月费从155澳元降至零",
-      "AI Agent运行11天烧掉4.7万美元，成本失控成警示故事",
-      "开发者分享销售聊天机器人连环故障修复实战教程",
-      "Cache-Augmented Generation (CAG) 提出RAG替代方案",
-      "AI正成为基础设施，类比DevOps引发开发者宏观思考",
-      "提示注入攻击可绕过现有AI防火墙，安全性引发关注"
+      "约束越多代码越好？新研究挑战‘AI自由’直觉",
+      "新型提示注入攻击可绕过主流AI防火墙，安全警示",
+      "‘行动保证’机制防止AI Agent执行危险操作",
+      "AI编码工具实测：25-40%效率提升，具体环节量化",
+      "从应用开发转AI的从业者分享RAG实施陷阱与经验",
+      "360度全景图可交互查看，GPT Image 2创意应用展示"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code Opus 4.7 regression reported",
-      "Session isolation via git worktrees emerging",
-      "Event-driven hook systems gaining traction",
-      "Cross-tool API compatibility fragmentation",
-      "Kimi Code K2.6 overload issues",
-      "Per-provider concurrency management maturing"
+      "Claude Code has ~50 tracked open issues",
+      "OpenAI Codex faces release quality issues",
+      "Gemini CLI grappling with regressions",
+      "GitHub Copilot CLI sees quality problems",
+      "Pi capitalizes on multi-provider flexibility",
+      "Qwen Code rapid feature iteration"
     ],
     "ai-agents": [
-      "OpenClaw v2026.4.24 major release",
-      "Google Meet Participant Plugin shipped",
-      "500 issues and 500 PRs in 24hrs",
-      "DeepSeek V4 Flash and Pro support",
-      "Sub-agent workflows being actively refined",
-      "Plugin stability being debugged heavily"
+      "OpenClaw has 500 open issues and 500 PRs",
+      "Only 8.2% of issues closed today",
+      "Five beta releases with identical changelogs",
+      "Critical npm dependency regression reported",
+      "Telegram channel crashes on Windows 11",
+      "TTS overhaul with new /tts latest command"
     ],
     "ai-trending": [
-      "free-claude-code gains 4007 stars today",
-      "HuggingFace ml-intern autonomous ML agent",
-      "DeepEP for expert-parallel MoE communication",
-      "mattpocock/skills skills-as-code pattern",
-      "Model eXecution + Context Protocol (MXCP)",
-      "AutoGPT continues evolving as agent platform"
+      "beads stars 133 as agent memory upgrade",
+      "free-claude-code offers free access",
+      "awesome-codex-skills standardizes skills",
+      "trycua/cua brings Computer-Use infrastructure",
+      "Claude Code skill ecosystem growing",
+      "ComposioHQ trending in agent tools"
     ],
     "ai-hn": [
-      "GPT-5.5 biosafety bug bounty launched",
-      "DeepSeek-V4 released with Verified RL",
-      "Users rage at Claude regressions",
-      "Rising API costs spark money squeeze",
-      "Agents Aren't Coworkers debate trending",
-      "OpenAI and Anthropic pricing under fire"
+      "DeepSeek-V4 with verified RL pipeline",
+      "SWE-bench Verified no longer valid benchmark",
+      "Musk v. Altman courtroom battle watched",
+      "Claude quality degradation discussed",
+      "Growing frustration with Anthropic billing",
+      "Community skeptical of benchmarks and costs"
     ],
     "ai-ph": [
-      "Ask Product Hunt AI wins top product",
-      "BAND coordinates multi-agent work",
-      "DeepSeek-V4 1M context window released",
-      "OpenAI Codex 3.0 launched",
-      "Google Workspace Intelligence debuts",
-      "NotchNest AI for macOS launched"
+      "Ask Product Hunt AI tops with 519 votes",
+      "BAND coordinates multi-agent workflows",
+      "DeepSeek-V4 launches with 1M context",
+      "OpenAI Codex 3.0 released",
+      "Google Workspace Intelligence launches",
+      "Open-source momentum strong"
     ],
     "ai-hf": [
-      "DeepSeek-V4-Pro leads in likes (2737)",
-      "Gemma-4-31B-it hits 6M+ downloads",
-      "LLaDA2.0-Uni any-to-any modality pipeline",
-      "Qwen 3.6 multimodal reasoning improvements",
-      "zai-org GLM-5.1 MoE model popular",
-      "Unsloth quantized variants flooding hub"
+      "DeepSeek-V4-Pro has 2,790 hearts",
+      "Qwen 3.6 models see explosive downloads",
+      "Gemma-4-E4B-it-OBLITERATED popular",
+      "OpenAI privacy filter signals safety shift",
+      "LLaDA2.0-Uni as Any-to-Any model",
+      "NVIDIA world models trending"
     ],
     "ai-community": [
-      "GPT-5.5 pricing changes analyzed",
-      "Devs cut AI spend with open-source Claude",
-      "Understanding Transformers series continues",
-      "OpenAI DALL-E shutdown disrupting workflows",
-      "RAG adoption in regulated industries",
-      "AI doom zero day debated on Lobste.rs"
+      "Encoder-decoder attention explained clearly",
+      "AI agent automates slide creation",
+      "Tesseract.js for free PDF OCR",
+      "Guardrailed RAG for autistic teenager",
+      "Voice cloning scams discussed",
+      "AI dooms zero day debate heats up"
     ]
   }
 }
