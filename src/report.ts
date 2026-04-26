@@ -20,8 +20,10 @@ import { type LlmProvider, createProvider } from "./providers/index.ts";
 const NO_LLM = process.env["NO_LLM"] === "1";
 
 let _provider: LlmProvider | null = null;
+let _llmDisabled = false; // 自动降级标记：余额不足时设为 true
+
 function getProvider(): LlmProvider | null {
-  if (NO_LLM) return null;
+  if (NO_LLM || _llmDisabled) return null;
   if (!_provider) {
     try {
       _provider = createProvider();
@@ -31,6 +33,23 @@ function getProvider(): LlmProvider | null {
     }
   }
   return _provider;
+}
+
+/** 检测是否为余额不足 / 无效凭证等不可恢复错误 */
+function isInsufficientFunds(err: unknown): boolean {
+  const msg = String(err instanceof Error ? err.message : err);
+  return (
+    (err as { status?: number })?.status === 402 ||
+    msg.includes("Insufficient") ||
+    msg.includes("insufficient") ||
+    msg.includes("402") ||
+    msg.includes("payment") ||
+    msg.includes("billing") ||
+    msg.includes("quota") ||
+    msg.includes("credits") ||
+    msg.includes("Invalid API Key") ||
+    msg.includes("authentication")
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -83,6 +102,15 @@ export async function callLlm(prompt: string, maxTokens = LLM_TOKENS_DEFAULT): P
     try {
       return await provider.call(prompt, maxTokens);
     } catch (err) {
+      // 余额不足 / 认证失败 → 自动降级到 NO_LLM 模式
+      if (isInsufficientFunds(err)) {
+        releaseSlot();
+        released = true;
+        _llmDisabled = true;
+        console.error(`[llm] ⚠️ Insufficient funds / auth error — auto-switching to NO_LLM mode`);
+        console.error(`[llm]   Error: ${err instanceof Error ? err.message : err}`);
+        return "";
+      }
       if (attempt < MAX_RETRIES && is429(err)) {
         releaseSlot();
         released = true;
