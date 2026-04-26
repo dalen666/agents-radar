@@ -338,10 +338,10 @@ async function main(): Promise<void> {
   });
 
   const [zhComparison, zhPeersComparison, enComparison, enPeersComparison] = await Promise.all([
-    callLlm(buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh")),
-    callLlm(buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en")),
-    callLlm(buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en")),
+    summarize("zh-comparison", buildComparisonPrompt(zhSummaries.cliDigests, dateStr, "zh"), MSG.summaryFailed.zh),
+    summarize("zh-peers", buildPeersComparisonPrompt(makeOpenclawDigest("zh"), zhSummaries.peerDigests, dateStr, "zh"), MSG.summaryFailed.zh),
+    summarize("en-comparison", buildComparisonPrompt(enSummaries.cliDigests, dateStr, "en"), MSG.summaryFailed.en),
+    summarize("en-peers", buildPeersComparisonPrompt(makeOpenclawDigest("en"), enSummaries.peerDigests, dateStr, "en"), MSG.summaryFailed.en),
   ]);
 
   const comparisonByLang = { zh: zhComparison, en: enComparison };
