@@ -722,7 +722,8 @@ async function loadDashboard() {
     const { dates } = await res.json();
     if (!dates?.length) throw new Error('manifest is empty');
     buildNav(dates);
-    initSearch(dates);
+    // Delay search index to avoid blocking Dashboard load
+    setTimeout(() => initSearch(dates), 5000);
     const hash = getHash();
     if (hash === 'dashboard') {
       loadDashboard();
