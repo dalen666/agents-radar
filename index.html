@@ -221,7 +221,7 @@
     #cwrap { flex: 1; overflow-y: auto; }
     #cwrap::-webkit-scrollbar { width: 4px; }
     #cwrap::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 4px; }
-    #content { max-width: 800px; margin: 0 auto; padding: 44px 52px 80px; }
+    #content { max-width: 100%; margin: 0; padding: 36px 40px 80px; }
 
     .msg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; height: 240px; color: var(--text-muted); font-size: 13px; }
     .msg-icon { font-size: 40px; opacity: 0.3; }
@@ -287,7 +287,7 @@
     .dash-header h1 { font-size: 1.6rem; font-weight: 800; margin-bottom: 4px; }
     .dash-header h1::after { content:''; display:block; width:40px; height:3px; border-radius:2px; background:linear-gradient(90deg,var(--neon-cyan),var(--neon-purple)); margin-top:10px; }
     .dash-header .date { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--text-muted); }
-    .dash-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 28px; }
+    .dash-stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; margin-bottom: 28px; }
     .stat-card {
       background: var(--glass); border: 1px solid var(--glass-border);
       border-radius: 12px; padding: 16px; text-align: center;
@@ -296,7 +296,7 @@
     .stat-card:hover { border-color: rgba(0,240,255,0.15); box-shadow: 0 0 20px rgba(0,240,255,0.05); }
     .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 28px; font-weight: 700; background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .stat-label { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
-    .dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .dash-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px; }
     .chart-card {
       background: var(--glass); border: 1px solid var(--glass-border);
       border-radius: 12px; padding: 18px; backdrop-filter: blur(8px);
@@ -320,6 +320,12 @@
     @media (max-width: 768px) {
       .dash-grid { grid-template-columns: 1fr; }
       .dash-stats { grid-template-columns: repeat(2, 1fr); }
+      .dash-header h1 { font-size: 1.2rem; }
+      .stat-val { font-size: 22px; }
+      .stat-label { font-size: 11px; }
+      .chart-wrap { height: 200px !important; }
+      .dash-list-item { font-size: 13px; padding: 8px 0; }
+      .dash-list-item .meta { font-size: 10px; }
     }
 
     /* ═══ Mobile ═══ */
