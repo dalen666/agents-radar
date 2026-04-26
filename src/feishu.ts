@@ -8,6 +8,7 @@
  *   PAGES_URL           — GitHub Pages base URL (defaults to the public deployment)
  */
 
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { NOTIFY_LABELS } from "./i18n.ts";
@@ -17,23 +18,36 @@ const PAGES_URL_DEFAULT = "https://duanyytop.github.io/agents-radar";
 
 async function sendFeishu(title: string, content: string): Promise<void> {
   const webhookUrl = process.env["FEISHU_WEBHOOK_URL"] ?? "";
+  const secret = process.env["FEISHU_SECRET"] ?? "";
+
+  const body: Record<string, unknown> = {
+    msg_type: "interactive",
+    card: {
+      header: {
+        title: { tag: "plain_text", content: title },
+        template: "blue",
+      },
+      elements: [{ tag: "markdown", content }],
+    },
+  };
+
+  // 如果配置了签名密钥，添加 timestamp 和 sign
+  if (secret) {
+    const timestamp = Math.floor(Date.now() / 1000).toString();
+    const stringToSign = `${timestamp}\n${secret}`;
+    const sign = crypto.createHmac("sha256", stringToSign).digest("base64");
+    body.timestamp = timestamp;
+    body.sign = sign;
+  }
+
   const res = await fetch(webhookUrl, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      msg_type: "interactive",
-      card: {
-        header: {
-          title: { tag: "plain_text", content: title },
-          template: "blue",
-        },
-        elements: [{ tag: "markdown", content }],
-      },
-    }),
+    body: JSON.stringify(body),
   });
   if (!res.ok) {
-    const body = await res.text();
-    throw new Error(`Feishu API ${res.status}: ${body}`);
+    const text = await res.text();
+    throw new Error(`Feishu API ${res.status}: ${text}`);
   }
 }
 
