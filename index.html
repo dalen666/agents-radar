@@ -9,6 +9,7 @@
   <link rel="alternate" type="application/rss+xml" title="agents-radar RSS" href="./feed.xml">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
   <style>
     /* ═══ Cyberpunk Design System ═══ */
     :root {
@@ -279,6 +280,47 @@
     .md details[open] summary::before { content: '▼'; }
     .md details > *:not(summary) { padding: 12px 14px; }
 
+    /* ═══ Dashboard ═══ */
+    .dash { padding: 0; }
+    .dash-header { margin-bottom: 28px; }
+    .dash-header h1 { font-size: 1.4rem; font-weight: 800; margin-bottom: 4px; }
+    .dash-header h1::after { content:''; display:block; width:40px; height:3px; border-radius:2px; background:linear-gradient(90deg,var(--neon-cyan),var(--neon-purple)); margin-top:10px; }
+    .dash-header .date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-muted); }
+    .dash-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 28px; }
+    .stat-card {
+      background: var(--glass); border: 1px solid var(--glass-border);
+      border-radius: 12px; padding: 16px; text-align: center;
+      backdrop-filter: blur(8px); transition: all 0.2s;
+    }
+    .stat-card:hover { border-color: rgba(0,240,255,0.15); box-shadow: 0 0 20px rgba(0,240,255,0.05); }
+    .stat-val { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; background: linear-gradient(135deg, var(--neon-cyan), var(--neon-purple)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .stat-label { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+    .dash-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .chart-card {
+      background: var(--glass); border: 1px solid var(--glass-border);
+      border-radius: 12px; padding: 18px; backdrop-filter: blur(8px);
+    }
+    .chart-card.full { grid-column: 1 / -1; }
+    .chart-title { font-size: 12px; font-weight: 600; color: var(--text-secondary); margin-bottom: 14px; display: flex; align-items: center; gap: 6px; }
+    .chart-title .emoji { font-size: 14px; }
+    .chart-wrap { position: relative; width: 100%; }
+    .chart-wrap canvas { width: 100% !important; }
+    .dash-list { margin-top: 8px; }
+    .dash-list-item {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 0; border-bottom: 1px solid var(--border);
+      font-size: 13px; transition: background 0.1s;
+    }
+    .dash-list-item:last-child { border-bottom: none; }
+    .dash-list-item a { color: var(--text-primary); text-decoration: none; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-right: 12px; }
+    .dash-list-item a:hover { color: var(--neon-cyan); }
+    .dash-list-item .meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--text-muted); flex-shrink: 0; }
+    .dash-list-item .meta .hot { color: var(--neon-orange); }
+    @media (max-width: 768px) {
+      .dash-grid { grid-template-columns: 1fr; }
+      .dash-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
     /* ═══ Mobile ═══ */
     #mob-toggle { display: none; }
     @media (max-width: 768px) {
@@ -329,6 +371,7 @@
       <div id="mob-toggle" onclick="document.getElementById('sidebar').classList.toggle('open')">☰ 选择报告</div>
       <div class="side-header">
         <div class="side-label">// REPORTS</div>
+        <button id="dashBtn" onclick="loadDashboard()" style="width:100%;padding:8px 12px;border-radius:10px;border:1px solid var(--glass-border);background:var(--glass);color:var(--text-secondary);font-family:inherit;font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:8px;margin-bottom:14px;transition:all 0.2s" onmouseover="this.style.borderColor='rgba(0,240,255,0.2)';this.style.color='var(--neon-cyan)'" onmouseout="this.style.borderColor='var(--glass-border)';this.style.color='var(--text-secondary)'">📊 Dashboard</button>
         <div class="search-wrap">
           <svg class="search-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
           <input id="searchInput" type="search" placeholder="搜索全文，如 Claude">
@@ -528,7 +571,146 @@ function buildNav(dates) {
   });
 }
 
-window.addEventListener('popstate', () => { const h = getHash(); if (h) loadReport(h.date, h.report, false); });
+window.addEventListener('popstate', () => { const h = getHash(); if (h) loadReport(h.date, h.report, false); else if (location.hash === '#dashboard') loadDashboard(); });
+
+// ── Dashboard ──
+const CHART_COLORS = ['#00f0ff','#a855f7','#f472b6','#34d399','#fb923c','#60a5fa','#fbbf24','#f87171','#818cf8','#2dd4bf'];
+const chartInstances = [];
+
+function destroyCharts() { chartInstances.forEach(c => c.destroy()); chartInstances.length = 0; }
+
+function chartOpts(plugins) {
+  const isDark = document.documentElement.dataset.theme === 'dark';
+  return {
+    responsive: true, maintainAspectRatio: false,
+    plugins: plugins || {},
+    scales: {
+      x: { ticks: { color: isDark ? '#5a5e73' : '#8b8fa3', font: { size: 10 } }, grid: { color: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)' }, border: { display: false } },
+      y: { ticks: { color: isDark ? '#5a5e73' : '#8b8fa3', font: { size: 10 } }, grid: { color: isDark ? 'rgba(255,255,255,0.04)' : 'rgba(0,0,0,0.04)' }, border: { display: false } }
+    }
+  };
+}
+
+function doughnutOpts(plugins) {
+  return { responsive: true, maintainAspectRatio: false, cutout: '60%', plugins: plugins || {} };
+}
+
+function makeList(items, labelFn, metaFn) {
+  return items.slice(0, 10).map(item => {
+    const label = typeof labelFn === 'function' ? labelFn(item) : item.title;
+    const meta = typeof metaFn === 'function' ? metaFn(item) : '';
+    return `<div class="dash-list-item"><a href="${item.url || item.hnUrl || '#'}" target="_blank" rel="noopener">${label}</a><span class="meta">${meta}</span></div>`;
+  }).join('');
+}
+
+async function loadDashboard() {
+  currentKey = '__dashboard__';
+  history.pushState(null, '', '#dashboard');
+  document.querySelectorAll('.rpt-btn,.lang-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('dashBtn').style.borderColor = 'rgba(0,240,255,0.3)';
+  document.getElementById('dashBtn').style.color = 'var(--neon-cyan)';
+  document.getElementById('sidebar').classList.remove('open');
+  const cwrap = document.getElementById('cwrap');
+  setContent('<div class="msg"><div class="msg-icon">⏳</div><div>Loading Dashboard…</div></div>');
+  cwrap.scrollTop = 0;
+
+  try {
+    const res = await fetch('./manifest.json');
+    const { dates } = await res.json();
+    if (!dates?.length) throw new Error('No data');
+    const latestDate = dates[0].date;
+    const dRes = await fetch(`./digests/${latestDate}/dashboard.json`);
+    if (!dRes.ok) throw new Error('dashboard.json not found');
+    const d = await dRes.json();
+
+    destroyCharts();
+    const isDark = document.documentElement.dataset.theme === 'dark';
+    const textColor = isDark ? '#8b8fa3' : '#5a5e73';
+    Chart.defaults.color = textColor;
+
+    let html = `<div class="dash fade-up">
+      <div class="dash-header"><h1>📊 AI 数据全景</h1><div class="date">${d.date} · ${new Date(d.generated).toLocaleString('zh-CN')}</div></div>
+      <div class="dash-stats">
+        <div class="stat-card"><div class="stat-val">${d.trending.length}</div><div class="stat-label">🔥 GitHub 趋势</div></div>
+        <div class="stat-card"><div class="stat-val">${d.hn.length}</div><div class="stat-label">📰 HN 热门</div></div>
+        <div class="stat-card"><div class="stat-val">${d.ph.length}</div><div class="stat-label">🚀 Product Hunt</div></div>
+        <div class="stat-card"><div class="stat-val">${d.arxiv.length}</div><div class="stat-label">📄 ArXiv 论文</div></div>
+        <div class="stat-card"><div class="stat-val">${d.hf.length}</div><div class="stat-label">🤗 HF 模型</div></div>
+        <div class="stat-card"><div class="stat-val">${d.devto.length + d.lobsters.length}</div><div class="stat-label">💬 社区讨论</div></div>
+      </div>
+      <div class="dash-grid">
+        <div class="chart-card"><div class="chart-title"><span class="emoji">🔥</span> GitHub Trending Stars</div><div class="chart-wrap" style="height:260px"><canvas id="ch-trending"></canvas></div></div>
+        <div class="chart-card"><div class="chart-title"><span class="emoji">🤗</span> HuggingFace 热门模型</div><div class="chart-wrap" style="height:260px"><canvas id="ch-hf"></canvas></div></div>
+        <div class="chart-card"><div class="chart-title"><span class="emoji">📰</span> HN 热度 Top 10</div><div class="chart-wrap" style="height:260px"><canvas id="ch-hn"></canvas></div></div>
+        <div class="chart-card"><div class="chart-title"><span class="emoji">🚀</span> Product Hunt 投票 Top 10</div><div class="chart-wrap" style="height:260px"><canvas id="ch-ph"></canvas></div></div>
+        <div class="chart-card"><div class="chart-title"><span class="emoji">💻</span> 编程语言分布</div><div class="chart-wrap" style="height:240px"><canvas id="ch-lang"></canvas></div></div>
+        <div class="chart-card"><div class="chart-title"><span class="emoji">📄</span> ArXiv 研究方向</div><div class="chart-wrap" style="height:240px"><canvas id="ch-arxiv"></canvas></div></div>
+        <div class="chart-card full"><div class="chart-title"><span class="emoji">🔥</span> HN 热门讨论</div><div class="dash-list">${makeList(d.hn, i => i.title, i => `<span class="hot">▲${i.points}</span> 💬${i.comments}`)}</div></div>
+        <div class="chart-card full"><div class="chart-title"><span class="emoji">🚀</span> Product Hunt 新品</div><div class="dash-list">${makeList(d.ph, i => i.name + ' — ' + i.tagline, i => `<span class="hot">▲${i.votes}</span>`)}</div></div>
+        <div class="chart-card full"><div class="chart-title"><span class="emoji">🤗</span> HuggingFace 新模型</div><div class="dash-list">${makeList(d.hf, i => i.id, i => `❤️${i.likes} ⬇️${(i.downloads/1000).toFixed(0)}k`)}</div></div>
+        <div class="chart-card full"><div class="chart-title"><span class="emoji">📄</span> ArXiv 最新论文</div><div class="dash-list">${makeList(d.arxiv, i => i.title, i => i.categories.slice(0,2).join(', '))}</div></div>
+      </div>
+    </div>`;
+    setContent(html);
+
+    // Render charts after DOM update
+    requestAnimationFrame(() => {
+      // Trending bar chart
+      const t10 = d.trending.slice(0, 10);
+      chartInstances.push(new Chart(document.getElementById('ch-trending'), {
+        type: 'bar',
+        data: { labels: t10.map(r => r.name.split('/')[1]?.slice(0,15) || r.name.slice(0,15)), datasets: [{ label: 'Today ⭐', data: t10.map(r => r.stars), backgroundColor: CHART_COLORS.slice(0,10).map(c => c + '99'), borderColor: CHART_COLORS.slice(0,10), borderWidth: 1, borderRadius: 4 }] },
+        options: { ...chartOpts({ legend: { display: false } }), indexAxis: 'y' }
+      }));
+
+      // HF horizontal bar
+      const hf10 = d.hf.slice(0, 10);
+      chartInstances.push(new Chart(document.getElementById('ch-hf'), {
+        type: 'bar',
+        data: { labels: hf10.map(m => m.id.split('/')[1]?.slice(0,18) || m.id.slice(0,18)), datasets: [{ label: 'Likes', data: hf10.map(m => m.likes), backgroundColor: '#a855f799', borderColor: '#a855f7', borderWidth: 1, borderRadius: 4 }] },
+        options: { ...chartOpts({ legend: { display: false } }), indexAxis: 'y' }
+      }));
+
+      // HN bar chart
+      const hn10 = d.hn.slice(0, 10);
+      chartInstances.push(new Chart(document.getElementById('ch-hn'), {
+        type: 'bar',
+        data: { labels: hn10.map(s => s.title.slice(0,25) + '…'), datasets: [{ label: 'Points', data: hn10.map(s => s.points), backgroundColor: '#00f0ff99', borderColor: '#00f0ff', borderWidth: 1, borderRadius: 4 }] },
+        options: chartOpts({ legend: { display: false } })
+      }));
+
+      // PH bar chart
+      const ph10 = d.ph.slice(0, 10);
+      chartInstances.push(new Chart(document.getElementById('ch-ph'), {
+        type: 'bar',
+        data: { labels: ph10.map(p => p.name.slice(0,20)), datasets: [{ label: 'Votes', data: ph10.map(p => p.votes), backgroundColor: '#f472b699', borderColor: '#f472b6', borderWidth: 1, borderRadius: 4 }] },
+        options: chartOpts({ legend: { display: false } })
+      }));
+
+      // Language doughnut
+      const langMap = {};
+      [...d.trending, ...d.search].forEach(r => { if (r.language) langMap[r.language] = (langMap[r.language] || 0) + 1; });
+      const langEntries = Object.entries(langMap).sort((a,b) => b[1] - a[1]).slice(0, 8);
+      chartInstances.push(new Chart(document.getElementById('ch-lang'), {
+        type: 'doughnut',
+        data: { labels: langEntries.map(e => e[0]), datasets: [{ data: langEntries.map(e => e[1]), backgroundColor: CHART_COLORS.slice(0, langEntries.length), borderWidth: 0 }] },
+        options: doughnutOpts({ legend: { position: 'right', labels: { boxWidth: 12, padding: 10, font: { size: 11 } } } })
+      }));
+
+      // ArXiv category doughnut
+      const catMap = {};
+      d.arxiv.forEach(p => p.categories.forEach(c => { const short = c.replace('cs.',''); catMap[short] = (catMap[short] || 0) + 1; }));
+      const catEntries = Object.entries(catMap).sort((a,b) => b[1] - a[1]).slice(0, 8);
+      chartInstances.push(new Chart(document.getElementById('ch-arxiv'), {
+        type: 'doughnut',
+        data: { labels: catEntries.map(e => e[0]), datasets: [{ data: catEntries.map(e => e[1]), backgroundColor: CHART_COLORS.slice(0, catEntries.length), borderWidth: 0 }] },
+        options: doughnutOpts({ legend: { position: 'right', labels: { boxWidth: 12, padding: 10, font: { size: 11 } } } })
+      }));
+    });
+  } catch (e) {
+    setContent(`<div class="msg"><div class="msg-icon">⚠️</div><div>Dashboard 加载失败：${e.message}<br><br><span style="font-size:11px;color:var(--text-muted)">需要先运行一次 daily digest 生成 dashboard.json</span></div></div>`);
+  }
+}
 
 (async () => {
   try {
