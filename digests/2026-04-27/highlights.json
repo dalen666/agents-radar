@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 遇多 bug，超时卡死输出重复频发",
+      "OpenAI Codex 权限重构，MCP 泄漏修复引关注",
+      "Gemini CLI 子代理 Bug 待解，内部核心重构提速",
+      "Copilot CLI 插件系统回归，Autopilot 循环需优化",
+      "OpenCode 连发 3 补丁，v1.14.28 修复多 Shell 问题",
+      "Qwen Code DeepSeek 兼容 Bug 修复，免费策略引争议"
+    ],
+    "ai-agents": [
+      "OpenClaw 连发 4 个 beta 版，TTS 系统大升级",
+      "核心回归问题 ANTHROPIC_MODEL_ALIASES 已修复",
+      "macOS 启动崩溃及 Homebrew 安装问题一并解决",
+      "GPT-5.5 模型已纳入目录，快速跟进 OpenAI",
+      "TTS 新增 Azure Speech 等 6 家提供商支持",
+      "社区 500 条 Issue 热议，告别信质疑稳定性"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 日增 2519 星，Agent 技能生态爆发",
+      "openclaw 日增 627 星，个人 AI 助手受热捧",
+      "vllm 获 78k 星，稳居 LLM 推理引擎标杆",
+      "trycua/cua 日增 182 星，CUA 基础设施兴起",
+      "beads 日增 152 星，为 Agent 提供外挂记忆",
+      "bytedance/deer-flow 长周期任务编排受关注"
+    ],
+    "ai-web": [
+      "OpenAI 更新企业价值观页，强化组织治理信号",
+      "Anthropic 今日无新内容，或处重大发布前静默期",
+      "OpenAI 内容更新聚焦文化建设而非技术发布",
+      "Anthropic 坚持宪法 AI 优先，差异化竞争安全赛道",
+      "OpenAI 成发布节奏引领者，Anthropic 精准跟进",
+      "两大巨头更新失衡，预示下一步产品框架梳理"
+    ],
+    "ai-hn": [
+      "OpenAI 弃 SWE-bench 评估，基准测试脆弱性引热议",
+      "本地 LLM Clanker 挖 Linux 内核漏洞，新范式受关注",
+      "Chrome 发布 Prompt API，浏览器内 AI 集成引担忧",
+      "EvanFlow 为 Claude Code 打造 TDD 反馈循环工具",
+      "DeepSeek 大幅降价，云 AI 价格战持续升级",
+      "OpenAI 与 xAI 法律战升级，商业竞争白热化"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 登顶文本榜，日获 2895 赞",
+      "Google Gemma-4-31B-it 周下载量超 600 万次",
+      "智谱 GLM-5.1 采用 MoE 架构，周赞激增 1526",
+      "MiniMax-M2.7 下载量近 50 万，对话模型有力竞争者",
+      "Qwen3.6-35B-A3B 周下载破百万，MoE 明星模型",
+      "社区弗兰肯斯坦式合并 Jackrong 模型走红"
+    ],
+    "ai-community": [
+      "Dev.to 发起 OpenClaw 安全部署与隐私保护讨论",
+      "Claude Code 自定义 Slash 命令教程火爆，效率提升",
+      "Transformer 系列教程深入解析编解码注意力机制",
+      "Lobste.rs 热议 AI 末日漏洞与光子深度学习",
+      "GPT 图像生成结合 360 全景，创意应用受追捧",
+      "AI Agent 记忆系统构建教程解决会话遗忘痛点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex, Gemini CLI top tools",
+      "Stream reliability is shared pain point",
+      "Plugin extensibility key demand across tools",
+      "Market still discovering core UX requirements",
+      "Community-driven growth for Kimi Code, Pi",
+      "Cross-tool comparison reveals context window issues"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues, 500 PRs",
+      "4 new beta releases for TTS upgrade",
+      "468 open PRs signals merge bottleneck",
+      "Major TTS overhaul with /tts latest command",
+      "Chat-scoped auto-TTS controls added",
+      "Agent/account-level voice overrides introduced"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains 2,519 stars today",
+      "Free Claude code movement explodes",
+      "ComposioHQ skills marketplace surges",
+      "trycua/cua leads computer-use infrastructure",
+      "LightRAG at 34K stars dominates RAG",
+      "OpenSandbox gains traction from Alibaba"
+    ],
+    "ai-web": [
+      "OpenAI published 'Our Principles' on Apr 26",
+      "Anthropic published no new content today",
+      "No article body text for OpenAI update",
+      "OpenAI revisiting corporate or safety guidelines",
+      "Anthropic in consolidation or planning phase",
+      "Minimal activity day for both companies"
+    ],
+    "ai-hn": [
+      "SWE-bench no longer measures frontier coding",
+      "OpenAI benchmark debate sparks 268 points",
+      "DeepSeek drops input cache price 1/10th",
+      "AI bots produce news funded by OpenAI",
+      "Google pushes AI edge against AWS, Azure",
+      "UK AI datacenter energy demands raise concern"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 2,895 likes",
+      "Qwen3.6-35B-A3B MoE model surges",
+      "Google Gemma-4 sees explosive adoption",
+      "MiniMax-M2.7 emerges as chat alternative",
+      "GGUF quantizations fuel community fine-tunes",
+      "Uncensored variants reflect safety tension"
+    ],
+    "ai-community": [
+      "OpenClaw hackathon drives practical agent projects",
+      "AI dooms zero day thread draws 25 comments",
+      "PyTexas 2026 highlights 'vibecoding' trend",
+      "NeuroCloak monitors model governance",
+      "CropGuard AI detects plant diseases",
+      "Community unease grows over AI supply chain"
+    ]
+  }
+}
