@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区聚焦多模型支持与MCP协议整合",
+      "OpenAI Codex 获347赞，社区高度关注",
+      "Kimi Code 聚焦审批自动化和后台任务管理",
+      "Gemini CLI 修复两个CRITICAL级别Bug",
+      "Copilot CLI 发布v1.0.37解决成本失控问题",
+      "Pi 连续发布三个版本，修复多项Bug"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内处理超500条Issue和PR",
+      "v2026.4.26版本引入通用浏览器实时语音传输合约",
+      "语音TTS功能全面升级，集成Azure Speech等提供商",
+      "修复代码块缩进等3个高影响Bug",
+      "社区高度关注Beta版本质量和回归性问题",
+      "v2026.4.25版本新增多TTS提供商支持"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日暴涨5645星成榜首",
+      "微软开源前沿语音AI框架VibeVoice",
+      "TradingAgents 专注金融交易多智能体框架",
+      "ComposioHQ/awesome-codex-skills 新增638星",
+      "GitNexus 提供完全浏览器端代码知识图谱",
+      "vllm 持续作为LLM推理基础设施稳固增长"
+    ],
+    "ai-web": [
+      "Anthropic开设悉尼办公室，加码亚太市场",
+      "OpenAI与微软合作进入新阶段",
+      "OpenAI开源Codex Orchestration Symphony项目",
+      "Anthropic任命前Snowflake高管为澳新总经理",
+      "两家公司今日聚焦商业生态而非核心技术",
+      "竞争从模型能力转向商业落地与市场渗透"
+    ],
+    "ai-hn": [
+      "Talkie 项目训练1930年代语言风格13B模型获187分",
+      "Claude代理删库事故引发信任与权限讨论",
+      "49Agents开源AI代理IDE获社区积极反响",
+      "微软论文称LLM代理会腐败文档内容",
+      "OpenAI IPO失速成社区讨论焦点",
+      "谷歌员工联名抵制军事AI项目引热议"
+    ],
+    "ai-arxiv": [
+      "多智能体面临人格崩溃同质化问题",
+      "深度KV缓存剪枝降低长文本推理内存",
+      "模型会破坏AI安全研究引发对齐警示",
+      "从多源思维链中学习提升模型泛化性",
+      "纯Transformer高效转混合序列模型处理长文本",
+      "AI模型在特定条件下抵制安全研究"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro以3056赞断层领跑社区",
+      "Google Gemma-4-31B-it下载量超630万",
+      "Qwen3.6-35B-A3B MoE版下载量135万",
+      "Kimi-K2.6展现强劲多模态理解能力",
+      "小米发布Agent导向大模型MiMo-V2.5-Pro",
+      "MoE和视觉语言模型成绝对主流趋势"
+    ],
+    "ai-community": [
+      "MCP生产化部署需引入网关成社区热点",
+      "开发者批判AI Agent全量记忆为噪音而非记忆",
+      "HNSW算法解决十亿级向量搜索难题",
+      "Agentic AI真实案例引发幻觉越权反思",
+      "TorchAX教程实现无需重写代码微调模型",
+      "4月LLM井喷：9天5个模型降价约50%"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code released v2.1.121",
+      "OpenAI Codex got 3 alpha releases",
+      "GitHub Copilot CLI released v1.0.37",
+      "Skills directory for Claude Code went viral",
+      "MCP server integration is ecosystem focus",
+      "Configurable approval workflows gaining traction"
+    ],
+    "ai-agents": [
+      "OpenClaw shipped two patch releases today",
+      "73% of OpenClaw issues now closed",
+      "Voice/TTS upgrades in latest release",
+      "New realtime transport contract added",
+      "Google Live browser Talk sessions added",
+      "430 PRs remain open, merge bottleneck"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gained +5,645 stars today",
+      "Microsoft open-sourced VibeVoice (+757 stars)",
+      "abhigyanpatwari/GitNexus hits +1,102 stars",
+      "Ollama now supports Kimi-K2.5 and GLM-5",
+      "vllm hits 78,370 total stars",
+      "Claude Code ecosystem matures into skill libraries"
+    ],
+    "ai-web": [
+      "Anthropic opens Sydney office in Australia",
+      "Theo Hourmouzis named ANZ General Manager",
+      "OpenAI hints at Codex Orchestration Symphony",
+      "Next phase of Microsoft partnership signaled",
+      "Anthropic targets financial services sector",
+      "OpenAI content remains opaque and metadata-only"
+    ],
+    "ai-hn": [
+      "Talkie 13B model trained on 1930s text",
+      "DeepSeek V4 priced 97% below GPT-5.5",
+      "OpenAI rumored to build AI-first phone",
+      "Claude agent deleted entire company database",
+      "Community wary of OpenAI commercialization",
+      "Vintage AI concept sparks fascination"
+    ],
+    "ai-arxiv": [
+      "Persona Collapse failure in multi-agent simulations",
+      "DepthKV prunes cache for long-context",
+      "Sycophancy in high-stakes finance studied",
+      "Sabotage of safety research by models",
+      "Optimal multiclass learning sample solved",
+      "Long-Context Upcycling hybrid model scaling"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,056 likes",
+      "Gemma-4-31B-it exceeds 6 million downloads",
+      "Kimi-K2.6 multimodal model trending",
+      "Qwen3.6 ships vision capabilities by default",
+      "Uncensored and GGUF variants dominate",
+      "DeepSeek-V4-Flash is MIT-licensed"
+    ],
+    "ai-community": [
+      "MCP needs a gateway in production",
+      "HNSW solves vector search at scale",
+      "Memory noise traps plague long-running agents",
+      "Community asks how to prepare for AI zero-day",
+      "15-article series on agent infrastructure",
+      "Dev.to flooded with RAG production realities"
+    ]
+  }
+}
