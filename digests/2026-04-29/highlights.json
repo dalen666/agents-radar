@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.122/123 双版本",
+      "OpenAI Codex 多 Alpha 版本适配 GPT-5.5",
+      "Copilot CLI 新版本增强 ACP 能力",
+      "Kimi Code CLI 发布 v1.40.0 快速迭代",
+      "社区热议工具白名单与权限控制",
+      "Claude Code 插件误删文件夹引发安全讨论"
+    ],
+    "ai-agents": [
+      "OpenClaw 进入大规模问题修复周期",
+      "多通道 Telegram、Discord 稳定性修复",
+      "Agent 身份与信任验证提案获128评论",
+      "WhatsApp 群聊 @ 提及检测逻辑修复",
+      "Feishu WebSocket 重试耗尽问题修复",
+      "核心记忆/插件系统修复推进中"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 日增7321星领跑",
+      "GitNexus 零服务器代码智能引擎崛起",
+      "微软开源 VibeVoice 语音AI项目",
+      "ds2api 实现 DeepSeek 到标准API转换",
+      "CherryHQ 集成300+助手成AI工作室",
+      "CowAgent 多渠道超级AI助理受关注"
+    ],
+    "ai-web": [
+      "Anthropic 宣布与 Blender/Adobe/Ableton 合作",
+      "Claude 连接器深入创意工具操作层",
+      "Anthropic 发布选举保障措施更新",
+      "采用宪法式训练实现政治中立",
+      "OpenAI 新增与 AWS 云服务集成页面",
+      "Claude 定位为创作者增强工具"
+    ],
+    "ai-hn": [
+      "Claude Code 回归Bug触发恶意警告",
+      "Anthropic 服务中断引发客户流失讨论",
+      "无头驱动macOS应用项目获72分热议",
+      "VibeBench 用工程师主观评测模型",
+      "社区对OpenAI与AWS深度捆绑争议多",
+      "Claude for Creative Work 反应平淡"
+    ],
+    "ai-arxiv": [
+      "递归多智能体系统探索协作缩放",
+      "Tsallis损失函数解决RL训练停滞",
+      "27K样本揭示AI流畅性悖论",
+      "有条件不对齐可被隐藏触发",
+      "RLHF标注的三种规范哲学模型",
+      "SAEs揭示LLM情感推理机制"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以3164赞登顶",
+      "Qwen3.6 MoE版下载量突破150万",
+      "Google Gemma-4-31B 下载超655万",
+      "Kimi K2.6 多模态理解人气极高",
+      "智谱GLM-5.1 下载量达25.6万",
+      "社区微调Qwen3.6衍生模型爆发"
+    ],
+    "ai-community": [
+      "AI Agent 9秒清空生产数据库警示",
+      "GitHub Copilot 6月1日改按量计费",
+      "MCP 被视为下一代AI交互范式",
+      "批评AI使用不当：当谷歌用则糟",
+      "微调Gemma 4用无服务器GPU实践",
+      "从零构建专属Agent成流量密码"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Six tools shipped releases today",
+      "Claude Code v2.1.123 out, 2 patches",
+      "Granular auto-approval now requested",
+      "Copilot session management trending",
+      "Windows/WSL2 compatibility issues persist",
+      "Community demands feature parity"
+    ],
+    "ai-agents": [
+      "500 issues, 500 PRs in 24 hours",
+      "144 issues resolved, 22 PRs merged",
+      "Bug spike after v2026.4.26 release",
+      "Clownfish bot repairs critical bugs",
+      "356 open issues, 478 open PRs",
+      "No new releases, regression recovery"
+    ],
+    "ai-trending": [
+      "Claude Code skills projects surge",
+      "mattpocock/skills gains +7,321 stars",
+      "Microsoft VibeVoice hits +1,483 stars",
+      "Free Claude Code alternative +1,741 stars",
+      "Claude Mem reaches 69,311 stars",
+      "firecrawl crosses 112,921 stars"
+    ],
+    "ai-web": [
+      "Claude for Creative Work announced",
+      "Integrates with Blender, Adobe, Ableton",
+      "Anthropic details election safeguards",
+      "OpenAI announces AWS Bedrock partnership",
+      "Strategic pivot to specialized assistants",
+      "Connectors handle batch editing, renaming"
+    ],
+    "ai-hn": [
+      "Claude suffers major outage today",
+      "Agent wiped a database in 9 seconds",
+      "Blender Foundation sponsorship announced",
+      "OpenAI reveals ChatGPT ad disclosures",
+      "Opus costs cut 10x in real-world use",
+      "Musk v. Altman trial courtroom drama"
+    ],
+    "ai-arxiv": [
+      "AI fluency creates safety trade-off",
+      "RLHF can mask misalignment triggers",
+      "Tsallis loss aims for efficiency",
+      "Carbon-Taxed compression pipelines emerge",
+      "Multi-agent loops improve reasoning",
+      "Graph-guided fine-tuning gains traction"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 3,164 likes",
+      "DeepSeek-V4-Flash MIT-licensed",
+      "gemma-4-31B-it hits 6.5M+ downloads",
+      "Qwen3.6 sees heavy quantization focus",
+      "LLaDA2.0-Uni any-to-any pipeline",
+      "Tencent HY-World-2.0 world model"
+    ],
+    "ai-community": [
+      "GitHub Copilot switches to usage billing",
+      "AI OAuth tool breach via Vercel hack",
+      "OpenHands agent guides go viral",
+      "SWE-agent deep dives popular",
+      "Photonic computing sparks debate",
+      "SynthID watermarking discussed"
+    ]
+  }
+}
