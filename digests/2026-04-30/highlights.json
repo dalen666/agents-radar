@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 收费 Bug 引发社区恐慌，HERMES 关键字触发异常计费",
+      "Gemini CLI 发布准备中，Agent 智能和子代理可靠性成焦点",
+      "OpenAI Codex 高频迭代，4个Alpha版本聚焦Windows兼容性",
+      "Qwen Code 发布两个新版本，支持DeepSeek模型兼容",
+      "GitHub Copilot CLI 发布Test Build，强化MCP连接和权限",
+      "Kimi Code CLI 聚焦IDE集成和无头环境安全可控性"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.27 发布，集成DeepInfra和Codex Computer Use",
+      "社区活跃度极高，Issues和PR双双达到500条峰值",
+      "新版本引发大量稳定性回归，gateway不可达问题突出",
+      "项目团队积极处理积压Bug，已关闭339个回归问题",
+      "Codex Computer Use 增强桌面控制，增加MCP故障检查",
+      "DeepInfra 正式加入捆绑提供商，支持多模态模型"
+    ],
+    "ai-trending": [
+      "warpdotdev/warp 日增12,822 Star，定义代理式开发环境新范式",
+      "RAG进入无向量时代，VectifyAI/PageIndex 基于推理模式崛起",
+      "microsoft/VibeVoice 开源语音AI项目，日增1,690 Star",
+      "NousResearch/hermes-agent 持续火爆，打造个人AI伙伴",
+      "obra/superpowers 代理技能框架，定义AI辅助方法论",
+      "ComposioHQ/awesome-codex-skills 实用技能清单日增1,177 Star"
+    ],
+    "ai-web": [
+      "Anthropic发布BioMysteryBench，评估Claude生物信息学研究能力",
+      "新基准超越MMLU和GPQA，专注于解决开放式科研谜题",
+      "OpenAI更新神秘页面《Where The Goblins Came From》内容未知",
+      "两家公司今日仅发布一篇内容，发布节奏明显放缓",
+      "竞争焦点从模型能力转向模型效用，科研协作成新方向",
+      "Anthropic‘发现团队’目标直指加速科学发现与创新"
+    ],
+    "ai-hn": [
+      "HERMES.md 触发 Claude Code 异常计费，获1044分热议",
+      "OpenAI揭秘‘地精禁令’Bug，源于GPT-5.4数据污染",
+      "Claude Code穴居人插件与‘be brief’指令深度对比评测",
+      "微调可激活大模型逐字复述版权书籍，引发版权争议",
+      "Zig项目明确拒绝AI贡献政策，社区争论激烈",
+      "开源AI法律工具Mike上线，法律技术自动化获关注"
+    ],
+    "ai-arxiv": [
+      "跨架构蒸馏TIDE首次将Transformer能力迁移至扩散LLM",
+      "语言扩散模型被发现本质是关联记忆，可回忆未见数据",
+      "扁鹊智能体框架实现灵活图结构技能编排用于系统运维",
+      "FutureWorld构建动态环境训练智能体预测真实世界事件",
+      "选择即思考范式让大模型仅在关键推理分歧点介入",
+      "CurEvo为视频理解模型自进化引入课程学习递进机制"
+    ],
+    "ai-hf": [
+      "Google Gemma 4-31B-it 下载量突破655万，遥遥领先",
+      "DeepSeek-V4-Pro 点赞3246，成社区最受关注对话模型",
+      "Qwen 3.6-35B-A3B MoE架构以小参数实现高性能",
+      "unsloth量化版本热度飙升，低成本本地部署需求旺盛",
+      "GLM-5.1 DSA架构创新，中文能力表现亮眼",
+      "NVIDIA Nemotron 3 MoE模型获社区高度关注"
+    ],
+    "ai-community": [
+      "AI Agent 攻占终端，Codex和Gemini CLI引发IDE外新战场",
+      "Lost-in-the-Middle问题在百万Token模型中依然存在",
+      "用Claude+Kollabe MCP自动化团队站会，替代重复管理",
+      "量化分析3个月AI工具对工程效率的实际影响",
+      "Agent Prompt注入和安全可靠性成社区冷思考焦点",
+      "Google ADK和GKE Agent Sandbox实践与解读成热点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Plugin ecosystem divide emerges",
+      "Codex ships 4 alpha releases",
+      "Gemini CLI security-focused PRs",
+      "Copilot CLI MCP/permission issues",
+      "Stability regressions erode trust",
+      "Billing transparency remains pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.27 released",
+      "500 issues updated in 24 hours",
+      "Codex Computer Use integration",
+      "DeepInfra provider support added",
+      "474 open PRs show review bottleneck",
+      "Regression bugs in recent updates"
+    ],
+    "ai-trending": [
+      "Warp gains 12,828 stars today",
+      "Microsoft open-sources VibeVoice",
+      "Ollama surpasses 170,000 stars",
+      "Skills-as-Code movement explodes",
+      "GhostTrack location tool goes viral",
+      "vLLM backbone for AI serving"
+    ],
+    "ai-web": [
+      "Anthropic launches BioMysteryBench",
+      "LLM bioinformatics research evaluation",
+      "Beyond general knowledge tests",
+      "OpenAI publishes goblin explanation",
+      "Strategic scientific domain focus",
+      "End-to-end scientific workflow testing"
+    ],
+    "ai-hn": [
+      "Claude Code HERMES.md billing bug",
+      "OpenAI explains GPT-5.4 goblins",
+      "Codex bans goblin talk explicitly",
+      "Musk v. OpenAI trial revelations",
+      "Fine-tuning revives copyright recall",
+      "Agent autonomy alarm bells ring"
+    ],
+    "ai-arxiv": [
+      "Cross-architecture distillation for diffusion LLMs",
+      "Diffusion models as associative memories",
+      "Unifying sparse attention architectures",
+      "Training-free coding systems emerge",
+      "Serverless model serving advances",
+      "Linguistic typology via ML studied"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it hits 6.6M downloads",
+      "DeepSeek-V4-Pro earns 3,246 likes",
+      "Qwen 3.6 family dominates volume",
+      "Unsloth powers 7 of top 30 models",
+      "Google leads multimodal model shift",
+      "Xiaomi's MiMo-V2.5-Pro gains traction"
+    ],
+    "ai-community": [
+      "Google Cloud NEXT 26 ADK revealed",
+      "GKE Agent Sandbox announced",
+      "MCP vs A2A protocol debate",
+      "FastAPI LLM integration patterns",
+      "AI fixes 165 Playwright tests",
+      "Self-improving LLMs discussed"
+    ]
+  }
+}
