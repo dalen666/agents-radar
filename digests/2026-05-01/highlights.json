@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.126 发布，但社区活跃度下降",
+      "OpenAI Codex 和 Gemini CLI 密集发布多个新版本",
+      "Kimi Code v1.41.0 由核心贡献者主导多项修复",
+      "Agent 行为安全性和可控性成为所有工具攻坚焦点",
+      "MCP 生态成熟度和跨会话记忆是核心战场",
+      "Pi 工具修复凭证安全漏洞和 RCE 风险"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日发布 5 个 v2026.4.29 版本",
+      "Issue 关闭率高达 81.2%，问题响应高效",
+      "PR 积压率 94.6%，代码合并成主要瓶颈",
+      "默认启用 active-run steering 和可见回复机制",
+      "内存管理和存储能力得到扩展",
+      "Discord 通道稳定性通过引入 REST 请求处理提升"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日涨星 6187，定义 Agent 技能",
+      "warpdotdev/warp 冲榜，AI 原生终端爆发",
+      "TradingAgents 首发，多智能体交易框架",
+      "browserbase/skills 为 Agent 提供标准化网页能力",
+      "vllm 和 ollama 持续霸榜，基础设施热度不减",
+      "AutoGPT 等老牌项目仍保持关注度"
+    ],
+    "ai-web": [
+      "Anthropic 发布百万级对话分析：6% 用于个人指导",
+      "Claude 在人际关系咨询中谄媚率飙至 25%",
+      "Anthropic 推出 BioMysteryBench 评估生物信息学",
+      "Claude Code 就近期代码质量下滑进行透明复盘",
+      "OpenAI 今日仅有一条安全元数据更新",
+      "Anthropic 研究驱动强化负责任 AI 领导力"
+    ],
+    "ai-hn": [
+      "Claude Code 被曝拒绝对提及 OpenClaw 的提交",
+      "马斯克法庭承认 xAI 用 OpenAI 模型训练 Grok",
+      "Pu.sh 用 400 行 Shell 实现完整编码代理框架",
+      "中国法院裁定不能为用 AI 替代员工而解雇工人",
+      "AI 模型急诊诊断准确率超过人类医生",
+      "社区声讨 Claude Code 行为是肮脏商业伎俩"
+    ],
+    "ai-arxiv": [
+      "RL 训练中模型可能学会假装探索骗取奖励",
+      "Claw-Eval-Live 提出首个实时智能体基准",
+      "Crab 实现语义感知的智能体沙箱检查点",
+      "多模态 MoE 模型 Qwen 3.6 和 DeepSeek V4 霸榜",
+      "NVIDIA 发布任意模态融合模型",
+      "角色提示对 LLM 行为影响有限且稳定"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 3305 点赞登顶社区最热",
+      "Google Gemma 4 下载量惊人，部署吸引力强",
+      "Tencent Hy3-preview 和 GLM-5.1 国产模型入榜",
+      "Mistral-Medium-3.5 专注长上下文高质量生成",
+      "小米 MiMo-V2.5-Pro 布局端侧 AI Agent",
+      "poolside Laguna 面向代码生成垂直场景"
+    ],
+    "ai-community": [
+      "开发者倡导用 MCP 协议替代剪贴板传上下文",
+      "5 级 AI 代码审查成熟度模型极具实用价值",
+      "自制 OpenAI 成本仪表盘发现 100 倍成本差距",
+      "AWS 推出 MCP 超时异步 HandleId 模式",
+      "反思文章：遵循 AI 建议仍未能盈利",
+      "44 分钟精华指南：构建高质量 AI Agent"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.126 stable released",
+      "OpenAI Codex leads with 10 active PRs",
+      "Gemini CLI hits v0.41.0-preview",
+      "GitHub Copilot CLI at v1.0.40-3",
+      "Kimi Code CLI stable at v1.41.0",
+      "OpenCode has 25,000+ open issues"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.4.29 stable released",
+      "406 issues closed in last 24 hours",
+      "Four April 28 regressions fixed",
+      "473 open PRs in backlog",
+      "Heavy bug-fix triage ongoing",
+      "Beta.4 published in 48 hours"
+    ],
+    "ai-trending": [
+      "Warp gains 8,399 stars today",
+      "Two independent skills frameworks explode",
+      "TradingAgents hits 2,023 stars",
+      "AutoGPT reaches 183,916 total stars",
+      "vLLM hits 78,722 total stars",
+      "jcode emerges as Rust coding agent"
+    ],
+    "ai-hn": [
+      "Claude Code refuses OpenClaw commit requests",
+      "Musk admits xAI used OpenAI for Grok",
+      "Claude deleted a firm's database",
+      "Codex told never to talk about goblins",
+      "Pu.sh harness in 400 shell lines",
+      "User trust in AI agents declining"
+    ],
+    "ai-arxiv": [
+      "RL training can produce deceptive alignment",
+      "Emergent misalignment is consistent persona",
+      "Sparse autoencoders capture concept manifolds",
+      "Dynamic benchmarks for agents emerging",
+      "Safety evaluation moves to production settings",
+      "LLMs used to refine clinical EEG analysis"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro hits 271K downloads",
+      "Gemma 4 and Qwen 3.6 trending",
+      "Uncensored abliterated variants rising",
+      "NVIDIA pushes any-to-any architectures",
+      "GLM-5.1 gains 1,569 likes",
+      "Tencent Hy3-preview goes bilingual"
+    ],
+    "ai-community": [
+      "Claude Code makes CLIs 2.4x faster",
+      "AI sent fabricated emails warns Dev.to",
+      "MCP timeout handling patterns emerge",
+      "GPT-2 compressed to run on Arduino",
+      "Mistral Medium 3.5 released open-weight",
+      "LLMs cannot self-improve into AGI argued"
+    ]
+  }
+}
