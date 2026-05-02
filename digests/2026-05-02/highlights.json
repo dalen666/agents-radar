@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code定价与配额消耗问题成社区最大痛点",
+      "Gemini CLI聚焦Agent优化与Effect模式架构",
+      "OpenCode发布v1.14.31，架构重构进行中",
+      "Pi发布v0.72.0，注重生态扩展与核心修复",
+      "Qwen Code聚焦可观测性与生产化改进",
+      "MCP生态兼容性成所有工具通用挑战"
+    ],
+    "ai-agents": [
+      "OpenClaw社区爆发500条Issue，合并率仅12.2%",
+      "Gateway死锁与CPU满载问题成核心痛点",
+      "修复了心跳模式下消息格式泄漏Bug",
+      "新增SDK任务台账RPC，赋能后台任务管理",
+      "引入维护窗口角色隔离与延迟重放机制",
+      "新增上传存档安装RPC，简化插件部署"
+    ],
+    "ai-trending": [
+      "mattpocock/skills日增3645星，工程师技能包爆火",
+      "TauricResearch/TradingAgents日增2112星，多智能体金融交易",
+      "warpdotdev/warp日增3401星，终端智能体开发环境",
+      "obra/superpowers日增1096星，智能体技能框架",
+      "Ollama本地运行大模型标杆，星数超17万",
+      "CopilotKit前端智能体堆栈，星数超3万"
+    ],
+    "ai-hn": [
+      "Uber四个月烧光2026全年AI预算，主力用于Claude Code",
+      "Destiny项目为Claude Code添加算命技能，黑色幽默回应",
+      "Omar TUI上线，可管理100个编码AI Agent",
+      "DeepSeek V4性能接近前沿但成本极低引发热议",
+      "OpenAI被指双标限制模型访问引社区不满",
+      "AI泡沫是否即将破裂成热门辩论话题"
+    ],
+    "ai-arxiv": [
+      "探索黑客研究揭示LLM可能规避RL训练",
+      "动态基准Claw-Eval-Live评估真实世界工作流",
+      "Crab系统为智能体沙箱提供语义感知检查点",
+      "生产级Text-to-SQL评估方法突破静态基准局限",
+      "博弈论研究提出多边偏离均衡新概念",
+      "图表示学习统一框架为AI提供新数学工具"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro登顶热度榜首，获3373赞",
+      "Google Gemma 4下载量超747万，影响力巨大",
+      "Kimi K2.6下载量达64.9万，长上下文实力强劲",
+      "Qwen 3.6家族爆发式增长，社区微调版流行",
+      "小米MiMo V2.5成Any-to-Any多模态新热点",
+      "GGUF量化与无审查微调需求持续旺盛"
+    ],
+    "ai-community": [
+      "AI编码Agent效果取决于代码仓库结构化质量",
+      "Agent技能若无评估体系仅是空谈引发共鸣",
+      "开发者从复制粘贴到AI生成，本质问题未解决",
+      "MCP生态五大难题：认证、可靠性、标准化",
+      "图遍历替代语义搜索突破RAG局限性引关注",
+      "实时调试MCP工具调用成开发新需求"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits 674 comments on issue",
+      "OpenAI Codex releases rust-v0.129.0-alpha.2",
+      "Gemini CLI shows rapid iteration pace",
+      "Windows reliability crises plague tools",
+      "MCP integration complexity is a top theme",
+      "Reasoning effort management debated"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs",
+      "CPU pinning regression plagues Windows",
+      "WebSocket starvation bug on ARM64",
+      "Docker Desktop deadlocks reported",
+      "415 open issues in stabilization",
+      "61 PRs merged today, incl. #75946"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains +3,645 stars",
+      "warpdotdev/warp gains +3,401 stars",
+      "TauricResearch/TradingAgents +2,112 stars",
+      "Agentic skills and terminals trending",
+      "Memory layers for agents gain traction",
+      "Ollama now supports Kimi-K2.5"
+    ],
+    "ai-hn": [
+      "Uber burns 2026 AI budget on Claude Code",
+      "OpenAI restricts Cyber model amid hypocrisy",
+      "DeepSeek V4 nears frontier at low cost",
+      "Dark-money campaign frames Chinese AI",
+      "xAI distilled from OpenAI models",
+      "DeepSeek undermines OpenAI premium pricing"
+    ],
+    "ai-arxiv": [
+      "Exploration hacking lets LLMs resist RL",
+      "Emergent misalignment persona analyzed",
+      "Latent adversarial detection via activations",
+      "Auto-FlexSwitch advances model merging",
+      "Synthetic Computers benchmark for agents",
+      "Claw-Eval-Live evaluates workflows"
+    ],
+    "ai-hf": [
+      "Qwen3.6 family surpasses 3 million downloads",
+      "DeepSeek-V4-Pro leads with 3,373 likes",
+      "Any-to-any models like Nemotron-3 emerge",
+      "Kimi-K2.6 gets compressed-tensors support",
+      "GLM-5.1 MoE model trends on Hub",
+      "Community quantizes models within hours"
+    ],
+    "ai-community": [
+      "Agent productionizing shifts to engineering",
+      "MCP server performance lessons shared",
+      "Skills without evals called markdown",
+      "Repo structure impacts coding agent skill",
+      "1930s-vintage language model explored",
+      "Limits of self-improving LLMs debated"
+    ]
+  }
+}
