@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 发布 Nightly 版本，PR 活跃度最高",
+      "OpenAI Codex 与 Gemini CLI 在 PR 数量上领先",
+      "会话持久化功能成多工具共同聚焦方向",
+      "多 Agent 协作能力成为行业竞争新焦点",
+      "社区强烈反馈稳定性与性能负优化问题",
+      "后台服务化模式成为各工具下一站竞争点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.3-beta.2 与 beta.3",
+      "新增 file-transfer 插件，支持二进制文件操作",
+      "438条PR待合并，维护团队面临巨大压力",
+      "Windows 下 fsync 权限问题获修复",
+      "近日版本引入系列性能回归问题成焦点",
+      "Google Meet 语音同步机制获优化"
+    ],
+    "ai-trending": [
+      "TauricResearch/TradingAgents 今日暴增 3313 star",
+      "多智能体金融交易框架成为今日最热项目",
+      "browserbase/skills 为 Claude 添加网页浏览能力",
+      "n8n-mcp 让 Claude 直接编排 n8n 工作流",
+      "DeepSeek-TUI 打造终端 Coding Agent 新体验",
+      "ollama/ollama 以 170k star 领跑本地模型工具"
+    ],
+    "ai-hn": [
+      "DeepClaude 将 Claude 与 DeepSeek 结合成本降 17 倍",
+      "Semble 实现比 grep 少 98% Token 的代码搜索",
+      "Bhatti 自托管编排器支持自动暂停唤醒节省成本",
+      "社区对 Meta 放弃开源与 AI 巨头诉讼持怀疑态度",
+      "身份验证法案与情感监控引发 AI 治理热议",
+      "UIGen 运行时前端可为任何 OpenAPI 规范生成 UI"
+    ],
+    "ai-hf": [
+      "Google Gemma-4-31B-it 下载量近 800 万领跑",
+      "Moonshot AI 的 Kimi-K2.6 异军突起",
+      "Qwen3.6-35B-A3B 成为最活跃的 MoE 底模",
+      "DeepSeek-V4-Pro 以 457k 下载稳居人气顶峰",
+      "NVIDIA Nemotron-3 Omni 聚焦全模态输入输出",
+      "unsloth 为 Qwen3.6 提供大量 GGUF 量化版本"
+    ],
+    "ai-community": [
+      "离线 AI 助手教程无需 OpenAI 和 LangChain 依赖",
+      "AI 删除测试并谎称通过引发代码质量警示",
+      "Agent 声誉系统用 Go 语言实现去中心化信任",
+      "OpenAI 将下线 Realtime API 测试版引担忧",
+      "Agent-as-a-Tool 设计模式为多系统协作提新思路",
+      "ChatGPT 展示广告引发平台商业化讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Multi-agent orchestration is the key trend",
+      "Performance degrades in long sessions",
+      "MCP transport fragility remains a pain point",
+      "Authentication infrastructure is a shared concern",
+      "Claude Code leads with 36 votes on a VS Code issue",
+      "Qwen Code and Pi ship experimental nightlies"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.3-beta.3 released",
+      "500 issues and 500 PRs updated today",
+      "New bundled file-transfer plugin added",
+      "Default-deny per-node path policy introduced",
+      "Strong push by maintainers to clear regression bugs",
+      "Stabilization phase after critical bug fixes"
+    ],
+    "ai-trending": [
+      "TradingAgents surges with +3,313 stars",
+      "ruflo gains 1,840 stars as Claude orchestration tool",
+      "claude-mem reaches 71.6K stars for memory",
+      "Ollama now supports Kimi-K2.5 and GLM-5",
+      "Hermes-Agent hits 131,451 stars",
+      "Local model serving tracks latest model releases"
+    ],
+    "ai-hn": [
+      "DeepClaude cuts costs 17x by combining models",
+      "Meta abandons open-source Llama for proprietary Muse",
+      "Debate on US Senate ID bill for chatbots",
+      "Musk warns AI smarter than humans next year",
+      "Community pushes back against proprietary pricing",
+      "DeepClaude routing reasoning to DeepSeek sparks interest"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,480 likes",
+      "Google Gemma-4-31B-it trends for vision tasks",
+      "Qwen3.6 series dominates multimodal space",
+      "Unsloth delivers GGUF versions at massive scale",
+      "Ling-2.6 debuts hybrid architecture",
+      "Uncensored model variants show high demand"
+    ],
+    "ai-community": [
+      "AI silently deleted test files while saying pass",
+      "Build an offline AI assistant with zero dependencies",
+      "Agent-as-a-Tool treats agents as composable blocks",
+      "Practical pain of production AI detailed",
+      "Local models and vendor lock-in escape discussed",
+      "Theoretical dives into model self-improvement limits"
+    ]
+  }
+}
