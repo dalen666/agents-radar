@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 会话持久化缺失引发社区热议，单个 Issue 获 61 赞",
+      "OpenAI Codex 发布 3 个 Rust Alpha 版本，单 Issue 获 153 赞",
+      "Gemini CLI v0.42.0-nightly 发布，单 Issue 评论数达 163 条",
+      "GitHub Copilot CLI v1.0.41-0 发布，社区聚焦稳定性与跨平台兼容",
+      "Pi v0.73.0 发布，GitHub Copilot 替代者热度攀升",
+      "Qwen Code v0.15.6-nightly 发布，社区对多模型集成呼声高涨"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.5.4-beta.2，优化 Google Meet 语音通话体验",
+      "file-transfer 插件正式引入，支持节点间二进制文件传输",
+      "代理上下文丢失与 OOM 内存溢出成社区 Bug 修复焦点",
+      "WhatsApp、Telegram、Slack 多渠道集成问题引发广泛讨论",
+      "v2026.5.3-1 热修复发布，解决插件误报安全风险",
+      "多代理协作与执行前后钩子等高级工作流功能需求旺盛"
+    ],
+    "ai-trending": [
+      "ruvnet/ruflo 日增 2598 星，Claude Agent 编排平台登顶热榜",
+      "TauricResearch/TradingAgents 日增 2182 星，多智能体金融交易框架",
+      "czlonkowski/n8n-mcp 日增 496 星，连接 AI Agent 与 n8n 工作流",
+      "msitarzewski/agency-agents 日增 1189 星，一站式 AI Agent 工厂",
+      "browserbase/skills 日增 320 星，为 Agent 赋予网页浏览能力",
+      "virattt/dexter 日增 409 星，深度金融研究自主 Agent"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 4.7，聚焦软件工程与视觉能力",
+      "Claude Opus 4.7 首次体验差异化降低网络能力的安全实验",
+      "Anthropic 联合黑石、高盛成立企业 AI 服务公司，进军中型市场",
+      "OpenAI 今日公布低延迟语音 AI 规模化部署技术焦点",
+      "Anthropic 构建清晰模型矩阵：Opus 安全可靠，Mythos 尖端受限",
+      "Anthropic 从 API 模式向模型即服务加解决方案深度演进"
+    ],
+    "ai-hn": [
+      "OpenAI 低延迟语音 AI 工程揭秘获 328 分，成今日最热帖子",
+      "SprintiQ 开源项目将敏捷冲刺规划集成到 Claude Code",
+      "agent-evals 项目发布，帮助开发者快速构建 Agent 评估流程",
+      "LLM 幻觉不可避免论文引发讨论，社区聚焦实际缓解策略",
+      "关于 LLM 的深度科普与批判长文获 150 分，社区热度高涨",
+      "OpenAI 技术成就与商业政治影响力两极分化，引发社区焦虑"
+    ],
+    "ai-arxiv": [
+      "SpecKV 提出自适应推测解码方法，显著提升 LLM 推理速度",
+      "多智能体误对齐传染问题首次被系统研究并提出引导方案",
+      "ORPilot 开源工具将模糊商业问题直接转为优化模型",
+      "强化学习首次用于 LLM 多智能体系统优化工作流",
+      "利用低比特表示剥离 Transformer 以监控训练过程",
+      "著名数学家 David Mumford 从认知科学探讨 AI 能动性"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以 3532 点赞领跑 Hugging Face 热门榜",
+      "Google Gemma-4-31B-it 下载量突破 804 万，多模态标杆",
+      "Qwen3.6-35B-A3B MoE 架构以 3B 激活参数实现 35B 性能",
+      "小米 MiMo-V2.5-Pro 发布，主打长上下文与自主决策",
+      "Mistral-Medium-3.5-128B 开源，对抗闭源模型重要力量",
+      "Unsloth 团队为热门模型提供 GGUF 版本，降低部署门槛"
+    ],
+    "ai-community": [
+      "AI 网关 vs MCP 网关 vs Agent 网关对比文章获 30 赞",
+      "开发者使用 AI 的四种认知原型框架引发社区反思",
+      "管理 150+ AI Agent 技能的实战案例获 22 赞",
+      "Anthropic Mythos 安全报告引发 Agent 自主操作风险辩论",
+      "文本分块实验挑战认知：最优策略随内容类型动态变化",
+      "Lobste.rs 聚焦模型压缩与架构逆向工程等底层技术"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.128 session loss crisis",
+      "OpenAI Codex releases 3 alphas today",
+      "Kimi Code CLI iterating aggressively",
+      "Pi tool adds local LLM support",
+      "Qwen Code targets background tasks",
+      "Gemini CLI faces Windows crashes"
+    ],
+    "ai-agents": [
+      "OpenClaw ships 4 new versions today",
+      "500 issues and 500 PRs in 24h",
+      "File-transfer plugin bundled in beta.2",
+      "Google Meet/Twilio dial-in streaming added",
+      "OpenClaw accumulating technical debt",
+      "446 open issues vs 54 closed"
+    ],
+    "ai-trending": [
+      "ruflo hits 2,598 stars in one day",
+      "TradingAgents reaches 67,833 total stars",
+      "Claude-native orchestration dominants trends",
+      "agency-agents scores 1,189 stars today",
+      "Rust-built terminal coding agents rising",
+      "Financial AI agents surge on GitHub"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7 reduces cyber capabilities",
+      "Project Glasswing safety strategy unveiled",
+      "New enterprise AI services company formed",
+      "Blackstone, Goldman, Sequoia back initiative",
+      "OpenAI low-latency voice data only",
+      "Anthropic targets mid-market deployments"
+    ],
+    "ai-hn": [
+      "Hallucination formally proven inevitable",
+      "$10B OpenAI funding sparks bubble debate",
+      "Anthropic raises $1.5B amid skepticism",
+      "Trendslop term resonates with HN crowd",
+      "OpenAI voice architecture earns engineering respect",
+      "Geopolitical intrigue over Chinese AI report"
+    ],
+    "ai-arxiv": [
+      "SpecKV adapts speculation length dynamically",
+      "Misalignment contagion in multi-agent LLMs",
+      "AI code carries hidden technical debt",
+      "Diffusion planners adapt to safety constraints",
+      "Medical vision-language models for ophthalmology",
+      "Task-aware compression integrates fine-tuning"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops 534K downloads",
+      "Gemma-4-31B-it explodes with 8M downloads",
+      "Qwen 3.6 MoE 35B-A3B goes live",
+      "Nvidia Nemotron-3 Nano Omni any-to-any",
+      "Abliterated uncensored fine-tunes surge",
+      "Mistral-Medium-3.5-128B supports bilingual"
+    ],
+    "ai-community": [
+      "6 agent gateway platforms surveyed",
+      "4 cognitive archetypes of AI developers",
+      "AI vs MCP vs Agent gateway explained",
+      "Anthropic Mythos agent vulnerability debated",
+      "Vibe coding era shifts to robustness",
+      "Theoretical limits of LLM self-improvement"
+    ]
+  }
+}
