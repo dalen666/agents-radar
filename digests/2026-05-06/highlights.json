@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.129 发布但Windows扩展出现严重回归",
+      "GPT-5.5 集成与远程开发1M上下文成OpenAI Codex焦点",
+      "Gemini CLI v0.42.0 解决429容量与Agent行为正确性",
+      "Copilot CLI v1.0.42 聚焦多模型兼容与MCP权限管理",
+      "Pi项目大规模重构，引入Web UI与本地模型支持",
+      "Qwen Code v0.15.7 专注背景任务管理与UI闪烁修复"
+    ],
+    "ai-agents": [
+      "OpenClaw修复CPU 100%及长文本截断等核心回归Bug",
+      "v2026.5.4 发布，优化Google Meet语音桥接体验",
+      "Gateway CPU 100% 及启动延迟8.3s问题已关闭",
+      "Discord Gateway 在macOS上启动挂起问题修复",
+      "持续积压Linux/Windows客户端功能请求",
+      "社区活跃，24小时处理1000条Issues与PRs"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI 一天获2434星，终端编程代理爆发",
+      "context-mode 承诺减少98%上下文占用，解决长文本痛点",
+      "ruflo 获2432星，Claude多智能体编排平台崛起",
+      "dexter AI Agent 专注金融深度研究，获659星",
+      "cocoindex 增量式引擎解决长周期Agent任务管理",
+      "browserbase skills 为Claude Agent提供网页交互SDK"
+    ],
+    "ai-web": [
+      "Anthropic发布10个金融Agent模板，瞄准Pitchbook与KYC",
+      "Claude深度集成Microsoft 365，实现无中断上下文传递",
+      "强调数天部署，通过插件与托管Agent降低门槛",
+      "OpenAI发布GPT-5.5 Instant，主打更快更便宜",
+      "OpenAI同步发布GPT 5.5 Instant System Card安全报告",
+      "OpenAI探索聊天广告新模式，商业化迈出关键一步"
+    ],
+    "ai-hn": [
+      "GLM-5V-Turbo多模态模型发布，原生支持Agent引热议",
+      "SubQ 宣称实现1200万Token上下文与次二次方复杂度",
+      "Airbyte Agents 为AI解决跨数据源上下文孤岛",
+      "Claudette 桌面伴侣发布，提升Claude Code编码体验",
+      "Anthropic金融Agent方案引发社区多角度讨论",
+      "AI版权诉讼与意识讨论分化社区情绪"
+    ],
+    "ai-arxiv": [
+      "临床LLM中安全性与准确性遵循不同缩放规律",
+      "原子事实核查显著提升肿瘤科医生对AI建议信任",
+      "EvoLM 让模型无需人类标注通过规则协同进化",
+      "OpenSeeker-v2 用高难度轨迹提升搜索Agent能力",
+      "从用户意图自动推荐并组合多智能体工作流方法",
+      "安全基准揭示编码智能体存在组合性漏洞"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 以63万下载量领跑对话模型榜单",
+      "Qwen3.6-27B 多模态能力出色获1132点赞",
+      "小米MiMo-V2.5-Pro 发布，专注长上下文Agent",
+      "Google Gemma-4-31B-it 海量下载多模态爆发",
+      "inclusionAI推出1万亿参数MoE模型Ling-2.6",
+      "社区量化与去审查微调活动成开源生态驱动力"
+    ],
+    "ai-community": [
+      "LangChain与Kong结合实现AI Agent变现指南",
+      "开发者身份焦虑：AI时代还是提示工程师引热议",
+      "GenAI革命下，对复杂系统的深度理解需求消失",
+      "Kimi K2.6 vs Claude Opus 4.7 游戏编码测试",
+      "Lobste.rs热议大模型移植到微型架构挑战",
+      "多篇文章聚焦AI编程工具幻觉及MCP解决方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.129 causes critical regressions",
+      "OpenAI Codex hits v0.129.0-alpha.7/.8",
+      "Windows stability pain point across all tools",
+      "Community demands 635👍 Claude Code feature",
+      "Gemini CLI, Kimi Code show fast feature velocity",
+      "Ecosystem focuses on MCP, multi-agent workflows"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "v2026.5.4 fixes Google Meet voice bridge",
+      "338 closed issues in cleanup sprint",
+      "v2026.5.4-beta.3 released same day",
+      "Regression bugs plague gateway performance",
+      "Community scrambles amid stabilization push"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI and ruflo surge in popularity",
+      "andrej-karpathy-skills phenomenon grows",
+      "local-deep-research hits high local accuracy",
+      "Pixelle-Video autonomous engine gains traction",
+      "browserbase/skills adds 311 stars today",
+      "Community shifts from chat to agent systems"
+    ],
+    "ai-web": [
+      "Anthropic launches financial services agents",
+      "Ten ready-to-run templates for finance tasks",
+      "OpenAI hints at GPT-5.5 Instant release",
+      "ChatGPT Ads platform signals ad revenue push",
+      "Anthropic targets regulated enterprise workflows",
+      "OpenAI pushes faster, cheaper model tier"
+    ],
+    "ai-hn": [
+      "SubQ claims 12M-token context breakthrough",
+      "Meta accused of authorizing copyrighted data use",
+      "Richard Dawkins sparks AI consciousness debate",
+      "GLM-5V-Turbo aims to challenge GPT-5V",
+      "GPT-5.5 Instant discussed with 75 points",
+      "Agentic AI optimism meets copyright unease"
+    ],
+    "ai-arxiv": [
+      "Clinical LLM safety scales differently than accuracy",
+      "Self-improving models via co-evolved rubrics",
+      "Atomic fact-checking for oncology recommendations",
+      "Multi-agent workflow composition research",
+      "Logical consistency detects hallucinations",
+      "Agent systems focus on deployment-ready evaluations"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 3,589 weekly likes",
+      "Gemma-4-31B-it tops 8.2M downloads",
+      "Qwen 3.6 GGUF variants explode in popularity",
+      "Nvidia Nemotron-3 pushes any-to-any models",
+      "Abliterated Gemma-4 fine-tune draws 1,476 likes",
+      "Xiaomi MiMo-V2.5-Pro trends for long context"
+    ],
+    "ai-community": [
+      "Monetize AI agents with LangChain and Kong",
+      "Developers debate prompt engineer identity crisis",
+      "GenAI revolution 'casualty' is critical thinking",
+      "Hugging Face trends dominate community feeds",
+      "Practical deployment vs. existential questions",
+      "MCP and LangChain integration guides hot"
+    ]
+  }
+}
