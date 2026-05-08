@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.133 发布，但严重Bug频现",
+      "OpenAI Codex 频繁迭代，v0.130.0-alpha发布",
+      "Gemini CLI 攻坚内存系统，v0.42.0-nightly发布",
+      "GitHub Copilot CLI v1.0.44 聚焦平台稳定修复",
+      "Kimi Code CLI 精准响应，小步快跑",
+      "OpenCode v1.14.41 模型兼容性驱动更新"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.7 发布，修复插件发布管线",
+      "154 个 PR 合并，项目高速推进",
+      "大量 Bug 报告源于 v2026.5.4 升级",
+      "插件发布管线韧性成修复重点",
+      "社区活跃度空前，Issue与PR均达500条",
+      "稳定性与兼容性成当前最大挑战"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI 日增 5799 星，登顶今日热门",
+      "agent-skills 日增 3062 星，Agent技能标准化",
+      "PageIndex 开辟无向量推理型RAG新方向",
+      "TabPFN 引领表格数据基础模型潮流",
+      "ollama 以 17 万星稳居本地部署首选",
+      "dflash 模块化扩散技术加速模型推理"
+    ],
+    "ai-web": [
+      "Anthropic 自然语言自编码器将模型思维转文本",
+      "Anthropic 成立研究所，聚焦AI社会影响",
+      "Petri 3.0 开源对齐工具发布",
+      "金融服务业专用智能体模板套件发布",
+      "OpenAI 今日仅有 3 条更新，信息量不足",
+      "Anthropic 在内容竞赛中全面领先"
+    ],
+    "ai-hn": [
+      "Mythos 发现 Mozilla 大量漏洞引热议",
+      "OpenAI 发布 GPT-Realtime-2 实时模型",
+      "Stage CLI 让AI代码变更更易读",
+      "BrowserCode 在浏览器中运行 Claude Code",
+      "前CTO诉讼案占据 OpenAI 头条",
+      "社区对AI导致人类能力退化表示担忧"
+    ],
+    "ai-arxiv": [
+      "EMO 让MoE专家按学科自然分化",
+      "优化器一致性减少灾难性遗忘",
+      "注意力汇聚成因获结构层面解释",
+      "全球LLM排行榜被证误导性",
+      "递归智能体优化提出新框架",
+      "无基准安全评分审计方法提出"
+    ],
+    "ai-hf": [
+      "Google Gemma-4-31B-it 下载量达 859 万",
+      "Qwen3.6-35B-A3B MoE版下载321万",
+      "DeepSeek-V4-Pro 下载近95万",
+      "小米 MiMo-V2.5-Pro 专注Agent",
+      "IBM Granite-4.1-8b 企业级更新",
+      "Poolside Laguna-XS.2 代码生成新成员"
+    ],
+    "ai-community": [
+      "MCP被定义为Agent时代的API协议",
+      "AI/MCP/Agent网关架构区分引热议",
+      "多Agent团队协作设计实战分享",
+      "Token交换标准协议为Agent授权",
+      "Agent自主支付技术拼图仍缺失",
+      "LLM路由可降低70%成本不失质量"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.133 with worktree fix",
+      "OpenAI Codex adds Vim mode to TUI",
+      "Gemini CLI v0.42.0 with safety evals",
+      "GitHub Copilot CLI ecosystem matures",
+      "OpenCode and Pi innovate in niches",
+      "Windows instability remains key pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.5.7 fixes publishing pipeline",
+      "500 issues and 500 PRs updated today",
+      "169 issues closed, 154 PRs merged",
+      "Security hardening dominates discussions",
+      "Aggressive daily release cadence continues",
+      "Community deeply engaged in sessions"
+    ],
+    "ai-trending": [
+      "DeepSeek-TUI gains +5,799 stars today",
+      "addyosmani/agent-skills hits +3,062 stars",
+      "Ollama now supports Kimi-K2.5 and GLM-5",
+      "vllm reaches 79K+ stars for inference",
+      "Local-deep-research achieves 95% on SimpleQA",
+      "TabPFN gains traction for tabular data"
+    ],
+    "ai-web": [
+      "Anthropic unveils Natural Language Autoencoders",
+      "Petri 3.0 donated as open-source safety tool",
+      "Claude targets finance with 10 agent templates",
+      "NLAs decode Claude's internal thoughts to text",
+      "OpenAI crawl yields only metadata today",
+      "Research marks leap in model interpretability"
+    ],
+    "ai-hn": [
+      "Anthropic's Mythos finds 271 real vulnerabilities",
+      "Mozilla reports almost no false positives",
+      "Debate on dual-use risk of offensive AI",
+      "Natural Language Autoencoders spark excitement",
+      "HN celebrates interpretability breakthrough",
+      "OpenAI launches GPT-Realtime-2 voice model"
+    ],
+    "ai-arxiv": [
+      "Leaderboards misleading due to transitivity",
+      "Same optimizer during finetuning reduces forgetting",
+      "Agentic architectures dominate submissions today",
+      "Recursive Agent Optimization paper trending",
+      "Safety and attribution research gains focus",
+      "Attention sinks origins explored in new work"
+    ],
+    "ai-hf": [
+      "Qwen 3.6-35B-A3B MoE leads with 3.2M downloads",
+      "Gemma-4-31B-it tops weekly likes at 2,558",
+      "DeepSeek-V4-Pro surges with 3,727 likes",
+      "OmniVoice zero-shot cloning crosses 2.2M downloads",
+      "Any-to-any multimodal models rise in popularity",
+      "Uncensored Qwen/Gemma variants gain traction"
+    ],
+    "ai-community": [
+      "Multi-agent systems dominate Dev.to posts",
+      "Google demonstrates multi-agent memory on Cloud Run",
+      "Graph RAG evolves into agentic MCP servers",
+      "Token exchange standards for AI agents emerge",
+      "Cost optimization via LLM routing trending",
+      "Lobste.rs debates open-weight license creep"
+    ]
+  }
+}
