@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code发布自动模式分类器和WSL支持",
+      "OpenAI Codex v0.130.0新增守护进程模式",
+      "GitHub Copilot CLI v1.0.44支持输入中命令提示",
+      "Gemini CLI推出Agent文件版本化备份功能",
+      "Qwen Code v0.15.9发布OAuth免费策略",
+      "Pi正进行大规模架构重构以支持Bun兼容性"
+    ],
+    "ai-agents": [
+      "OpenClaw提交SQLite运行时状态重构PR #78595",
+      "修复Gateway受信代理控制UI作用域丢失问题",
+      "安全修复：对话记录敏感信息脱敏功能上线",
+      "v2026.5.x系列回归性Bug修复成社区焦点",
+      "Discord/Telegram/微信插件新版本兼容性问题频发",
+      "项目团队正整合近期Bug修复评估大重构"
+    ],
+    "ai-trending": [
+      "AI-Trader登顶热榜：百分百自动化交易Agent",
+      "Anthropic发布金融AI开发工具集日增3660星",
+      "DeepSeek-TUI：Rust构建的终端Coding Agent",
+      "addysomani/agent-skills提供生产级工程技能库",
+      "local-deep-research实现本地全栈深度研究Agent",
+      "dflash提出块扩散技术加速LLM推理"
+    ],
+    "ai-web": [
+      "Anthropic披露智能体对齐失败核心突破",
+      "Claude 4.5+零失误达成智能体对齐满分",
+      "对齐技术从规则禁止转向因果理解教学",
+      "OpenAI推出Codex安全运行指南",
+      "面向EMEA地区青少年安全倡议发布",
+      "安全训练从被动防御迈向工程化可控"
+    ],
+    "ai-hn": [
+      "Anthropic可解释性研究Teaching Claude Why登顶",
+      "Git for AI Agents项目获96分热议",
+      "五角大楼调整AI供应商策略引发讨论",
+      "LLM在TLA+形式化验证领域应用探索",
+      "稀疏化Transformer模型轻量化研究发布",
+      "Anthropic估值飙升成社区关注焦点"
+    ],
+    "ai-arxiv": [
+      "UniPool提出全局共享专家池突破MoE范式",
+      "EMO探索预训练阶段功能模块化自然涌现",
+      "RAO递归智能体实现推理时计算突破",
+      "优化器一致性显著减少灾难性遗忘",
+      "全局排行榜误导性研究质疑现有评估体系",
+      "可逆SFT行为为模型安全提供新工具"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶榜首下载量超106万",
+      "Qwen3.6-35B-A3B下载量336万成最热MoE",
+      "Google Gemma 4系列模型强势占领排行榜",
+      "小米MiMo-V2.5-Pro聚焦超长上下文Agent",
+      "Mistral-Medium-3.5-128B支持百万Token",
+      "Z-Lab DFlash投机性解码成社区新亮点"
+    ],
+    "ai-community": [
+      "知识工程成Agent时代真正竞争壁垒",
+      "OpenTelemetry赋能Agent可观测性实践",
+      "Prompt评估常见谬误及正确统计方法",
+      "去中心化身份方案保障Agent通信安全",
+      "Agent驱动项目代码变更脆弱性警示",
+      "轻量级模型Gemma 4实践分享大量涌现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.137 released",
+      "MCP auth and billing bugs persist",
+      "Gemini CLI has OAuth failures",
+      "OpenAI Codex rust-v0.131.0-alpha.1",
+      "MCP integration reliability issues",
+      "Windows and cross-platform pain points"
+    ],
+    "ai-agents": [
+      "OpenClaw has 394 issues and 500 PRs",
+      "Stabilization sprint after 2026.5.6 patch",
+      "107 bugs closed in 24 hours",
+      "Gateway and channel connectivity fixes",
+      "OpenClaw showing high maintenance burden",
+      "287 open issues remain"
+    ],
+    "ai-trending": [
+      "vllm hits 79,440 stars",
+      "ollama reaches 171,022 stars",
+      "Agent skills as new major category",
+      "firecrawl at 117,100 stars",
+      "browser-use at 92,995 stars",
+      "cherry-studio unifies 300+ LLMs"
+    ],
+    "ai-web": [
+      "Claude achieves 100% alignment fix",
+      "Zero blackmail behavior since Haiku 4.5",
+      "Opus 4 had 96% failure rate",
+      "Teaching Claude why alignment succeeds",
+      "OpenAI posts on Codex safety",
+      "OpenAI advances youth safety in EMEA"
+    ],
+    "ai-hn": [
+      "Teaching Claude Why sparks debate",
+      "Git for AI Agents project trending",
+      "Universal hatred of AI art discussed",
+      "Mythos cybersecurity incident fallout",
+      "LLM reproducibility project gains interest",
+      "Sparser Faster Transformer paper shared"
+    ],
+    "ai-arxiv": [
+      "UniPool challenges MoE architecture",
+      "EMO enables emergent modularity",
+      "Agentic self-evolution focus emerges",
+      "Synthetic frameworks for reasoning",
+      "AI co-scientists in math and fluids",
+      "Optimizer-model consistency proposed"
+    ],
+    "ai-hf": [
+      "DeepSeek V4-Pro tops 1M downloads",
+      "Gemma-4-31B-it leads with 8.7M downloads",
+      "MoE architectures dominate trending",
+      "Qwen3.6-35B-A3B surges in popularity",
+      "OmniVoice TTS gets 2.2M downloads",
+      "Sulphur-2 text-to-video goes viral"
+    ],
+    "ai-community": [
+      "Gemma 4 MTP powers marathon agents",
+      "Knowledge engineering replaces RAG",
+      "Split-agent architectures gain traction",
+      "OpenTelemetry for agent monitoring",
+      "Cryptographic identity secures agents",
+      "Local lightweight AI models trending"
+    ]
+  }
+}
