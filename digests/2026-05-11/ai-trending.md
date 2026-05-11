@@ -1,0 +1,35 @@
+# AI 开源趋势日报 2026-05-11
+
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-11 05:01 UTC
+
+---
+
+### Trending
+1. [undefined](https://github.com/bytedance/UI-TARS-desktop) — ⭐ undefined (The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra)
+2. [undefined](https://github.com/anthropics/financial-services) — ⭐ undefined ()
+3. [undefined](https://github.com/addyosmani/agent-skills) — ⭐ undefined (Production-grade engineering skills for AI coding agents.)
+4. [undefined](https://github.com/CloakHQ/CloakBrowser) — ⭐ undefined (Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.)
+5. [undefined](https://github.com/HKUDS/AI-Trader) — ⭐ undefined ("AI-Trader: 100% Fully-Automated Agent-Native Trading")
+6. [undefined](https://github.com/jundot/omlx) — ⭐ undefined (LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar)
+7. [undefined](https://github.com/datawhalechina/easy-vibe) — ⭐ undefined (💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.)
+8. [undefined](https://github.com/playcanvas/supersplat) — ⭐ undefined (3D Gaussian Splat Editor)
+9. [undefined](https://github.com/lsdefine/GenericAgent) — ⭐ undefined (Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption)
+10. [undefined](https://github.com/decolua/9router) — ⭐ undefined (Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.)
+11. [undefined](https://github.com/affaan-m/everything-claude-code) — ⭐ undefined (The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.)
+12. [undefined](https://github.com/datawhalechina/hello-agents) — ⭐ undefined (📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程)
+
+### Search
+1. [undefined](https://github.com/langgenius/dify) — ⭐ undefined
+2. [undefined](https://github.com/open-webui/open-webui) — ⭐ undefined
+3. [undefined](https://github.com/langchain-ai/langchain) — ⭐ undefined
+4. [undefined](https://github.com/Shubhamsaboo/awesome-llm-apps) — ⭐ undefined
+5. [undefined](https://github.com/infiniflow/ragflow) — ⭐ undefined
+6. [undefined](https://github.com/PaddlePaddle/PaddleOCR) — ⭐ undefined
+7. [undefined](https://github.com/thedotmack/claude-mem) — ⭐ undefined
+8. [undefined](https://github.com/Mintplex-Labs/anything-llm) — ⭐ undefined
+9. [undefined](https://github.com/mem0ai/mem0) — ⭐ undefined
+10. [undefined](https://github.com/FlowiseAI/Flowise) — ⭐ undefined
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
