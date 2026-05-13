@@ -1,0 +1,29 @@
+# ArXiv AI 研究日报 2026-05-13
+
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-13 04:53 UTC
+
+---
+
+1. [AlphaGRPO: Unlocking Self-Reflective Multimodal Generation in UMMs via Decompositional Verifiable Reward](http://arxiv.org/abs/2605.12495v1) — cs.CV, cs.AI, cs.LG
+2. [Pion: A Spectrum-Preserving Optimizer via Orthogonal Equivalence Transformation](http://arxiv.org/abs/2605.12492v1) — cs.LG, stat.ML
+3. [Elastic Attention Cores for Scalable Vision Transformers](http://arxiv.org/abs/2605.12491v1) — cs.CV, cs.LG
+4. [Task-Adaptive Embedding Refinement via Test-time LLM Guidance](http://arxiv.org/abs/2605.12487v1) — cs.CL, cs.IR, cs.LG
+5. [Learning, Fast and Slow: Towards LLMs That Adapt Continually](http://arxiv.org/abs/2605.12484v1) — cs.LG, cs.AI
+6. [Beyond GRPO and On-Policy Distillation: An Empirical Sparse-to-Dense Reward Principle for Language-Model Post-Training](http://arxiv.org/abs/2605.12483v1) — cs.LG, cs.AI
+7. [ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents](http://arxiv.org/abs/2605.12481v1) — cs.AI
+8. [OmniNFT: Modality-wise Omni Diffusion Reinforcement for Joint Audio-Video Generation](http://arxiv.org/abs/2605.12480v1) — cs.CV, cs.AI
+9. [MEME: Multi-entity &amp; Evolving Memory Evaluation](http://arxiv.org/abs/2605.12477v1) — cs.LG, cs.CL
+10. [Routers Learn the Geometry of Their Experts: Geometric Coupling in Sparse Mixture-of-Experts](http://arxiv.org/abs/2605.12476v1) — cs.LG, cs.CL
+11. [Reward Hacking in Rubric-Based Reinforcement Learning](http://arxiv.org/abs/2605.12474v1) — cs.AI
+12. [KV-Fold: One-Step KV-Cache Recurrence for Long-Context Inference](http://arxiv.org/abs/2605.12471v1) — cs.LG, cs.AI, cs.CL
+13. [Solve the Loop: Attractor Models for Language and Reasoning](http://arxiv.org/abs/2605.12466v1) — cs.LG, cs.AI, cs.CL, cs.NE
+14. [High-arity Sample Compression](http://arxiv.org/abs/2605.12465v1) — cs.LG
+15. [Search Your Block Floating Point Scales!](http://arxiv.org/abs/2605.12464v1) — cs.LG, cs.AR, cs.PF
+16. [Towards Affordable Energy: A Gymnasium Environment for Electric Utility Demand-Response Programs](http://arxiv.org/abs/2605.12462v1) — cs.AI, cs.CY, cs.GT, cs.LG
+17. [A proximal gradient algorithm for composite log-concave sampling](http://arxiv.org/abs/2605.12461v1) — math.ST, cs.DS, cs.LG, stat.ML
+18. [Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs](http://arxiv.org/abs/2605.12460v1) — cs.LG, cs.CL
+19. [TextSeal: A Localized LLM Watermark for Provenance &amp; Distillation Protection](http://arxiv.org/abs/2605.12456v1) — cs.CR, cs.CL, cs.LG
+20. [Enabling AI-Native Mobility in 6G: A Real-World Dataset for Handover, Beam Management, and Timing Advance](http://arxiv.org/abs/2605.12453v1) — eess.SP, cs.AI, cs.DB, cs.LG, cs.NI
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
