@@ -1,0 +1,42 @@
+# AI 开源趋势日报 2026-05-14
+
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-14 04:51 UTC
+
+---
+
+### Trending
+1. [undefined](https://github.com/tinyhumansai/openhuman) — ⭐ undefined (Your Personal AI super intelligence. Private, Simple and extremely powerful.)
+2. [undefined](https://github.com/rohitg00/agentmemory) — ⭐ undefined (#1 Persistent memory for AI coding agents based on real-world benchmarks)
+3. [undefined](https://github.com/obra/superpowers) — ⭐ undefined (An agentic skills framework &amp; software development methodology that works.)
+4. [undefined](https://github.com/yikart/AiToEarn) — ⭐ undefined (Let's use AI to Earn!)
+5. [undefined](https://github.com/influxdata/telegraf) — ⭐ undefined (Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.)
+6. [undefined](https://github.com/millionco/react-doctor) — ⭐ undefined (Your agent writes bad React. This catches it)
+7. [undefined](https://github.com/K-Dense-AI/scientific-agent-skills) — ⭐ undefined (A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.)
+8. [undefined](https://github.com/danielmiessler/Personal_AI_Infrastructure) — ⭐ undefined (Agentic AI Infrastructure for magnifying HUMAN capabilities.)
+9. [undefined](https://github.com/supertone-inc/supertonic) — ⭐ undefined (Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.)
+10. [undefined](https://github.com/CloakHQ/CloakBrowser) — ⭐ undefined (Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.)
+11. [undefined](https://github.com/Greedeks/GTweak) — ⭐ undefined (Portable Tool for an Ideal Windows Setup)
+12. [undefined](https://github.com/mattpocock/skills) — ⭐ undefined (Skills for Real Engineers. Straight from my .claude directory.)
+13. [undefined](https://github.com/ArthurBrussee/brush) — ⭐ undefined (3D Reconstruction for all)
+14. [undefined](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) — ⭐ undefined (An evolving how-to guide for securing a Linux server.)
+15. [undefined](https://github.com/apernet/hysteria) — ⭐ undefined (Hysteria is a powerful, lightning fast and censorship resistant proxy.)
+16. [undefined](https://github.com/rasbt/LLMs-from-scratch) — ⭐ undefined (Implement a ChatGPT-like LLM in PyTorch from scratch, step by step)
+17. [undefined](https://github.com/ton-blockchain/acton) — ⭐ undefined (Toolchain for TON smart contract development and beyond)
+18. [undefined](https://github.com/trycua/cua) — ⭐ undefined (Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).)
+19. [undefined](https://github.com/github/spec-kit) — ⭐ undefined (💫 Toolkit to help you get started with Spec-Driven Development)
+
+### Search
+1. [undefined](https://github.com/langgenius/dify) — ⭐ undefined
+2. [undefined](https://github.com/open-webui/open-webui) — ⭐ undefined
+3. [undefined](https://github.com/langchain-ai/langchain) — ⭐ undefined
+4. [undefined](https://github.com/Shubhamsaboo/awesome-llm-apps) — ⭐ undefined
+5. [undefined](https://github.com/infiniflow/ragflow) — ⭐ undefined
+6. [undefined](https://github.com/PaddlePaddle/PaddleOCR) — ⭐ undefined
+7. [undefined](https://github.com/thedotmack/claude-mem) — ⭐ undefined
+8. [undefined](https://github.com/Mintplex-Labs/anything-llm) — ⭐ undefined
+9. [undefined](https://github.com/mem0ai/mem0) — ⭐ undefined
+10. [undefined](https://github.com/FlowiseAI/Flowise) — ⭐ undefined
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*

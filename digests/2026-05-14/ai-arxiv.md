@@ -1,0 +1,29 @@
+# ArXiv AI 研究日报 2026-05-14
+
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-05-14 04:51 UTC
+
+---
+
+1. [WARDEN: Endangered Indigenous Language Transcription and Translation with 6 Hours of Training Data](http://arxiv.org/abs/2605.13846v1) — cs.CL, cs.AI
+2. [EVA-Bench: A New End-to-end Framework for Evaluating Voice Agents](http://arxiv.org/abs/2605.13841v1) — cs.SD, cs.AI, cs.CL, cs.LG
+3. [What is Learnable in Valiant's Theory of the Learnable?](http://arxiv.org/abs/2605.13840v1) — stat.ML, cs.DS, cs.LG, math.ST, stat.CO
+4. [Good Agentic Friends Do Not Just Give Verbal Advice: They Can Update Your Weights](http://arxiv.org/abs/2605.13839v1) — cs.CL
+5. [R-DMesh: Video-Guided 3D Animation via Rectified Dynamic Mesh Flow](http://arxiv.org/abs/2605.13838v1) — cs.CV, cs.GR, cs.LG
+6. [Topology-Preserving Neural Operator Learning via Hodge Decomposition](http://arxiv.org/abs/2605.13834v1) — cs.LG, cs.AI, cs.CG
+7. [QLAM: A Quantum Long-Attention Memory Approach to Long-Sequence Token Modeling](http://arxiv.org/abs/2605.13833v1) — cs.LG, cs.CV
+8. [Quantifying Sensitivity for Tree Ensembles: A symbolic and compositional approach](http://arxiv.org/abs/2605.13830v1) — cs.AI, cs.LG
+9. [Negation Neglect: When models fail to learn negations in training](http://arxiv.org/abs/2605.13829v1) — cs.CL, cs.AI, cs.LG
+10. [Reducing cross-sample prediction churn in scientific machine learning](http://arxiv.org/abs/2605.13826v1) — cs.LG, cond-mat.mtrl-sci, physics.chem-ph
+11. [History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions](http://arxiv.org/abs/2605.13825v1) — cs.AI, cs.CV
+12. [Harnessing Agentic Evolution](http://arxiv.org/abs/2605.13821v1) — cs.AI, cs.LG
+13. [Neurosymbolic Auditing of Natural-Language Software Requirements](http://arxiv.org/abs/2605.13817v1) — cs.SE, cs.AI
+14. [Uncertainty-Driven Anomaly Detection for Psychotic Relapse Using Smartwatches: Forecasting and Multi-Task Learning Fusion](http://arxiv.org/abs/2605.13816v1) — cs.LG
+15. [Provable Quantization with Randomized Hadamard Transform](http://arxiv.org/abs/2605.13810v1) — cs.LG, cs.DS
+16. [Parallel Scan Recurrent Neural Quantum States for Scalable Variational Monte Carlo](http://arxiv.org/abs/2605.13807v1) — cond-mat.str-el, cond-mat.dis-nn, cs.LG, physics.comp-ph, quant-ph
+17. [Min-Max Optimization Requires Exponentially Many Queries](http://arxiv.org/abs/2605.13806v1) — cs.DS, cs.CC, cs.GT, cs.LG, math.OC
+18. [Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling](http://arxiv.org/abs/2605.13801v1) — cs.LG, cs.AI
+19. [An LLM-Based System for Argument Reconstruction](http://arxiv.org/abs/2605.13793v1) — cs.CL
+20. [Di-BiLPS: Denoising induced Bidirectional Latent-PDE-Solver under Sparse Observations](http://arxiv.org/abs/2605.13790v1) — cs.LG, cs.AI
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
