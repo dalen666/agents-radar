@@ -6,7 +6,425 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 20 May 2026 05:10:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 05:14:04 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-cli</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-05-21 生成时间: 2026-05-21 05:13 UTC | 覆盖工具: 8 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills 横向对比 ⚠️ 摘要生成失败。 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli ⚠️ 摘要生成失败。 ...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-05-21</h1>
+<blockquote>
+<p>生成时间: 2026-05-21 05:13 UTC | 覆盖工具: 8 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-cli-en</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-05-21 Generated: 2026-05-21 05:13 UTC | Tools covered: 8 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills Cross-Tool Comparison ⚠️ Summary generation failed. Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills ⚠️ Skills summary generation failed. ⚠️ Summary generation failed. OpenAI Codex — openai/codex ⚠️ Summary generation failed. Gemini CLI ...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-05-21</h1>
+<blockquote>
+<p>Generated: 2026-05-21 05:13 UTC | Tools covered: 8</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<p>⚠️ Summary generation failed.</p>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills summary generation failed.</p>
+<hr>
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-agents</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-05-21 Issues: 500 | PRs: 500 | 覆盖项目: 13 个 | 生成时间: 2026-05-21 05:13 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 ⚠️ 摘要生成失败。 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw ⚠️ 摘要生成失败。 IronClaw — nearai/ironclaw ⚠️ 摘要生...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-05-21</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | 覆盖项目: 13 个 | 生成时间: 2026-05-21 05:13 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-agents-en</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-05-21 Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-05-21 05:13 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive ⚠️ Summary generation failed. Cross-Ecosystem Comparison ⚠️ Summary generation failed. Peer Project Reports NanoBot — HKUDS/nanobot ⚠️ Summary generation failed. Hermes Agent — nousresearch/hermes-agent ⚠️ Summary generation failed. PicoClaw — sip...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-05-21</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-05-21 05:13 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p>⚠️ Summary generation failed.</p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<p>⚠️ Summary generation failed.</p>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-trending</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-05-21 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-21 05:13 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-05-21</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-05-21 05:13 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-05-21</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-05-21/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-21/ai-trending-en</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-05-21 Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-21 05:13 UTC ⚠️ Trending report generation failed. This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-05-21</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-21 05:13 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ Trending report generation failed.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-05-20</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-05-20/ai-cli</link>
@@ -1742,270 +2160,6 @@
 <li><a href="https://github.com/ZhuLinsen/daily_stock_analysis">undefined</a> — ⭐ undefined</li>
 <li><a href="https://github.com/CopilotKit/CopilotKit">undefined</a> — ⭐ undefined</li>
 <li><a href="https://github.com/Gitlawb/openclaude">undefined</a> — ⭐ undefined</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hn</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-05-17 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-05-17 04:56 UTC DeepSeek-V4-Flash means LLM steering is interesting again（221 分，70 评论） OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days（147 分，178 评论） OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens（122 分，109 评论） I tried to make Claude make me money on open-source bounties（34 分，22 评论） Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop（12 分，6 评论） Elevated error rates on ...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-05-17</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://www.seangoedecke.com/steering-vectors/">DeepSeek-V4-Flash means LLM steering is interesting again</a>（221 分，70 评论）</li>
-<li><a href="https://twitter.com/steipete/status/2055346265869721905">OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days</a>（147 分，178 评论）</li>
-<li><a href="https://openai.com/index/malta-chatgpt-plus-partnership/">OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens</a>（122 分，109 评论）</li>
-<li><a href="https://github.com/ztc00/algora-scout/blob/main/POST.md">I tried to make Claude make me money on open-source bounties</a>（34 分，22 评论）</li>
-<li><a href="https://a-dark-cave.com/">Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop</a>（12 分，6 评论）</li>
-<li><a href="https://status.claude.com/incidents/v9s6d0jt84hj">Elevated error rates on requests to multiple models</a>（9 分，2 评论）</li>
-<li><a href="https://gamevibe.us/33-tower-defense">Show HN: Daily vibe-coding video games, day 33: Tower Defense (single prompt)</a>（8 分，3 评论）</li>
-<li><a href="https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019">OpenAI caught NPM supply chain chaos after employeedevices compromised</a>（7 分，0 评论）</li>
-<li><a href="https://github.com/microsoft/AI-Engineering-Coach">Show HN: Strava for AI coding – analytics on your Copilot/Claude/Codex usage</a>（7 分，1 评论）</li>
-<li><a href="https://infiniteswap.app/">Show HN: Infinite Swap – Trade a bottle cap up to a house</a>（6 分，2 评论）</li>
-<li><a href="https://www.theguardian.com/commentisfree/2026/may/16/pity-the-poor-ai-datacenters-facing-discrimination">Pity the poor AI datacenters facing &#39;discrimination&#39;</a>（6 分，0 评论）</li>
-<li><a href="https://twitter.com/TheMidasProj/status/2055411833184399448">OpenAI super PAC paying for an army of Twitter bots to engage with their content</a>（5 分，1 评论）</li>
-<li><a href="https://github.com/anthropics/claude-code/issues/59743">CC: Anthropic API Error: 500 Internal Server Error</a>（5 分，2 评论）</li>
-<li><a href="https://www.wsj.com/world/china/irans-seizure-of-chinese-security-ship-shows-its-favors-for-friends-have-limits-f245618e">Iran&#39;s Seizure of Chinese Security Ship Shows Its Favors for Friends Have Limits</a>（5 分，0 评论）</li>
-<li><a href="https://www.bloomberg.com/news/articles/2026-05-16/ai-poised-to-tilt-job-market-leverage-toward-older-workers">AI Poised to Tilt Job Market Leverage Toward Older Workers</a>（5 分，3 评论）</li>
-<li><a href="https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/">Curl maintainer: AI security reports are no longer slop</a>（5 分，1 评论）</li>
-<li><a href="https://www.plainsite.org/documents/collection.html?name=musk-v-altman-et-al&view=grid">OpenAI&#39;s Founding Story Told Through Musk vs. Altman Trial Exhibits</a>（4 分，0 评论）</li>
-<li><a href="https://www.wired.com/story/openai-reorg-greg-brockman-product/">Brockman Officially Takes Control of OpenAI&#39;s Products in Latest Shake-Up</a>（4 分，1 评论）</li>
-<li><a href="https://www.youtube.com/watch?v=X_ZVSPcZhtw">What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs [video]</a>（4 分，0 评论）</li>
-<li><a href="https://news.ycombinator.com/item?id=48160604">Ask HN: Do you still spend time maintaining Claude.md / AGENTS.md files?</a>（4 分，7 评论）</li>
-<li><a href="https://libertystreeteconomics.newyorkfed.org/2026/05/do-job-postings-show-early-labor-market-effects-of-ai/">Do Job Postings Show Early Labor‑Market Effects of AI?</a>（4 分，2 评论）</li>
-<li><a href="https://pubs.aip.org/aip/apl/article/128/19/191101/3389324/X-ray-and-electron-emission-from-peeling-adhesive">X-ray and electron emission from peeling adhesive tape</a>（4 分，0 评论）</li>
-<li><a href="https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/">OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus</a>（3 分，0 评论）</li>
-<li><a href="https://firethering.com/anthropic-mythos-macos-vulnerabilities-apple/">Anthropic&#39;s Mythos helped find macOS bugs that bypass Apple security</a>（3 分，0 评论）</li>
-<li><a href="https://composer-sepia.vercel.app">Show HN: I built a free PDF editor to fix Claude&#39;s horribly-generated PDFs</a>（3 分，3 评论）</li>
-<li><a href="https://www.seangoedecke.com/how-i-use-llms-in-2026/">How I use LLMs as a staff engineer in 2026</a>（3 分，0 评论）</li>
-<li><a href="https://kant2002.github.io/en/llm/2026/05/16/bun-pr-analysis-en.html">Analysis of changes in the Bun codebase after the rewrite from Zig to Rust</a>（3 分，1 评论）</li>
-<li><a href="https://arxiv.org/abs/2605.08513">A Single Neuron Is Sufficient to Bypass Safety Alignment in LLMs</a>（3 分，0 评论）</li>
-<li><a href="https://apps.apple.com/us/app/dictawiz-voice-notes-recorder/id6759256382">Show HN: Offline voice to text and AI keyboard</a>（3 分，0 评论）</li>
-<li><a href="https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in">How to buy cheap Claude tokens in China</a>（3 分，0 评论）</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hn-en</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-05-17 Source: Hacker News | 30 stories | Generated: 2026-05-17 04:56 UTC DeepSeek-V4-Flash means LLM steering is interesting again (221 points, 70 comments) OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days (147 points, 178 comments) OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens (122 points, 109 comments) I tried to make Claude make me money on open-source bounties (34 points, 22 comments) Show HN: A Dark Cave – Minima...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-05-17</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://www.seangoedecke.com/steering-vectors/">DeepSeek-V4-Flash means LLM steering is interesting again</a> (221 points, 70 comments)</li>
-<li><a href="https://twitter.com/steipete/status/2055346265869721905">OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days</a> (147 points, 178 comments)</li>
-<li><a href="https://openai.com/index/malta-chatgpt-plus-partnership/">OpenAI and Government of Malta partner to roll out ChatGPT Plus to all citizens</a> (122 points, 109 comments)</li>
-<li><a href="https://github.com/ztc00/algora-scout/blob/main/POST.md">I tried to make Claude make me money on open-source bounties</a> (34 points, 22 comments)</li>
-<li><a href="https://a-dark-cave.com/">Show HN: A Dark Cave – Minimalistic Graphics in the Age of AI Slop</a> (12 points, 6 comments)</li>
-<li><a href="https://status.claude.com/incidents/v9s6d0jt84hj">Elevated error rates on requests to multiple models</a> (9 points, 2 comments)</li>
-<li><a href="https://gamevibe.us/33-tower-defense">Show HN: Daily vibe-coding video games, day 33: Tower Defense (single prompt)</a> (8 points, 3 comments)</li>
-<li><a href="https://www.theregister.com/security/2026/05/15/openai-caught-in-tanstack-npm-supply-chain-chaos-after-employee-devices-compromised/5241019">OpenAI caught NPM supply chain chaos after employeedevices compromised</a> (7 points, 0 comments)</li>
-<li><a href="https://github.com/microsoft/AI-Engineering-Coach">Show HN: Strava for AI coding – analytics on your Copilot/Claude/Codex usage</a> (7 points, 1 comments)</li>
-<li><a href="https://infiniteswap.app/">Show HN: Infinite Swap – Trade a bottle cap up to a house</a> (6 points, 2 comments)</li>
-<li><a href="https://www.theguardian.com/commentisfree/2026/may/16/pity-the-poor-ai-datacenters-facing-discrimination">Pity the poor AI datacenters facing &#39;discrimination&#39;</a> (6 points, 0 comments)</li>
-<li><a href="https://twitter.com/TheMidasProj/status/2055411833184399448">OpenAI super PAC paying for an army of Twitter bots to engage with their content</a> (5 points, 1 comments)</li>
-<li><a href="https://github.com/anthropics/claude-code/issues/59743">CC: Anthropic API Error: 500 Internal Server Error</a> (5 points, 2 comments)</li>
-<li><a href="https://www.wsj.com/world/china/irans-seizure-of-chinese-security-ship-shows-its-favors-for-friends-have-limits-f245618e">Iran&#39;s Seizure of Chinese Security Ship Shows Its Favors for Friends Have Limits</a> (5 points, 0 comments)</li>
-<li><a href="https://www.bloomberg.com/news/articles/2026-05-16/ai-poised-to-tilt-job-market-leverage-toward-older-workers">AI Poised to Tilt Job Market Leverage Toward Older Workers</a> (5 points, 3 comments)</li>
-<li><a href="https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/">Curl maintainer: AI security reports are no longer slop</a> (5 points, 1 comments)</li>
-<li><a href="https://www.plainsite.org/documents/collection.html?name=musk-v-altman-et-al&view=grid">OpenAI&#39;s Founding Story Told Through Musk vs. Altman Trial Exhibits</a> (4 points, 0 comments)</li>
-<li><a href="https://www.wired.com/story/openai-reorg-greg-brockman-product/">Brockman Officially Takes Control of OpenAI&#39;s Products in Latest Shake-Up</a> (4 points, 1 comments)</li>
-<li><a href="https://www.youtube.com/watch?v=X_ZVSPcZhtw">What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs [video]</a> (4 points, 0 comments)</li>
-<li><a href="https://news.ycombinator.com/item?id=48160604">Ask HN: Do you still spend time maintaining Claude.md / AGENTS.md files?</a> (4 points, 7 comments)</li>
-<li><a href="https://libertystreeteconomics.newyorkfed.org/2026/05/do-job-postings-show-early-labor-market-effects-of-ai/">Do Job Postings Show Early Labor‑Market Effects of AI?</a> (4 points, 2 comments)</li>
-<li><a href="https://pubs.aip.org/aip/apl/article/128/19/191101/3389324/X-ray-and-electron-emission-from-peeling-adhesive">X-ray and electron emission from peeling adhesive tape</a> (4 points, 0 comments)</li>
-<li><a href="https://www.reuters.com/business/openai-seals-deal-malta-give-all-maltese-access-chatgpt-plus-2026-05-16/">OpenAI seals deal in Malta to give all Maltese access to ChatGPT Plus</a> (3 points, 0 comments)</li>
-<li><a href="https://firethering.com/anthropic-mythos-macos-vulnerabilities-apple/">Anthropic&#39;s Mythos helped find macOS bugs that bypass Apple security</a> (3 points, 0 comments)</li>
-<li><a href="https://composer-sepia.vercel.app">Show HN: I built a free PDF editor to fix Claude&#39;s horribly-generated PDFs</a> (3 points, 3 comments)</li>
-<li><a href="https://www.seangoedecke.com/how-i-use-llms-in-2026/">How I use LLMs as a staff engineer in 2026</a> (3 points, 0 comments)</li>
-<li><a href="https://kant2002.github.io/en/llm/2026/05/16/bun-pr-analysis-en.html">Analysis of changes in the Bun codebase after the rewrite from Zig to Rust</a> (3 points, 1 comments)</li>
-<li><a href="https://arxiv.org/abs/2605.08513">A Single Neuron Is Sufficient to Bypass Safety Alignment in LLMs</a> (3 points, 0 comments)</li>
-<li><a href="https://apps.apple.com/us/app/dictawiz-voice-notes-recorder/id6759256382">Show HN: Offline voice to text and AI keyboard</a> (3 points, 0 comments)</li>
-<li><a href="https://www.chinatalk.media/p/how-to-buy-cheap-claude-tokens-in">How to buy cheap Claude tokens in China</a> (3 points, 0 comments)</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hf</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hf</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-05-17 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-05-17 04:56 UTC openbmb/MiniCPM-V-4.6 — 652 赞 SulphurAI/Sulphur-2-base — 1035 赞 Supertone/supertonic-3 — 318 赞 HiDream-ai/HiDream-O1-Image — 364 赞 unsloth/Qwen3.6-27B-MTP-GGUF — 206 赞 unsloth/Qwen3.6-35B-A3B-MTP-GGUF — 187 赞 Zyphra/ZAYA1-8B — 514 赞 deepseek-ai/DeepSeek-V4-Pro — 3997 赞 circlestone-labs/Anima — 1360 赞 froggeric/Qwen-Fixed-Chat-Templates — 248 赞 ResembleAI/Dramabox — 111 赞 SeeSee21/Z-Anime — 386 赞 Tencent...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-05-17</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://huggingface.co/openbmb/MiniCPM-V-4.6">openbmb/MiniCPM-V-4.6</a> — 652 赞</li>
-<li><a href="https://huggingface.co/SulphurAI/Sulphur-2-base">SulphurAI/Sulphur-2-base</a> — 1035 赞</li>
-<li><a href="https://huggingface.co/Supertone/supertonic-3">Supertone/supertonic-3</a> — 318 赞</li>
-<li><a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image">HiDream-ai/HiDream-O1-Image</a> — 364 赞</li>
-<li><a href="https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF">unsloth/Qwen3.6-27B-MTP-GGUF</a> — 206 赞</li>
-<li><a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF">unsloth/Qwen3.6-35B-A3B-MTP-GGUF</a> — 187 赞</li>
-<li><a href="https://huggingface.co/Zyphra/ZAYA1-8B">Zyphra/ZAYA1-8B</a> — 514 赞</li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro</a> — 3997 赞</li>
-<li><a href="https://huggingface.co/circlestone-labs/Anima">circlestone-labs/Anima</a> — 1360 赞</li>
-<li><a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates">froggeric/Qwen-Fixed-Chat-Templates</a> — 248 赞</li>
-<li><a href="https://huggingface.co/ResembleAI/Dramabox">ResembleAI/Dramabox</a> — 111 赞</li>
-<li><a href="https://huggingface.co/SeeSee21/Z-Anime">SeeSee21/Z-Anime</a> — 386 赞</li>
-<li><a href="https://huggingface.co/TencentARC/Pixal3D">TencentARC/Pixal3D</a> — 105 赞</li>
-<li><a href="https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2">Jiunsong/supergemma4-26b-uncensored-gguf-v2</a> — 608 赞</li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash</a> — 1114 赞</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">Qwen/Qwen3.6-35B-A3B</a> — 1787 赞</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B</a> — 1307 赞</li>
-<li><a href="https://huggingface.co/antirez/deepseek-v4-gguf">antirez/deepseek-v4-gguf</a> — 129 赞</li>
-<li><a href="https://huggingface.co/TenStrip/LTX2.3-10Eros">TenStrip/LTX2.3-10Eros</a> — 273 赞</li>
-<li><a href="https://huggingface.co/ScenemaAI/scenema-audio">ScenemaAI/scenema-audio</a> — 77 赞</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-hf-en</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-05-17 Source: Hugging Face Hub | 30 models | Generated: 2026-05-17 04:56 UTC openbmb/MiniCPM-V-4.6 — 652 likes SulphurAI/Sulphur-2-base — 1035 likes Supertone/supertonic-3 — 318 likes HiDream-ai/HiDream-O1-Image — 364 likes unsloth/Qwen3.6-27B-MTP-GGUF — 206 likes unsloth/Qwen3.6-35B-A3B-MTP-GGUF — 187 likes Zyphra/ZAYA1-8B — 514 likes deepseek-ai/DeepSeek-V4-Pro — 3997 likes circlestone-labs/Anima — 1360 likes froggeric/Qwen-Fixed-Chat-Templates — 248 li...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-05-17</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://huggingface.co/openbmb/MiniCPM-V-4.6">openbmb/MiniCPM-V-4.6</a> — 652 likes</li>
-<li><a href="https://huggingface.co/SulphurAI/Sulphur-2-base">SulphurAI/Sulphur-2-base</a> — 1035 likes</li>
-<li><a href="https://huggingface.co/Supertone/supertonic-3">Supertone/supertonic-3</a> — 318 likes</li>
-<li><a href="https://huggingface.co/HiDream-ai/HiDream-O1-Image">HiDream-ai/HiDream-O1-Image</a> — 364 likes</li>
-<li><a href="https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF">unsloth/Qwen3.6-27B-MTP-GGUF</a> — 206 likes</li>
-<li><a href="https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF">unsloth/Qwen3.6-35B-A3B-MTP-GGUF</a> — 187 likes</li>
-<li><a href="https://huggingface.co/Zyphra/ZAYA1-8B">Zyphra/ZAYA1-8B</a> — 514 likes</li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro</a> — 3997 likes</li>
-<li><a href="https://huggingface.co/circlestone-labs/Anima">circlestone-labs/Anima</a> — 1360 likes</li>
-<li><a href="https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates">froggeric/Qwen-Fixed-Chat-Templates</a> — 248 likes</li>
-<li><a href="https://huggingface.co/ResembleAI/Dramabox">ResembleAI/Dramabox</a> — 111 likes</li>
-<li><a href="https://huggingface.co/SeeSee21/Z-Anime">SeeSee21/Z-Anime</a> — 386 likes</li>
-<li><a href="https://huggingface.co/TencentARC/Pixal3D">TencentARC/Pixal3D</a> — 105 likes</li>
-<li><a href="https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2">Jiunsong/supergemma4-26b-uncensored-gguf-v2</a> — 608 likes</li>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash">deepseek-ai/DeepSeek-V4-Flash</a> — 1114 likes</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">Qwen/Qwen3.6-35B-A3B</a> — 1787 likes</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.6-27B">Qwen/Qwen3.6-27B</a> — 1307 likes</li>
-<li><a href="https://huggingface.co/antirez/deepseek-v4-gguf">antirez/deepseek-v4-gguf</a> — 129 likes</li>
-<li><a href="https://huggingface.co/TenStrip/LTX2.3-10Eros">TenStrip/LTX2.3-10Eros</a> — 273 likes</li>
-<li><a href="https://huggingface.co/ScenemaAI/scenema-audio">ScenemaAI/scenema-audio</a> — 77 likes</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-community</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-05-17 数据来源: Dev.to (30 篇) + Lobste.rs (12 条) | 生成时间: 2026-05-17 04:56 UTC Dev.to Dead Internet Theory is happening on DEV I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused. My AI agent kept blind-reading my files. So I built a local CLI to give it &amp;quot;eyes&amp;quot; (Looking for beta testers! 🐛) I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine Claude Code is the engine, Cursor is the cockpit I Built an Agent That Actually Reviews You...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-05-17</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (12 条) | 生成时间: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<h3>Dev.to</h3>
-<ol>
-<li><a href="https://dev.to/best_codes/i-see-dead-internet-theory-playing-out-in-real-time-on-dev-2nb6">Dead Internet Theory is happening on DEV</a></li>
-<li><a href="https://dev.to/alimafana/i-added-three-rules-to-gemma-4-the-moe-searched-the-dense-model-refused-1j18">I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.</a></li>
-<li><a href="https://dev.to/1jaswanth1/my-ai-agent-kept-blind-reading-my-files-so-i-built-a-local-cli-to-give-it-eyes-looking-for-beta-4j4g">My AI agent kept blind-reading my files. So I built a local CLI to give it &quot;eyes&quot; (Looking for beta testers! 🐛)</a></li>
-<li><a href="https://dev.to/trojanmocx/-i-built-a-desktop-app-that-ends-my-open-7-terminals-and-pray-routine-1kb8">I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine</a></li>
-<li><a href="https://dev.to/sattensil888/claude-code-is-the-engine-cursor-is-the-cockpit-7kh">Claude Code is the engine, Cursor is the cockpit</a></li>
-<li><a href="https://dev.to/aditya_rasal/i-built-an-agent-that-actually-reviews-your-pull-requests-56ld">I Built an Agent That Actually Reviews Your Pull Requests</a></li>
-<li><a href="https://dev.to/nilofer_tweets/contexttimemachine-forensic-investigation-of-what-your-agent-actually-saw-joo">Context Time Machine: Forensic Investigation of What Your Agent Actually Saw</a></li>
-<li><a href="https://dev.to/ayush_singh_9b0d83152be5b/i-beat-metas-llm-guardrail-with-no-gpu-and-no-team-heres-how-2556">I Beat Meta&#39;s LLM Guardrail With No GPU and No Team -Here&#39;s How</a></li>
-<li><a href="https://dev.to/jgravelle/saving-the-world-from-ai-with-ai-4fc2">Saving the World From AI... with AI!</a></li>
-<li><a href="https://dev.to/james_bridges_5511048e2cf/i-built-an-ai-agent-risk-auditor-for-agentic-repositories-4hli">I Built an AI Agent Risk Auditor for Agentic Repositories</a></li>
-<li><a href="https://dev.to/noor_y/real-time-sign-language-translation-with-mediapipe-flutter-and-gemini-nano-21e9">Real-Time Sign Language Translation with MediaPipe, Flutter, and Gemini Nano</a></li>
-<li><a href="https://dev.to/kkk_dev_1b0a00f5047cb4de6/why-every-claude-code-built-site-looks-the-same-and-the-image-layer-that-breaks-it-37jp">Why every Claude Code-built site looks the same — and the image layer that breaks it</a></li>
-<li><a href="https://dev.to/auyeungdavid_2847435260/how-ai-can-help-you-recover-your-bitcoin-1j1c">How AI Can Help You Recover Your Bitcoin</a></li>
-<li><a href="https://dev.to/baiju_rajyaguru_a70384dfd/i-ran-gemma-4-on-a-mid-range-android-phone-heres-what-actually-happened-40ge">I Ran Gemma 4 on a Mid-Range Android Phone — Here&#39;s What Actually Happened</a></li>
-<li><a href="https://dev.to/jackchenme/how-to-run-a-mixed-model-ai-agent-team-in-typescript-1569">How to Run a Mixed-Model AI Agent Team in TypeScript?</a></li>
-</ol>
-<h3>Lobste.rs</h3>
-<ol>
-<li><a href="https://iev.ee/blog/why-use-fsharp/">why use F# for scripting and automation?</a></li>
-<li><a href="https://knightcolumbia.org/content/ai-as-social-technology">AI as Social Technology</a></li>
-<li><a href="https://antirez.com/news/165">A few works on DS4</a></li>
-<li><a href="https://kcsrk.info/ocaml/oxcaml/x-ocaml/blogging/2026/05/07/data-race-freedom-in-oxcaml/">Data race freedom in OxCaml</a></li>
-<li><a href="https://gazagnaire.org/blog/2026-05-14-borealis.html">O(x)Caml in Space</a></li>
-<li><a href="https://caio.ca/blog/what-coding-is-starting-to-lose">What Coding Is Starting to Lose</a></li>
-<li><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></li>
-<li><a href="https://www.primeintellect.ai/auto-nanogpt">Autonomous AI research for nanogpt speedrun</a></li>
-<li><a href="https://kcsrk.info/ocaml/oxcaml/modes/2026/05/10/shrinking-the-oxcaml-bundle/">Shrinking the OxCaml js_of_ocaml bundle: 285 MB to 4 MB</a></li>
-<li><a href="https://github.com/StardockCorp/Wireloom">Wireloom: A Markdown extension for UI wireframes</a></li>
-<li><a href="https://blog.janestreet.com/introducing-incremental/">Introducing Incremental</a></li>
-<li><a href="https://jytan.net/blog/2025/transformer-architectures/">The Crystallization of Transformer Architectures (2017-2025)</a></li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-05-17</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-05-17/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-05-17/ai-community-en</guid>
-      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-05-17 Sources: Dev.to (30 articles) + Lobste.rs (12 stories) | Generated: 2026-05-17 04:56 UTC Dev.to Dead Internet Theory is happening on DEV I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused. My AI agent kept blind-reading my files. So I built a local CLI to give it &amp;quot;eyes&amp;quot; (Looking for beta testers! 🐛) I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine Claude Code is the engine, Cursor is the cockpit I Built a...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-05-17</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (12 stories) | Generated: 2026-05-17 04:56 UTC</p>
-</blockquote>
-<hr>
-<h3>Dev.to</h3>
-<ol>
-<li><a href="https://dev.to/best_codes/i-see-dead-internet-theory-playing-out-in-real-time-on-dev-2nb6">Dead Internet Theory is happening on DEV</a></li>
-<li><a href="https://dev.to/alimafana/i-added-three-rules-to-gemma-4-the-moe-searched-the-dense-model-refused-1j18">I Added Three Rules to Gemma 4. The MoE Searched. The Dense Model Refused.</a></li>
-<li><a href="https://dev.to/1jaswanth1/my-ai-agent-kept-blind-reading-my-files-so-i-built-a-local-cli-to-give-it-eyes-looking-for-beta-4j4g">My AI agent kept blind-reading my files. So I built a local CLI to give it &quot;eyes&quot; (Looking for beta testers! 🐛)</a></li>
-<li><a href="https://dev.to/trojanmocx/-i-built-a-desktop-app-that-ends-my-open-7-terminals-and-pray-routine-1kb8">I Built a Desktop App That Ends My “Open 7 Terminals and Pray” Routine</a></li>
-<li><a href="https://dev.to/sattensil888/claude-code-is-the-engine-cursor-is-the-cockpit-7kh">Claude Code is the engine, Cursor is the cockpit</a></li>
-<li><a href="https://dev.to/aditya_rasal/i-built-an-agent-that-actually-reviews-your-pull-requests-56ld">I Built an Agent That Actually Reviews Your Pull Requests</a></li>
-<li><a href="https://dev.to/nilofer_tweets/contexttimemachine-forensic-investigation-of-what-your-agent-actually-saw-joo">Context Time Machine: Forensic Investigation of What Your Agent Actually Saw</a></li>
-<li><a href="https://dev.to/ayush_singh_9b0d83152be5b/i-beat-metas-llm-guardrail-with-no-gpu-and-no-team-heres-how-2556">I Beat Meta&#39;s LLM Guardrail With No GPU and No Team -Here&#39;s How</a></li>
-<li><a href="https://dev.to/jgravelle/saving-the-world-from-ai-with-ai-4fc2">Saving the World From AI... with AI!</a></li>
-<li><a href="https://dev.to/james_bridges_5511048e2cf/i-built-an-ai-agent-risk-auditor-for-agentic-repositories-4hli">I Built an AI Agent Risk Auditor for Agentic Repositories</a></li>
-<li><a href="https://dev.to/noor_y/real-time-sign-language-translation-with-mediapipe-flutter-and-gemini-nano-21e9">Real-Time Sign Language Translation with MediaPipe, Flutter, and Gemini Nano</a></li>
-<li><a href="https://dev.to/kkk_dev_1b0a00f5047cb4de6/why-every-claude-code-built-site-looks-the-same-and-the-image-layer-that-breaks-it-37jp">Why every Claude Code-built site looks the same — and the image layer that breaks it</a></li>
-<li><a href="https://dev.to/auyeungdavid_2847435260/how-ai-can-help-you-recover-your-bitcoin-1j1c">How AI Can Help You Recover Your Bitcoin</a></li>
-<li><a href="https://dev.to/baiju_rajyaguru_a70384dfd/i-ran-gemma-4-on-a-mid-range-android-phone-heres-what-actually-happened-40ge">I Ran Gemma 4 on a Mid-Range Android Phone — Here&#39;s What Actually Happened</a></li>
-<li><a href="https://dev.to/jackchenme/how-to-run-a-mixed-model-ai-agent-team-in-typescript-1569">How to Run a Mixed-Model AI Agent Team in TypeScript?</a></li>
-</ol>
-<h3>Lobste.rs</h3>
-<ol>
-<li><a href="https://iev.ee/blog/why-use-fsharp/">why use F# for scripting and automation?</a></li>
-<li><a href="https://knightcolumbia.org/content/ai-as-social-technology">AI as Social Technology</a></li>
-<li><a href="https://antirez.com/news/165">A few works on DS4</a></li>
-<li><a href="https://kcsrk.info/ocaml/oxcaml/x-ocaml/blogging/2026/05/07/data-race-freedom-in-oxcaml/">Data race freedom in OxCaml</a></li>
-<li><a href="https://gazagnaire.org/blog/2026-05-14-borealis.html">O(x)Caml in Space</a></li>
-<li><a href="https://caio.ca/blog/what-coding-is-starting-to-lose">What Coding Is Starting to Lose</a></li>
-<li><a href="https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html">Training an LLM in Swift, Part 1: Taking matrix multiplication from Gflop/s to Tflop/s</a></li>
-<li><a href="https://www.primeintellect.ai/auto-nanogpt">Autonomous AI research for nanogpt speedrun</a></li>
-<li><a href="https://kcsrk.info/ocaml/oxcaml/modes/2026/05/10/shrinking-the-oxcaml-bundle/">Shrinking the OxCaml js_of_ocaml bundle: 285 MB to 4 MB</a></li>
-<li><a href="https://github.com/StardockCorp/Wireloom">Wireloom: A Markdown extension for UI wireframes</a></li>
-<li><a href="https://blog.janestreet.com/introducing-incremental/">Introducing Incremental</a></li>
-<li><a href="https://jytan.net/blog/2025/transformer-architectures/">The Crystallization of Transformer Architectures (2017-2025)</a></li>
 </ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
