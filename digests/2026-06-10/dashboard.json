@@ -1,0 +1,1329 @@
+{
+  "date": "2026-06-10",
+  "generated": "2026-06-10T05:24:28.663Z",
+  "trending": [
+    {
+      "name": "mvanhorn/last30days-skill",
+      "stars": 3191,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "name": "RyanCodrai/turbovec",
+      "stars": 1801,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "name": "roboflow/supervision",
+      "stars": 733,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "We write your reusable computer vision tools. 💜",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "name": "opencv/opencv",
+      "stars": 102,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "C++",
+      "description": "Open Source Computer Vision Library",
+      "url": "https://github.com/opencv/opencv"
+    },
+    {
+      "name": "refactoringhq/tolaria",
+      "stars": 829,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "name": "aaif-goose/goose",
+      "stars": 489,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Rust",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "name": "Andyyyy64/whichllm",
+      "stars": 633,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "url": "https://github.com/Andyyyy64/whichllm"
+    },
+    {
+      "name": "TapXWorld/ChinaTextbook",
+      "stars": 519,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Roff",
+      "description": "所有小初高、大学PDF教材。",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": 79,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "name": "yikart/AiToEarn",
+      "stars": 402,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "Let's use AI to Earn!",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "name": "phuryn/pm-skills",
+      "stars": 806,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "name": "santifer/career-ops",
+      "stars": 1110,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "name": "openai/plugins",
+      "stars": 284,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "description": "OpenAI Plugins",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "name": "maziyarpanahi/openmed",
+      "stars": 191,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "open-source healthcare ai",
+      "url": "https://github.com/maziyarpanahi/openmed"
+    },
+    {
+      "name": "francescopace/espectre",
+      "stars": 134,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "🛜 ESPectre 👻 - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.",
+      "url": "https://github.com/francescopace/espectre"
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "stars": 443,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Shell",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "url": "https://github.com/addyosmani/agent-skills"
+    }
+  ],
+  "search": [
+    {
+      "name": "langgenius/dify",
+      "stars": 144630,
+      "language": "TypeScript",
+      "query": "rag",
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "name": "open-webui/open-webui",
+      "stars": 140891,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "name": "langchain-ai/langchain",
+      "stars": 138924,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/langchain-ai/langchain"
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "stars": 82342,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/infiniflow/ragflow"
+    },
+    {
+      "name": "PaddlePaddle/PaddleOCR",
+      "stars": 81671,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR"
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "stars": 81502,
+      "language": "JavaScript",
+      "query": "rag",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "safishamsi/graphify",
+      "stars": 64364,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/safishamsi/graphify"
+    },
+    {
+      "name": "Mintplex-Labs/anything-llm",
+      "stars": 61340,
+      "language": "JavaScript",
+      "query": "rag",
+      "url": "https://github.com/Mintplex-Labs/anything-llm"
+    },
+    {
+      "name": "mem0ai/mem0",
+      "stars": 58221,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "stars": 58036,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/datawhalechina/hello-agents"
+    },
+    {
+      "name": "FlowiseAI/Flowise",
+      "stars": 53443,
+      "language": "TypeScript",
+      "query": "rag",
+      "url": "https://github.com/FlowiseAI/Flowise"
+    },
+    {
+      "name": "run-llama/llama_index",
+      "stars": 50052,
+      "language": "Python",
+      "query": "rag",
+      "url": "https://github.com/run-llama/llama_index"
+    },
+    {
+      "name": "jeecgboot/JeecgBoot",
+      "stars": 46680,
+      "language": "Java",
+      "query": "rag",
+      "url": "https://github.com/jeecgboot/JeecgBoot"
+    },
+    {
+      "name": "milvus-io/milvus",
+      "stars": 44707,
+      "language": "Go",
+      "query": "rag",
+      "url": "https://github.com/milvus-io/milvus"
+    },
+    {
+      "name": "mindsdb/minds-platform",
+      "stars": 39278,
+      "language": "Dockerfile",
+      "query": "rag",
+      "url": "https://github.com/mindsdb/minds-platform"
+    },
+    {
+      "name": "meilisearch/meilisearch",
+      "stars": 58033,
+      "language": "Rust",
+      "query": "vector-db",
+      "url": "https://github.com/meilisearch/meilisearch"
+    },
+    {
+      "name": "VectifyAI/PageIndex",
+      "stars": 32820,
+      "language": "Python",
+      "query": "vector-db",
+      "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "name": "qdrant/qdrant",
+      "stars": 31991,
+      "language": "Rust",
+      "query": "vector-db",
+      "url": "https://github.com/qdrant/qdrant"
+    },
+    {
+      "name": "NirDiamant/RAG_Techniques",
+      "stars": 27806,
+      "language": "Jupyter Notebook",
+      "query": "vector-db",
+      "url": "https://github.com/NirDiamant/RAG_Techniques"
+    },
+    {
+      "name": "topoteretes/cognee",
+      "stars": 17750,
+      "language": "Python",
+      "query": "vector-db",
+      "url": "https://github.com/topoteretes/cognee"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Claude Fable 5",
+      "points": 1982,
+      "comments": 1533,
+      "author": "Philpax",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "hnUrl": "https://news.ycombinator.com/item?id=48463808"
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "points": 663,
+      "comments": 322,
+      "author": "mips_avatar",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=48467896"
+    },
+    {
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "points": 244,
+      "comments": 141,
+      "author": "ahlCVA",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48470248"
+    },
+    {
+      "title": "System Card: Claude Fable 5 and Claude Mythos 5 [pdf]",
+      "points": 211,
+      "comments": 1,
+      "author": "scrlk",
+      "url": "https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+      "hnUrl": "https://news.ycombinator.com/item?id=48463811"
+    },
+    {
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "points": 190,
+      "comments": 29,
+      "author": "ag2718",
+      "url": "https://aarushgupta.io/posts/kan-fpga/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48466277"
+    },
+    {
+      "title": "Ask HN: Are you still using a Vision Pro?",
+      "points": 144,
+      "comments": 179,
+      "author": "y1n0",
+      "url": "https://news.ycombinator.com/item?id=48465702",
+      "hnUrl": "https://news.ycombinator.com/item?id=48465702"
+    },
+    {
+      "title": "Rich Sutton on AI creativity and discovery",
+      "points": 60,
+      "comments": 25,
+      "author": "yimby",
+      "url": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+      "hnUrl": "https://news.ycombinator.com/item?id=48470581"
+    },
+    {
+      "title": "Launch HN: Transload (YC P26) – Measuring freight items with CCTV",
+      "points": 41,
+      "comments": 15,
+      "author": "nils_spatial",
+      "url": "https://news.ycombinator.com/item?id=48463273",
+      "hnUrl": "https://news.ycombinator.com/item?id=48463273"
+    },
+    {
+      "title": "Claude Fable 5 will sabotage \"frontier LLM research\" tasks",
+      "points": 34,
+      "comments": 7,
+      "author": "qwertyforce",
+      "url": "https://twitter.com/i/status/2064399902684139852",
+      "hnUrl": "https://news.ycombinator.com/item?id=48467865"
+    },
+    {
+      "title": "Show HN: Nucleus – A security-hardened, Nix-native container runtime",
+      "points": 23,
+      "comments": 2,
+      "author": "0kenx",
+      "url": "https://github.com/sig-id/nucleus",
+      "hnUrl": "https://news.ycombinator.com/item?id=48469039"
+    },
+    {
+      "title": "Show HN: Claw Patrol, a security firewall for agents",
+      "points": 22,
+      "comments": 4,
+      "author": "rough-sea",
+      "url": "https://github.com/denoland/clawpatrol",
+      "hnUrl": "https://news.ycombinator.com/item?id=48462928"
+    },
+    {
+      "title": "Claude Mythos 5 / Fable 5",
+      "points": 17,
+      "comments": 2,
+      "author": "kwar13",
+      "url": "https://www.anthropic.com/claude/fable",
+      "hnUrl": "https://news.ycombinator.com/item?id=48464023"
+    },
+    {
+      "title": "Anthropic Kept Every Promise It Could Afford",
+      "points": 16,
+      "comments": 1,
+      "author": "pavel_lishin",
+      "url": "https://techtrenches.dev/p/anthropic-kept-every-promise-it-could",
+      "hnUrl": "https://news.ycombinator.com/item?id=48465029"
+    },
+    {
+      "title": "Show HN: Open-source version of Anthropic's internal analytics engine",
+      "points": 12,
+      "comments": 2,
+      "author": "lucamrtl",
+      "url": "https://github.com/Kaelio/ktx",
+      "hnUrl": "https://news.ycombinator.com/item?id=48463102"
+    },
+    {
+      "title": "Claude Fable 5 feels less like a launch and more like a preview of AI inequality",
+      "points": 9,
+      "comments": 0,
+      "author": "momentmaker",
+      "url": "https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48470301"
+    },
+    {
+      "title": "The zot coding agent temporarily added Claude Fable 5 to its built-in catalog",
+      "points": 9,
+      "comments": 0,
+      "author": "patriceckhart",
+      "url": "https://github.com/patriceckhart/zot",
+      "hnUrl": "https://news.ycombinator.com/item?id=48465356"
+    },
+    {
+      "title": "Show HN: The agent that builds and operates its own SaaS tools",
+      "points": 8,
+      "comments": 4,
+      "author": "zfoong",
+      "url": "https://craftbot.live",
+      "hnUrl": "https://news.ycombinator.com/item?id=48469352"
+    },
+    {
+      "title": "Ask HN: Is software engineering still a good career choice for new students?",
+      "points": 8,
+      "comments": 4,
+      "author": "iliashad",
+      "url": "https://news.ycombinator.com/item?id=48468724",
+      "hnUrl": "https://news.ycombinator.com/item?id=48468724"
+    },
+    {
+      "title": "Ottawa's bill regulating social media, AI expected to include age restrictions",
+      "points": 7,
+      "comments": 0,
+      "author": "pseudolus",
+      "url": "https://www.cbc.ca/news/politics/online-harms-social-media-ban-youth-teens-9.7228651",
+      "hnUrl": "https://news.ycombinator.com/item?id=48469704"
+    },
+    {
+      "title": "DeepSeek is 17% of token volume, Anthropic is 65% of spend (Vercel gateway data)",
+      "points": 7,
+      "comments": 2,
+      "author": "mcchen51",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-june-2026",
+      "hnUrl": "https://news.ycombinator.com/item?id=48467387"
+    },
+    {
+      "title": "Anthropic requires 30 day data retention for Fable and Mythos",
+      "points": 7,
+      "comments": 0,
+      "author": "lebovic",
+      "url": "https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models",
+      "hnUrl": "https://news.ycombinator.com/item?id=48464258"
+    },
+    {
+      "title": "Flathub disallows LLM-based submissions",
+      "points": 7,
+      "comments": 0,
+      "author": "birdculture",
+      "url": "https://social.treehouse.systems/@barthalion/116657011366876079",
+      "hnUrl": "https://news.ycombinator.com/item?id=48467835"
+    },
+    {
+      "title": "Show HN: OpenYabby, voice-controlled multi-agent orchestrator for Claude Code",
+      "points": 7,
+      "comments": 0,
+      "author": "idovmamane",
+      "url": "https://github.com/OpenYabby/OpenYabby",
+      "hnUrl": "https://news.ycombinator.com/item?id=48466939"
+    },
+    {
+      "title": "Anthropic says the world should have option to 'pause' on AI",
+      "points": 6,
+      "comments": 3,
+      "author": "GaryBluto",
+      "url": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks",
+      "hnUrl": "https://news.ycombinator.com/item?id=48467025"
+    },
+    {
+      "title": "Show HN: Sandbox AI-app lifecycle, from build to run",
+      "points": 6,
+      "comments": 1,
+      "author": "leroman",
+      "url": "https://capakit.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48461287"
+    },
+    {
+      "title": "OpenAI Confidentially Files for IPO on the Heels of SpaceX and Anthropic",
+      "points": 6,
+      "comments": 0,
+      "author": "joozio",
+      "url": "https://www.wired.com/story/openai-confidentially-files-for-ipo/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48457594"
+    },
+    {
+      "title": "Show HN: Lore – LLM proxy for coding agent context and memory management",
+      "points": 6,
+      "comments": 0,
+      "author": "BYK",
+      "url": "https://withlore.ai/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48464573"
+    },
+    {
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "points": 6,
+      "comments": 2,
+      "author": "behnamoh",
+      "url": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/",
+      "hnUrl": "https://news.ycombinator.com/item?id=48470557"
+    },
+    {
+      "title": "Claude Fable 5's system prompt leaked",
+      "points": 6,
+      "comments": 0,
+      "author": "rob",
+      "url": "https://twitter.com/elder_plinius/status/2064478648057610422",
+      "hnUrl": "https://news.ycombinator.com/item?id=48469640"
+    },
+    {
+      "title": "Show HN: Agent-pd – A zero-token audit log to catch rogue Claude Code subagents",
+      "points": 6,
+      "comments": 2,
+      "author": "softie123",
+      "url": "https://github.com/varmabudharaju/agent-pd/blob/master/README.md",
+      "hnUrl": "https://news.ycombinator.com/item?id=48466954"
+    }
+  ],
+  "ph": [],
+  "arxiv": [
+    {
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Ilay Kamai",
+        "Hugues Van Assel",
+        "Aviv Regev"
+      ],
+      "url": "http://arxiv.org/abs/2606.11190v1"
+    },
+    {
+      "title": "A Unifying Lens on Supervised Fine-Tuning Through Target Distribution Design",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "authors": [
+        "Tong Xie",
+        "Yuanhao Ban",
+        "Yunqi Hong"
+      ],
+      "url": "http://arxiv.org/abs/2606.11189v1"
+    },
+    {
+      "title": "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "authors": [
+        "Weixian Xu",
+        "Shilong Liu",
+        "Mengdi Wang"
+      ],
+      "url": "http://arxiv.org/abs/2606.11182v1"
+    },
+    {
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "categories": [
+        "cs.CV",
+        "cs.CL",
+        "cs.CY",
+        "cs.HC"
+      ],
+      "authors": [
+        "Kevin Qinghong Lin",
+        "Batu EI",
+        "Yuhong Shi"
+      ],
+      "url": "http://arxiv.org/abs/2606.11176v1"
+    },
+    {
+      "title": "The Role of Feedback Alignment in Self-Distillation",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "authors": [
+        "Semih Kara",
+        "Oğuzhan Ersoy"
+      ],
+      "url": "http://arxiv.org/abs/2606.11173v1"
+    },
+    {
+      "title": "Predicting Future Behaviors in Reasoning Models Enables Better Steering",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Evgenii Kortukov",
+        "Piotr Komorowski",
+        "Florian Klein"
+      ],
+      "url": "http://arxiv.org/abs/2606.11172v1"
+    },
+    {
+      "title": "Algorithmic and Minimax Complexities in Kernel Bandits",
+      "categories": [
+        "cs.LG",
+        "cond-mat.stat-mech",
+        "cs.IT",
+        "math.OC",
+        "math.ST"
+      ],
+      "authors": [
+        "Yunbei Xu"
+      ],
+      "url": "http://arxiv.org/abs/2606.11171v1"
+    },
+    {
+      "title": "Piper: A Programmable Distributed Training System",
+      "categories": [
+        "cs.DC",
+        "cs.AI"
+      ],
+      "authors": [
+        "Megan Frisella",
+        "Shubham Tiwari",
+        "Andy Ruan"
+      ],
+      "url": "http://arxiv.org/abs/2606.11169v1"
+    },
+    {
+      "title": "Multi-Faceted Interactivity Alignment in Full-Duplex Speech Models",
+      "categories": [
+        "cs.CL",
+        "eess.AS"
+      ],
+      "authors": [
+        "Atsumoto Ohashi",
+        "Neil Zeghidour",
+        "Alexandre Défossez"
+      ],
+      "url": "http://arxiv.org/abs/2606.11167v1"
+    },
+    {
+      "title": "Flaws in the LLM Automation Narrative",
+      "categories": [
+        "stat.OT",
+        "cs.AI"
+      ],
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill"
+      ],
+      "url": "http://arxiv.org/abs/2606.11166v1"
+    },
+    {
+      "title": "ReasonAlloc: Hierarchical Decoding-Time KV Cache Budget Allocation for Reasoning Models",
+      "categories": [
+        "cs.AI"
+      ],
+      "authors": [
+        "Wenhao Liu",
+        "Hao Shi",
+        "Yunhe Li"
+      ],
+      "url": "http://arxiv.org/abs/2606.11164v1"
+    },
+    {
+      "title": "COGENT: Continuous Graph Emulators with Neural Ordinary Differential Equations for Long-Term Physical Forecasting",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Zesheng Liu",
+        "Maryam Rahnemoonfar"
+      ],
+      "url": "http://arxiv.org/abs/2606.11162v1"
+    },
+    {
+      "title": "Itô maps for any-step SDEs",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "authors": [
+        "Zhengkai Pan",
+        "Peter Potaptchik",
+        "Wenxi Yao"
+      ],
+      "url": "http://arxiv.org/abs/2606.11156v1"
+    },
+    {
+      "title": "ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity",
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "authors": [
+        "Andrew Bo Liu",
+        "Samira Nedungadi",
+        "Bryce Cai"
+      ],
+      "url": "http://arxiv.org/abs/2606.11150v1"
+    },
+    {
+      "title": "Efficiently Learning Drifting Halfspaces with Massart Noise",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Mingchen Ma",
+        "Guyang Cao",
+        "Jelena Diakonikolas"
+      ],
+      "url": "http://arxiv.org/abs/2606.11149v1"
+    },
+    {
+      "title": "OncoTraj: a public benchmark for longitudinal resistance prediction in EGFR-mutant non-small-cell lung cancer on osimertinib",
+      "categories": [
+        "cs.LG",
+        "q-bio.GN",
+        "q-bio.QM",
+        "stat.AP"
+      ],
+      "authors": [
+        "Abhijoy Sarkar",
+        "Aarchi Singh Thakur"
+      ],
+      "url": "http://arxiv.org/abs/2606.11144v1"
+    },
+    {
+      "title": "Data assimilation for subsurface flow using latent diffusion model parameterization: performance of ensemble-Kalman and Monte Carlo techniques",
+      "categories": [
+        "physics.geo-ph",
+        "cs.AI",
+        "cs.LG",
+        "stat.AP",
+        "stat.ML"
+      ],
+      "authors": [
+        "Guido Di Federico",
+        "Wenchao Teng",
+        "Louis J. Durlofsky"
+      ],
+      "url": "http://arxiv.org/abs/2606.11140v1"
+    },
+    {
+      "title": "First-Order Trajectory Matching: Fast Ensemble Predictions of Chaotic, Turbulent, Stochastic Systems",
+      "categories": [
+        "cs.LG",
+        "math.NA"
+      ],
+      "authors": [
+        "Shreya Jha",
+        "Timo Schorlepp",
+        "Nicholas Geissler"
+      ],
+      "url": "http://arxiv.org/abs/2606.11138v1"
+    },
+    {
+      "title": "Robust Regression of General ReLUs with Queries",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Ilias Diakonikolas",
+        "Daniel M. Kane",
+        "Mingchen Ma"
+      ],
+      "url": "http://arxiv.org/abs/2606.11130v1"
+    },
+    {
+      "title": "Provenance-Grounded Gating and Adaptive Recovery in Synthetic Post-Training Data Curation",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "authors": [
+        "Soham Bhattacharjee",
+        "Karun Sharma",
+        "Vinay Kumar Sankarapu"
+      ],
+      "url": "http://arxiv.org/abs/2606.11127v1"
+    }
+  ],
+  "hf": [
+    {
+      "id": "google/gemma-4-12B-it",
+      "likes": 826,
+      "downloads": 581354,
+      "pipeline": "any-to-any",
+      "author": "google",
+      "url": "https://huggingface.co/google/gemma-4-12B-it"
+    },
+    {
+      "id": "nvidia/LocateAnything-3B",
+      "likes": 1741,
+      "downloads": 123922,
+      "pipeline": "image-text-to-text",
+      "author": "nvidia",
+      "url": "https://huggingface.co/nvidia/LocateAnything-3B"
+    },
+    {
+      "id": "unsloth/gemma-4-12b-it-GGUF",
+      "likes": 534,
+      "downloads": 660140,
+      "pipeline": "image-text-to-text",
+      "author": "unsloth",
+      "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF"
+    },
+    {
+      "id": "google/gemma-4-12B",
+      "likes": 485,
+      "downloads": 122464,
+      "pipeline": "any-to-any",
+      "author": "google",
+      "url": "https://huggingface.co/google/gemma-4-12B"
+    },
+    {
+      "id": "ideogram-ai/ideogram-4-fp8",
+      "likes": 443,
+      "downloads": 5915,
+      "pipeline": "text-to-image",
+      "author": "ideogram-ai",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8"
+    },
+    {
+      "id": "bosonai/higgs-audio-v3-tts-4b",
+      "likes": 287,
+      "downloads": 16207,
+      "pipeline": "text-to-speech",
+      "author": "bosonai",
+      "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b"
+    },
+    {
+      "id": "ideogram-ai/ideogram-4-nf4",
+      "likes": 292,
+      "downloads": 5250,
+      "pipeline": "text-to-image",
+      "author": "ideogram-ai",
+      "url": "https://huggingface.co/ideogram-ai/ideogram-4-nf4"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+      "likes": 324,
+      "downloads": 4181,
+      "pipeline": "automatic-speech-recognition",
+      "author": "nvidia",
+      "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b"
+    },
+    {
+      "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "likes": 1599,
+      "downloads": 2983909,
+      "pipeline": "image-text-to-text",
+      "author": "HauhauCS",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive"
+    },
+    {
+      "id": "sapientinc/HRM-Text-1B",
+      "likes": 735,
+      "downloads": 133351,
+      "pipeline": "text-generation",
+      "author": "sapientinc",
+      "url": "https://huggingface.co/sapientinc/HRM-Text-1B"
+    },
+    {
+      "id": "CohereLabs/North-Mini-Code-1.0",
+      "likes": 179,
+      "downloads": 1784,
+      "pipeline": "text-generation",
+      "author": "CohereLabs",
+      "url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+      "likes": 176,
+      "downloads": 56864,
+      "pipeline": "text-generation",
+      "author": "nvidia",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16"
+    },
+    {
+      "id": "MisoLabs/MisoTTS",
+      "likes": 176,
+      "downloads": 0,
+      "pipeline": "text-to-speech",
+      "author": "MisoLabs",
+      "url": "https://huggingface.co/MisoLabs/MisoTTS"
+    },
+    {
+      "id": "unsloth/gemma-4-12B-it-qat-GGUF",
+      "likes": 173,
+      "downloads": 127332,
+      "pipeline": "any-to-any",
+      "author": "unsloth",
+      "url": "https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF"
+    },
+    {
+      "id": "google/magenta-realtime-2",
+      "likes": 165,
+      "downloads": 18216,
+      "pipeline": "text-to-audio",
+      "author": "google",
+      "url": "https://huggingface.co/google/magenta-realtime-2"
+    },
+    {
+      "id": "nex-agi/Nex-N2-Pro",
+      "likes": 162,
+      "downloads": 783,
+      "pipeline": "text-generation",
+      "author": "nex-agi",
+      "url": "https://huggingface.co/nex-agi/Nex-N2-Pro"
+    },
+    {
+      "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+      "likes": 155,
+      "downloads": 71818,
+      "pipeline": "text-generation",
+      "author": "nvidia",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4"
+    },
+    {
+      "id": "OBLITERATUS/Gemma-4-12B-OBLITERATED",
+      "likes": 159,
+      "downloads": 8106,
+      "pipeline": "text-generation",
+      "author": "OBLITERATUS",
+      "url": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED"
+    },
+    {
+      "id": "stepfun-ai/Step-3.7-Flash",
+      "likes": 359,
+      "downloads": 46729,
+      "pipeline": "image-text-to-text",
+      "author": "stepfun-ai",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash"
+    },
+    {
+      "id": "JetBrains/Mellum2-12B-A2.5B-Thinking",
+      "likes": 274,
+      "downloads": 17571,
+      "pipeline": "text-generation",
+      "author": "JetBrains",
+      "url": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Thinking"
+    }
+  ],
+  "devto": [
+    {
+      "title": "The 'Prompt' Is Not a Skill — And We Need to Stop Pretending",
+      "reactions": 34,
+      "comments": 34,
+      "tags": [
+        "ai",
+        "career",
+        "programming",
+        "discuss"
+      ],
+      "url": "https://dev.to/harsh2644/the-prompt-is-not-a-skill-and-we-need-to-stop-pretending-3m18"
+    },
+    {
+      "title": "Wait... FDE Is Not a JavaScript Framework?",
+      "reactions": 20,
+      "comments": 1,
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "discuss"
+      ],
+      "url": "https://dev.to/lovestaco/wait-fde-is-not-a-javascript-framework-1947"
+    },
+    {
+      "title": "AI Usage Statistics 2026: The Structural Shift Behind Adoption, Work, and Hiring",
+      "reactions": 19,
+      "comments": 9,
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ],
+      "url": "https://dev.to/alifar/ai-usage-statistics-2026-the-structural-shift-behind-adoption-work-and-hiring-mlj"
+    },
+    {
+      "title": "The Messages Array, in 4 GIFs",
+      "reactions": 11,
+      "comments": 3,
+      "tags": [
+        "ai",
+        "llm",
+        "javascript",
+        "webdev"
+      ],
+      "url": "https://dev.to/jasmin/the-messages-array-in-4-gifs-1k1j"
+    },
+    {
+      "title": "The Loop Is Not the Product",
+      "reactions": 9,
+      "comments": 18,
+      "tags": [
+        "ai",
+        "webdev",
+        "discuss",
+        "productivity"
+      ],
+      "url": "https://dev.to/dannwaneri/the-loop-is-not-the-product-466d"
+    },
+    {
+      "title": "🤖 What is a ReAct-style agent?",
+      "reactions": 9,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "agents",
+        "architecture",
+        "learning"
+      ],
+      "url": "https://dev.to/yvem/what-is-a-react-style-agent-jn4"
+    },
+    {
+      "title": "What Is Vibe Coding? Why Are Millions of Developers Using It?",
+      "reactions": 8,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "programming",
+        "career",
+        "agents"
+      ],
+      "url": "https://dev.to/dufrence/what-is-vibe-coding-why-are-millions-of-developers-using-it-5bf5"
+    },
+    {
+      "title": "Stop Feeding Agents Raw Data",
+      "reactions": 7,
+      "comments": 3,
+      "tags": [
+        "ai",
+        "rust",
+        "agents",
+        "data"
+      ],
+      "url": "https://dev.to/copyleftdev/stop-feeding-agents-raw-data-2kif"
+    },
+    {
+      "title": "On-Device AI in SwiftUI Apps",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "swift",
+        "ios",
+        "ai",
+        "machinelearning"
+      ],
+      "url": "https://dev.to/arshtechpro/on-device-ai-in-swiftui-apps-427h"
+    },
+    {
+      "title": "I Checked the Free OpenAI API Key Myth. The Key Is Free. Usage Is Not.",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "openai",
+        "ai",
+        "programming",
+        "productivity"
+      ],
+      "url": "https://dev.to/tokenmixai/i-checked-the-free-openai-api-key-myth-the-key-is-free-usage-is-not-48g6"
+    },
+    {
+      "title": "AI Bots Are Driving Up Your Hosting Bill. I have a WordPress fix",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "wordpress",
+        "ai"
+      ],
+      "url": "https://dev.to/phalkmin/ai-bots-are-driving-up-your-hosting-bill-i-have-a-wordpress-fix-7ih"
+    },
+    {
+      "title": "Xcode 27: The Future of Agent-Driven Development is Here",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "ios",
+        "ai",
+        "mobile",
+        "agents"
+      ],
+      "url": "https://dev.to/arshtechpro/xcode-27-the-future-of-agent-driven-development-is-here-12fk"
+    },
+    {
+      "title": "WWDC 2026 - Xcode 27 Ships With Apple's Own Agent Skills: What They Are and How to Use Them",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "ios",
+        "ai",
+        "swift",
+        "mobile"
+      ],
+      "url": "https://dev.to/arshtechpro/wwdc-2026-xcode-27-ships-with-apples-own-agent-skills-what-they-are-and-how-to-use-them-3g2"
+    },
+    {
+      "title": "Updated for mid-2026: Added support for ChatGPT and Gemini exports in addition to AI Studio, using the same local-only DOM parser to cleanly format tables and nested code blocks.",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "productivity",
+        "tooling",
+        "tutorial"
+      ],
+      "url": "https://dev.to/rajat-xr/updated-for-mid-2026-added-support-for-chatgpt-and-gemini-exports-in-addition-to-ai-studio-using-288d"
+    },
+    {
+      "title": "The Junior Dev Who Never Had to Google Anything — Is That a Superpower or a Problem?",
+      "reactions": 3,
+      "comments": 2,
+      "tags": [
+        "ai",
+        "career",
+        "discuss",
+        "productivity"
+      ],
+      "url": "https://dev.to/itsaalaa7/the-junior-dev-who-never-had-to-google-anything-is-that-a-superpower-or-a-problem-1hf3"
+    },
+    {
+      "title": "The AI Trust Layer That Doesn't Exist Yet. And Why It's the Most Important Infrastructure Problem in AI Right Now",
+      "reactions": 2,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "infrastructure",
+        "llm",
+        "security"
+      ],
+      "url": "https://dev.to/chukz1/the-ai-trust-layer-that-doesnt-exist-yet-and-why-its-the-most-important-infrastructure-problem-2bmo"
+    },
+    {
+      "title": "A Field Guide to Multi-Agent Failure Modes",
+      "reactions": 2,
+      "comments": 1,
+      "tags": [
+        "ai",
+        "machinelearning",
+        "programming",
+        "webdev"
+      ],
+      "url": "https://dev.to/tuomo_pisama/a-field-guide-to-multi-agent-failure-modes-59on"
+    },
+    {
+      "title": "Best Free Skills to learn before college 🎓🧠",
+      "reactions": 2,
+      "comments": 0,
+      "tags": [
+        "100daysofcode",
+        "msbuild",
+        "machinelearning"
+      ],
+      "url": "https://dev.to/sanjai_sanjair_5bd98d531/best-free-skills-to-learn-before-college-277k"
+    },
+    {
+      "title": "We Do Not Just Write Code Anymore. We Direct Agents.",
+      "reactions": 2,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "webdev",
+        "productivity",
+        "programming"
+      ],
+      "url": "https://dev.to/jenueldev/we-do-not-just-write-code-anymore-we-direct-agents-2ci7"
+    },
+    {
+      "title": "Field Test #020b — Next.js Root Ownership Refinement",
+      "reactions": 2,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "devops",
+        "nextjs",
+        "discuss"
+      ],
+      "url": "https://dev.to/scarab-systems/field-test-020b-nextjs-root-ownership-refinement-2pfo"
+    }
+  ],
+  "lobsters": [
+    {
+      "title": "How LLMs Actually Work",
+      "score": 62,
+      "comments": 4,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://0xkato.xyz/how-llms-actually-work/"
+    },
+    {
+      "title": "Self-hosting email the hard way from your own routable IPv4 block up",
+      "score": 49,
+      "comments": 19,
+      "tags": [
+        "ml",
+        "networking",
+        "security"
+      ],
+      "url": "https://anil.recoil.org/notes/recoil-self-hosting-2026"
+    },
+    {
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "score": 35,
+      "comments": 26,
+      "tags": [
+        "ai",
+        "pdf"
+      ],
+      "url": "https://arxiv.org/pdf/2605.31514"
+    },
+    {
+      "title": "ZML: Model to Metal",
+      "score": 6,
+      "comments": 0,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://zml.ai/"
+    },
+    {
+      "title": "Announcing Pyro Caml: The First Continuous Profiler for OCaml",
+      "score": 5,
+      "comments": 0,
+      "tags": [
+        "ml",
+        "performance"
+      ],
+      "url": "https://semgrep.dev/blog/2026/announcing-pyro-caml-continuous-profiler-ocaml"
+    },
+    {
+      "title": "Language models transmit behavioural traits through hidden signals in data",
+      "score": 5,
+      "comments": 0,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.nature.com/articles/s41586-026-10319-8"
+    },
+    {
+      "title": "Expanding Private Cloud Compute",
+      "score": 4,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "privacy",
+        "security"
+      ],
+      "url": "https://security.apple.com/blog/expanding-pcc/"
+    },
+    {
+      "title": "It doesn’t matter if it works",
+      "score": 3,
+      "comments": 0,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://henry.codes/writing/it-doesnt-matter-if-it-works/"
+    },
+    {
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "score": 2,
+      "comments": 0,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "title": "Introducing RadixAttention to Trellis",
+      "score": 2,
+      "comments": 1,
+      "tags": [
+        "ai",
+        "distributed",
+        "performance"
+      ],
+      "url": "https://trellis.unfoldml.com/blog/radix-attention-intro"
+    },
+    {
+      "title": "Building a persistent cognitive architecture for LLM agents using Elixir and OTP",
+      "score": 1,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "elixir",
+        "vibecoding"
+      ],
+      "url": "https://0xcc.re/2026/05/03/skynet-towards-synthetic-neurobiology.html/"
+    },
+    {
+      "title": "chromiumfish: A stealth Chromium build with a drop-in Playwright harness for Python and Node",
+      "score": 1,
+      "comments": 7,
+      "tags": [
+        "ai",
+        "browsers"
+      ],
+      "url": "https://github.com/arman-bd/chromiumfish"
+    },
+    {
+      "title": "What about OpenCL and CUDA C++ alternatives?",
+      "score": 1,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "hardware"
+      ],
+      "url": "https://www.modular.com/blog/democratizing-ai-compute-part-5-what-about-cuda-c-alternatives"
+    }
+  ]
+}
