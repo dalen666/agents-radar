@@ -1,0 +1,29 @@
+# ArXiv AI 研究日报 2026-09-30
+
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-09-30 06:32 UTC
+
+---
+
+1. [Skill-Space Shooting for Autonomous Robot Policy Improvement](http://arxiv.org/abs/2609.38178v1) — cs.RO, cs.AI, cs.LG
+2. [Imagine3D-LLM: Teaching MLLMs to Imagine 3D Scenes Before Answering](http://arxiv.org/abs/2609.38177v1) — cs.CV, cs.CL
+3. [Breakdown of Local Denoising as Semantic Speciation](http://arxiv.org/abs/2609.38176v1) — cs.LG, cond-mat.dis-nn, cond-mat.stat-mech
+4. [STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization](http://arxiv.org/abs/2609.38169v1) — cs.CL, cs.AI, cs.LG
+5. [LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization](http://arxiv.org/abs/2609.38166v1) — cs.LG, cs.AI
+6. [Cropland PAtteRNS: Parallel Dimensional Attention Networks and Attention to Dataset Disparity for Crop Segmentation in Satellite Imagery Time Series Data](http://arxiv.org/abs/2609.38165v1) — cs.CV, cs.LG
+7. [A Spectral Theory of Distortion in LLM Graph Reconstruction: Sharp Bounds and Empirical Characterization](http://arxiv.org/abs/2609.38161v1) — cs.LG, cs.DM
+8. [EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation](http://arxiv.org/abs/2609.38157v1) — cs.SD, cs.CL, eess.AS
+9. [Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies](http://arxiv.org/abs/2609.38155v1) — cs.CV, cs.AI, cs.CL, cs.IR, cs.LG
+10. [Pretraining Latent Information Feedback Transformers with Teacher Supervision](http://arxiv.org/abs/2609.38149v1) — cs.CL
+11. [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](http://arxiv.org/abs/2609.38147v1) — cs.AI
+12. [Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI](http://arxiv.org/abs/2609.38143v1) — cs.AI, cs.CL, cs.LG
+13. [AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation](http://arxiv.org/abs/2609.38142v1) — cs.AI, cs.CL, cs.LG
+14. [Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE](http://arxiv.org/abs/2609.38140v1) — cs.CV, cs.AI
+15. [LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning](http://arxiv.org/abs/2609.38137v1) — cs.CL
+16. [Multi-Agent Flow Matching with Decoupled Generative Guidance](http://arxiv.org/abs/2609.38133v1) — cs.LG, cs.MA, cs.RO, math.OC
+17. [Achieving an $O(1/N)$ Optimality Gap in Average-Reward Weakly-Coupled MDPs](http://arxiv.org/abs/2609.38132v1) — cs.LG, math.OC, math.PR
+18. [WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms](http://arxiv.org/abs/2609.38121v1) — cs.LG
+19. [Stochastic World Models for Verifying Vision-Based Neural Feedback Systems](http://arxiv.org/abs/2609.38120v1) — cs.AI, eess.SY
+20. [ReCIRC: Rectified Conformal Risk Control](http://arxiv.org/abs/2609.38112v1) — stat.ML, cs.LG
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
