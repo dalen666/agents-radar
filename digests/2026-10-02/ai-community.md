@@ -1,0 +1,32 @@
+# 技术社区 AI 动态日报 2026-10-02
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (4 条) | 生成时间: 2026-10-02 06:53 UTC
+
+---
+
+### Dev.to
+1. [I Surveyed 123 People in India to Benchmark Frontier AI](https://dev.to/kakeroth/i-surveyed-123-people-in-india-to-benchmark-frontier-ai-39jl)
+2. [10 Internal Inconsistencies in 3 Published Groundwater Surveys](https://dev.to/dannwaneri/10-internal-inconsistencies-in-3-published-groundwater-surveys-4634)
+3. [Your AI feature isn't a feature. It's a dependency you don't control.](https://dev.to/cyclopt_dimitrisk/your-ai-feature-isnt-a-feature-its-a-dependency-you-dont-control-33jc)
+4. [Can AI Write a Sports Recap Without Making Up Stats? Mostly.](https://dev.to/earlgreyhot1701d/can-ai-write-a-sports-recap-without-making-up-stats-mostly-gpo)
+5. [Which AWS limit is actually current? An agent that proves it, 32 vs 5 vs 16](https://dev.to/sarvar_04/which-aws-limit-is-actually-current-an-agent-that-proves-it-32-vs-5-vs-16-6i4)
+6. [The Most Useful Line on Your AI Cost Report Is the One You Can't Explain](https://dev.to/kenwalger/the-most-useful-line-on-your-ai-cost-report-is-the-one-you-cant-explain-195f)
+7. [Half of what an agent does to make your tests pass never shows up in the diff](https://dev.to/remdore/it-patched-the-random-number-generator-so-the-list-would-already-be-sorted-317i)
+8. [The Physics of Socratic Prompting: Somatic Recoil, Chess Alpha-Beta, & The NLP Meta-Model](https://dev.to/gde/the-physics-of-socratic-prompting-somatic-recoil-chess-alpha-beta-the-nlp-meta-model-2b6e)
+9. [Smaller models often read URLs like Python, not like fetch(). I benchmarked where the API key leaks](https://dev.to/pierrelaurentmedori/smaller-models-often-read-urls-like-python-not-like-fetch-i-benchmarked-where-the-api-key-leaks-1a07)
+10. [ELI5: Why can hiding one sentence inside a web page make an AI ignore its own owner and obey a total stranger?](https://dev.to/rudratosh/eli5-why-can-hiding-one-sentence-inside-a-web-page-make-an-ai-ignore-its-own-owner-and-obey-a-203p)
+11. [Scaling Intelligence: Running LLMs Across a Seven-Board ESP32-S3 Cluster](https://dev.to/lightningdev123/scaling-intelligence-running-llms-across-a-seven-board-esp32-s3-cluster-5014)
+12. [My Model-Swap Attack Worked. The Gate Was Right — My Test Was Wrong.](https://dev.to/debashish_ghosal/my-model-swap-attack-worked-the-gate-was-right-my-test-was-wrong-5d0a)
+13. [594 KB to orbit: a browser for AI agents with no Chromium attached](https://dev.to/slabb/594-kb-to-orbit-a-browser-for-ai-agents-with-no-chromium-attached-1odg)
+14. [Irreversible by Design: Building Safer Crypto Transfer Flows](https://dev.to/azaleakuts/irreversible-by-design-building-safer-crypto-transfer-flows-3fg6)
+15. [AI Workflow Automation for Government: Secure, Auditable Case Management](https://dev.to/quokkalabs/ai-workflow-automation-for-government-secure-auditable-case-management-1c6c)
+
+### Lobste.rs
+1. [Typeclasses vs Modules](https://sm2n.ca/articles/typeclasses-vs-modules/)
+2. [Lists that keep track of their reversal](https://grim.cargocut.org/a/rev-list.html)
+3. [Text-to-meowdio models](https://www.kmjn.org/notes/text_to_meowdio_models.html)
+4. [A Brief Perspective on Deep Learning Using Common Lisp](https://www.youtube.com/watch?v=Yo4eqoRC1o0)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
