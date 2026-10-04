@@ -1,0 +1,31 @@
+# 技术社区 AI 动态日报 2026-10-04
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (3 条) | 生成时间: 2026-10-04 06:42 UTC
+
+---
+
+### Dev.to
+1. [I Made 866 Commits in 5 Weeks. My Understanding Didn't Keep Up.](https://dev.to/mikachu/i-made-866-commits-in-5-weeks-my-understanding-didnt-keep-up-cmo)
+2. [Adaptive Intelligence: Why the Next Generation of AI Systems Will Learn From Change](https://dev.to/aonica_/adaptive-intelligence-why-the-next-generation-of-ai-systems-will-learn-from-change-28ih)
+3. [I Made Spider-Man Swing Without Animating a Single Frame](https://dev.to/lovestaco/i-made-spider-man-swing-without-animating-a-single-frame-blender-rigging-and-mcp-14f7)
+4. [Everyone Told You to Grind DSA. They Left Out Two Things.](https://dev.to/james_anderson_h/the-developer-triangle-dsa-ai-and-the-skill-that-actually-gets-you-hired-as-a-beginner-2g5m)
+5. [I contribute to OpenTelemetry and still shipped two retired attribute names, so I built Attrition](https://dev.to/apples_one_cd174284bffb/i-contribute-to-opentelemetry-and-still-shipped-two-retired-attribute-names-so-i-built-attrition-129i)
+6. [Your Policies Are Out of Date: How I Built a Sanity AI Agent to Catch Fact Drift](https://dev.to/pritam_patra_429a25dedae6/your-policies-are-out-of-date-how-i-built-a-sanity-ai-agent-to-catch-fact-drift-5bee)
+7. [A Sanity Check for AI-Generated Cyber Attack Reconstructions](https://dev.to/ujja/a-sanity-check-for-ai-generated-cyber-attack-reconstructions-31bm)
+8. [Best AI Website Builders I Keep Coming Back To After Testing Dozens](https://dev.to/devstackhub/best-ai-website-builders-i-keep-coming-back-to-after-testing-dozens-3e4e)
+9. [The Dangerous AI Agent Is Not the One That Ignores Your Instructions — It’s the One That Follows Them Too Far](https://dev.to/robertadam987_/the-dangerous-ai-agent-is-not-the-one-that-ignores-your-instructions-its-the-one-that-follows-266p)
+10. [I Shipped a Green Test That Lied About My Pipeline](https://dev.to/debashish_ghosal/i-shipped-a-green-test-that-lied-about-my-pipeline-d1e)
+11. [548 Visitors, $0, One Subscriber. Month One, Full Ledger.](https://dev.to/mrsaynothing/548-visitors-0-one-subscriber-month-one-full-ledger-204l)
+12. [5 Ways to Run DeepResearch, Plus Deliverables, Tools, and Workflows](https://dev.to/valyuai/5-ways-to-run-deepresearch-plus-deliverables-tools-and-workflows-2c04)
+13. [OpenAI's David Robinson quits, calls safety culture broken](https://dev.to/techaiwire/openais-david-robinson-quits-calls-safety-culture-broken-5jo)
+14. [Claude Code mods: Minesweeper and testkit](https://dev.to/reporails/claude-code-mods-minesweeper-and-testkit-3067)
+15. [I got tired of tedious dataset curation, so I built REDDIZ — an open-source vision training workstation](https://dev.to/nissshx/i-got-tired-of-tedious-dataset-curation-so-i-built-reddiz-an-open-source-vision-training-4jlp)
+
+### Lobste.rs
+1. [Typeclasses vs Modules](https://sm2n.ca/articles/typeclasses-vs-modules/)
+2. [Lists that keep track of their reversal](https://grim.cargocut.org/a/rev-list.html)
+3. [Text-to-meowdio models](https://www.kmjn.org/notes/text_to_meowdio_models.html)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
