@@ -1,0 +1,31 @@
+# 技术社区 AI 动态日报 2026-10-09
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (3 条) | 生成时间: 2026-10-09 07:16 UTC
+
+---
+
+### Dev.to
+1. [How Our Engineering Team Uses AI, Part II: Meat Proxies](https://dev.to/metalbear/how-our-engineering-team-uses-ai-part-ii-meat-proxies-148g)
+2. [TouchGrass: The Open-AI Agent That Succeeds When You Stop Using It](https://dev.to/rajan_mishra_a9f78ad216b4/touchgrass-the-open-ai-agent-that-succeeds-when-you-stop-using-it-3k1e)
+3. [I got Jev to zero mistakes. I'm still using Flash-Lite.](https://dev.to/theycallmeswift/i-got-jev-to-zero-mistakes-im-still-using-flash-lite-2mo7)
+4. [AI Dev Weekly #29: Haiku 5.5, Mistral Large 4, Decisions API and Copilot](https://dev.to/ai_made_tools/ai-dev-weekly-29-haiku-55-mistral-large-4-decisions-api-and-copilot-3hkh)
+5. [The September cut took 17% of my Claude Code week. Subagents were taking 48%.](https://dev.to/aidiveyt/the-september-cut-took-17-of-my-claude-code-week-subagents-were-taking-48-98n)
+6. [AI coding agents and Theo's Rust TypeScript compiler: the caveats](https://dev.to/axrisi/ai-coding-agents-and-theos-rust-typescript-compiler-the-caveats-fpo)
+7. [REA: Let Your AI Agent Reverse Engineer the App Features You Wish You Had](https://dev.to/arshtechpro/rea-let-your-ai-agent-reverse-engineer-the-app-features-you-wish-you-had-3en7)
+8. [A sharper eye did not make a more careful model.](https://dev.to/shiva_58957fc81dcd9b82868/a-sharper-eye-did-not-make-a-more-careful-model-1lb0)
+9. [I Explored AI Software Factories and Realized That Faster Coding Doesn't Mean Faster Software Delivery!](https://dev.to/pavanbelagatti/i-explored-ai-software-factories-and-realized-that-faster-coding-doesnt-mean-faster-software-52bg)
+10. [Build an AI lead generation agent with the OpenAI Agents SDK and Zenrows](https://dev.to/zenrows/build-an-ai-lead-generation-agent-with-the-openai-agents-sdk-and-zenrows-2jd1)
+11. [What decision models can't do: six honest limits](https://dev.to/mrsaynothing/what-decision-models-cant-do-six-honest-limits-1f9h)
+12. [700 manuscripts, 48 hours, three withdrawals. The verifier won.](https://dev.to/slabb/700-manuscripts-48-hours-three-withdrawals-the-verifier-won-dhl)
+13. [Llama Village: a virtual world powered by local AI with llamadart](https://dev.to/gde/llama-village-a-virtual-world-powered-by-local-ai-with-llamadart-3lmi)
+14. [Your intent classifier is 12 points worse in Portuguese: benchmarking Laya, Strands Decider and Qwen3 embeddings](https://dev.to/fulviojorge/your-intent-classifier-is-12-points-worse-in-portuguese-benchmarking-laya-strands-decider-and-j9m)
+15. [A Benchmark Card Makes an Agent Score Auditable](https://dev.to/apppro_5726/a-benchmark-card-makes-an-agent-score-auditable-227e)
+
+### Lobste.rs
+1. [Best Books/Courses/Channels to Leapfrog on AI/ML Material](https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on)
+2. [Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning](https://tracel.ai/blog/release-0.22.0/)
+3. [Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
