@@ -1,0 +1,33 @@
+# 技术社区 AI 动态日报 2026-10-11
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (5 条) | 生成时间: 2026-10-11 06:58 UTC
+
+---
+
+### Dev.to
+1. [How Do We Extract the “Why” from a PR into a CHANGELOG with Jev? 🤔](https://dev.to/nyaomaru/how-do-we-extract-the-why-from-a-pr-into-a-changelog-with-jev-52pk)
+2. [Buy This, Not That, Drop This There” - I Made It Make Sense](https://dev.to/taqui/buy-this-not-that-drop-this-there-i-made-it-make-sense-336p)
+3. [12 of 13 AI models knew the new name and still wrote the old one](https://dev.to/apples_one_cd174284bffb/12-of-13-ai-models-knew-the-new-name-and-still-wrote-the-old-one-2jla)
+4. [The Missing Piece: Why AI Models Hallucinate Answers When They Should Abstain](https://dev.to/shreyansh_agrahari_2009db/the-missing-piece-why-ai-models-hallucinate-answers-when-they-should-abstain-403)
+5. [RevSofia, a Car Meetup app that people will love to use](https://dev.to/alexgeorgiev17/car-meets-in-sofia-get-planned-in-chaos-so-i-made-an-open-model-read-the-chat-for-us-24nm)
+6. [AI agent benchmark: I gave 9 models a destroy button and a job that needed it](https://dev.to/sarvar_04/ai-agent-benchmark-i-gave-9-models-a-destroy-button-and-a-job-that-needed-it-3d0f)
+7. [I Distilled a 397B Model Into a 4B One for $1.60. It Now Catches 28 of 33 Park Alerts That Should Stop Your Hike.](https://dev.to/soumyadeepdey/i-distilled-a-397b-model-into-a-4b-one-for-160-it-now-catches-28-of-33-park-alerts-that-should-bic)
+8. [How to Make Playwright Autonomous (Without Letting an AI Agent Run Wild)](https://dev.to/orbitpickle307/how-to-make-playwright-autonomous-without-letting-an-ai-agent-run-wild-3ck4)
+9. [RAG ou fine-tuning: a pergunta errada para quem constrói sistemas de IA](https://dev.to/theguitarvity/rag-ou-fine-tuning-a-pergunta-errada-para-quem-constroi-sistemas-de-ia-38ld)
+10. [TrailWhisper: Keep Eyes on the Canopy. Phone in the Pocket.](https://dev.to/ayush_gupta_17/trailwhisper-keep-eyes-on-the-canopy-phone-in-the-pocket-1pc7)
+11. [A hash chain proves the ordering. Four attacks prove it's not enough.](https://dev.to/slabb/a-hash-chain-proves-the-ordering-four-attacks-prove-its-not-enough-59oe)
+12. [How to Build a Competitive Intelligence Agent for Public Companies](https://dev.to/valyuai/how-to-build-a-competitive-intelligence-agent-for-public-companies-op6)
+13. [My Release Pipeline Refused to Ship My Release. It Was Right.](https://dev.to/debashish_ghosal/my-release-pipeline-refused-to-ship-my-release-it-was-right-1ii9)
+14. [Amazon Bedrock Managed Agents for OpenAI enters preview](https://dev.to/techaiwire/amazon-bedrock-managed-agents-for-openai-enters-preview-4c9k)
+15. [vLLM GGUF FAQ: Ten Search Questions, Answered](https://dev.to/mrsaynothing/vllm-gguf-faq-ten-search-questions-answered-34da)
+
+### Lobste.rs
+1. [Byte Language Models: Scaling, Emergent Abstractions, and Information Allocation](https://arxiv.org/html/2610.05978v1)
+2. [Consistency is not a localized property](https://n-the-loop.com/blog/consistency-is-not-a-localized-property/)
+3. [Best Books/Courses/Channels to Leapfrog on AI/ML Material](https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on)
+4. [Burn 0.22.0: Faster Builds, Easier Extensions, and Smarter Autotuning](https://tracel.ai/blog/release-0.22.0/)
+5. [Whistle: Speech to Text in 16.9 MB](https://cactuscompute.com/blog/whistle)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
