@@ -1,0 +1,31 @@
+# 技术社区 AI 动态日报 2026-10-21
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (3 条) | 生成时间: 2026-10-21 05:51 UTC
+
+---
+
+### Dev.to
+1. [Building an Open-Source Support Tool That Turns Your Docs into Reusable Knowledge](https://dev.to/nathan_tarbert/your-team-has-answered-this-before-im-building-a-tool-that-remembers-5604)
+2. [The Hardest Part of Robotics AI Isn't the AI](https://dev.to/rinrinrinrin/the-hardest-part-of-robotics-ai-isnt-the-ai-42kl)
+3. [2 Agent Skills Every Frontend Developer Should Try](https://dev.to/erikch/2-agent-skills-every-frontend-developer-should-try-16pl)
+4. [Is Claude taking control of my development skills? I went looking for proof.](https://dev.to/rudratosh/is-claude-taking-control-of-my-development-skills-i-went-looking-for-proof-37gk)
+5. [How I contribute to GitLab with a coding agent (and approve every push)](https://dev.to/hamzahassanain0/how-i-contribute-to-gitlab-with-a-coding-agent-and-approve-every-push-2a50)
+6. [I Miss Writing Code](https://dev.to/luminousmen/i-miss-writing-code-5hla)
+7. [FastAPI for AI Engineers - Part 9: Mastering HTTP Exceptions & Status Codes](https://dev.to/zeroshotanu/fastapi-for-ai-engineers-part-9-mastering-http-exceptions-status-codes-3e76)
+8. [OpenCode lost the keys that lived in its cloud. The ones on disk were fine.](https://dev.to/slabb/opencode-lost-the-keys-that-lived-in-its-cloud-the-ones-on-disk-were-fine-238g)
+9. [The 480 Outputs That Never Became Actions](https://dev.to/ayush_singh_9b0d83152be5b/the-480-outputs-that-never-became-actions-1odk)
+10. [What DigitalOcean's new inference router picks for simple prompts](https://dev.to/remdore/what-digitaloceans-new-inference-router-picks-for-simple-prompts-19i)
+11. [Mistral's Timestral is #1 by 0.003 MASE. I ran it — the model was not the variable.](https://dev.to/slabb/mistrals-timestral-is-1-by-0003-mase-i-ran-it-the-model-was-not-the-variable-1bf8)
+12. [Qwen3.8-Flash-Next vs Claude Opus 5.5: Six-way benchmark on a real Rust feature](https://dev.to/deepu105/qwen38-flash-next-vs-claude-opus-55-six-way-benchmark-on-a-real-rust-feature-1n98)
+13. [Monitoring AI Quality: Evaluation Pipelines for Non-Deterministic Products](https://dev.to/isaque_silvachaves/monitoring-ai-quality-evaluation-pipelines-for-non-deterministic-products-355j)
+14. [Four kinds of empty: 310,550 agent lookups in 30 days, 81.5 % returned no row, and only one of them should be retried](https://dev.to/kevinhall/four-kinds-of-empty-310550-agent-lookups-in-30-days-815-returned-no-row-and-only-one-of-them-58ne)
+15. [My semantic search recommended Sharktopus to Jaws fans](https://dev.to/pushpendra2011/my-semantic-search-recommended-sharktopus-to-jaws-fans-1lig)
+
+### Lobste.rs
+1. [Timestral: Mistral's time-series foundation models](https://mistral.ai/news/timestral/)
+2. [Neural Networks Are Already Clean](https://already-clean.goodfire.com/)
+3. [HOL Light Tutorial](https://hol-light.github.io/tutorial/HTML/tutorial.html)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*

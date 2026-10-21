@@ -1,0 +1,29 @@
+# ArXiv AI 研究日报 2026-10-21
+
+> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-10-21 05:51 UTC
+
+---
+
+1. [Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs](http://arxiv.org/abs/2610.28632v1) — cs.CV, cs.AI, cs.GR, cs.LG, cs.RO
+2. [GBClaw: An agentic AI framework for atomistic grain boundary research and mechanistic discovery](http://arxiv.org/abs/2610.28629v1) — cond-mat.mtrl-sci, cond-mat.mes-hall, cs.AI, cs.MA
+3. [Learning Adaptable Dexterous Skills via Hybrid Dexterous Mimicking](http://arxiv.org/abs/2610.28628v1) — cs.RO, cs.CV, cs.GR, cs.LG
+4. [UniWALM: Unified World Action Language Model for Embodied Robot Control](http://arxiv.org/abs/2610.28626v1) — cs.RO, cs.AI, cs.CV
+5. [Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets](http://arxiv.org/abs/2610.28624v1) — cs.RO, cs.AI, cs.SE
+6. [Planning under Noise with Neural Operators](http://arxiv.org/abs/2610.28623v1) — cs.LG, cs.RO
+7. [MindView: Benchmarking Generative Multi-View Spatial Intelligence](http://arxiv.org/abs/2610.28622v1) — cs.CV, cs.AI
+8. [Adaptive Multi-Token Prediction: How far should we go?](http://arxiv.org/abs/2610.28619v1) — cs.AI, cs.LG, eess.SY
+9. [Efficient Edge-aware Attention Network for Graph Generation](http://arxiv.org/abs/2610.28618v1) — cs.LG
+10. [NarraSpace: Multimodal Scene-Grounded Evidence for Picture-Description Dementia Classification](http://arxiv.org/abs/2610.28616v1) — cs.CL
+11. [Semantic Observability for Autonomous Systems Diagnostics](http://arxiv.org/abs/2610.28611v1) — cs.AI
+12. [Benchmarking Arabic Dialects for Math Problems](http://arxiv.org/abs/2610.28607v1) — cs.CL, cs.AI
+13. [Value-Rich, Differently Organized: Measuring Value Expression and Organization in AI-Generated Debates](http://arxiv.org/abs/2610.28604v1) — cs.AI
+14. [Turning TS2Vec into a Foundation Model for Time Series Classification](http://arxiv.org/abs/2610.28602v1) — cs.LG, cs.AI
+15. [Evolving Agent Interfaces](http://arxiv.org/abs/2610.28601v1) — cs.AI
+16. [Neural Implicit Energy Optimization for LiDAR Mapping](http://arxiv.org/abs/2610.28598v1) — cs.CV, cs.GR, cs.LG
+17. [What Do RTL Repair Benchmarks Actually Measure?](http://arxiv.org/abs/2610.28595v1) — cs.AI
+18. [PaPi: Parallel Picard-Duhamel Integration for Fast Neuro-Spectral Architectures](http://arxiv.org/abs/2610.28591v1) — cs.LG
+19. [WildMAE: Structure-Aware Masked Autoencoding for Wildlife Image Reconstruction](http://arxiv.org/abs/2610.28590v1) — cs.CV, cs.LG
+20. [Two $\operatorname{ReLU}$ Layers is All You Need](http://arxiv.org/abs/2610.28587v1) — cs.CC, cs.CG, cs.LG
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
