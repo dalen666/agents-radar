@@ -1,0 +1,34 @@
+# 技术社区 AI 动态日报 2026-10-22
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (6 条) | 生成时间: 2026-10-22 05:55 UTC
+
+---
+
+### Dev.to
+1. [Idempotency keys for AI agents: why hashing the arguments doesn't work](https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap)
+2. [I Fixed WebGPU on Linux. Then Forgot How I Did It.](https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd)
+3. [I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway](https://dev.to/devstackhub/i-explored-respan-gateway-a-plugin-first-open-source-llm-gateway-4d6b)
+4. [AI Made Coding Cheaper. So Why Is Building Software Still So Expensive?](https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m)
+5. [🛑 Why I Refuse to Give AI Root Access: Meet LazyLoop AI for Paranoid, Lazy Developers 🦥](https://dev.to/arnab825/lazyloop-ai-do-less-busywork-get-proof-not-promises-52ao)
+6. [When Your Agent Refuses to Collaborate: Why Propositional Logic and Basic Hygiene Beat Raw Vibe Coding](https://dev.to/rosspeili/when-your-agent-refuses-to-collaborate-why-propositional-logic-and-basic-hygiene-beat-raw-vibe-6f6)
+7. [Who watches the watcher when the watcher is a file in the repo?](https://dev.to/slabb/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8)
+8. [SIE vs vLLM: Which Fits Your Embedding and Reranking Workloads?](https://dev.to/tarunsinghofficial/sie-vs-vllm-which-fits-your-embedding-and-reranking-workloads-2ac1)
+9. [Treat Your LLM Agent Like a New Bank Teller](https://dev.to/mbuthi/treat-your-llm-agent-like-a-new-bank-teller-fpd)
+10. [SlothTidy: A Zero-Friction, 100% Local AI File Daemon That Organizes Your Downloads While You Rest 🦥](https://dev.to/tahary/slothtidy-a-zero-friction-100-local-ai-file-daemon-that-organizes-your-downloads-while-you-rest-2dfg)
+11. [SlothDesk — Local-First AI Downloads Organizer: Less sorting. More living.](https://dev.to/ani0811/slothdesk-local-first-ai-downloads-organizer-less-sorting-more-living-398)
+12. [How to Get Historical Stock Prices via Search API](https://dev.to/valyuai/how-to-get-historical-stock-prices-via-search-api-20e8)
+13. [Your Platform Engineering Investment Is Not Paying Off. Here's Why.](https://dev.to/remojansen/your-platform-engineering-investment-is-not-paying-off-heres-why-b6l)
+14. [Your Agent Should Not Run as You: What Windows Now Offers for Containing AI Agents](https://dev.to/windowsmode/your-agent-should-not-run-as-you-what-windows-now-offers-for-containing-ai-agents-1g0j)
+15. [MCP vs function calling: which one your AI agent actually needs (2026)](https://dev.to/joancomadran/mcp-vs-function-calling-which-one-your-ai-agent-actually-needs-2026-5hdg)
+
+### Lobste.rs
+1. [Unikernels in OCaml](https://uniker.nl/)
+2. [Timestral: Mistral's time-series foundation models](https://mistral.ai/news/timestral/)
+3. [ConcurrentML: Improving on Go's concurrency model](https://nikhilism.com/post/2026/golang-racket-concurrency/)
+4. [Neural Networks Are Already Clean](https://already-clean.goodfire.com/)
+5. [How to Run Turing-Complete Malware in PyTorch's Backward Pass](https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/)
+6. [HOL Light Tutorial](https://hol-light.github.io/tutorial/HTML/tutorial.html)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
