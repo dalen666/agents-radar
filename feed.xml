@@ -6,7 +6,675 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 24 Oct 2026 05:37:46 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 05:51:51 +0000</lastBuildDate>
+    <item>
+      <title>AI CLI 工具社区动态日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-cli</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-cli</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI 工具社区动态日报 2026-10-25 生成时间: 2026-10-25 05:51 UTC | 覆盖工具: 8 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli 过去24小时无活动。 OpenCode — anomalyco/opencode ⚠️ ...</description>
+      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-10-25</h1>
+<blockquote>
+<p>生成时间: 2026-10-25 05:51 UTC | 覆盖工具: 8 个</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>横向对比</h2>
+<hr>
+<h2>各工具详细报告</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills 社区热点</h2>
+<blockquote>
+<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills 摘要生成失败。</p>
+<hr>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+
+
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI CLI Tools Digest 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-cli-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-cli-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI CLI Tools Community Digest 2026-10-25 Generated: 2026-10-25 05:51 UTC | Tools covered: 8 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills Cross-Tool Comparison Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills ⚠️ Skills summary generation failed. ⚠️ Summary generation failed. OpenAI Codex — openai/codex ⚠️ Summary generation failed. Gemini CLI — google-gemini/gemini-cli ⚠️ ...</description>
+      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-10-25</h1>
+<blockquote>
+<p>Generated: 2026-10-25 05:51 UTC | Tools covered: 8</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
+<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
+<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
+<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
+<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
+<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
+<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
+<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
+<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
+</ul>
+<hr>
+<h2>Cross-Tool Comparison</h2>
+<hr>
+<h2>Per-Tool Reports</h2>
+<details>
+<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
+
+<h2>Claude Code Skills Highlights</h2>
+<blockquote>
+<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
+</blockquote>
+<p>⚠️ Skills summary generation failed.</p>
+<hr>
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents 生态日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-agents</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-agents</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw 生态日报 2026-10-25 Issues: 500 | PRs: 500 | 覆盖项目: 13 个 | 生成时间: 2026-10-25 05:51 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw 项目深度报告 ⚠️ 摘要生成失败。 横向生态对比 同赛道项目详细报告 NanoBot — HKUDS/nanobot ⚠️ 摘要生成失败。 Hermes Agent — nousresearch/hermes-agent ⚠️ 摘要生成失败。 PicoClaw — sipeed/picoclaw ⚠️ 摘要生成失败。 NanoClaw — qwibitai/nanoclaw ⚠️ 摘要生成失败。 NullClaw — nullclaw/nullclaw 过去24小时无活动。 IronClaw — nearai/ironclaw 过去24小时无活动。 Lobste...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw 生态日报 2026-10-25</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | 覆盖项目: 13 个 | 生成时间: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw 项目深度报告</h2>
+<p>⚠️ 摘要生成失败。</p>
+<hr>
+<h2>横向生态对比</h2>
+<hr>
+<h2>同赛道项目详细报告</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>过去24小时无活动。</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ 摘要生成失败。</p>
+</details>
+
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Agents Ecosystem Digest 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-agents-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-agents-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>OpenClaw Ecosystem Digest 2026-10-25 Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-10-25 05:51 UTC OpenClaw NanoBot Hermes Agent PicoClaw NanoClaw NullClaw IronClaw LobsterAI TinyClaw Moltis CoPaw ZeptoClaw ZeroClaw OpenClaw Deep Dive ⚠️ Summary generation failed. Cross-Ecosystem Comparison Peer Project Reports NanoBot — HKUDS/nanobot ⚠️ Summary generation failed. Hermes Agent — nousresearch/hermes-agent ⚠️ Summary generation failed. PicoClaw — sipeed/picoclaw ⚠️ Summary genera...</description>
+      <content:encoded><![CDATA[<h1>OpenClaw Ecosystem Digest 2026-10-25</h1>
+<blockquote>
+<p>Issues: 500 | PRs: 500 | Projects covered: 13 | Generated: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/HKUDS/nanobot">NanoBot</a></li>
+<li><a href="https://github.com/nousresearch/hermes-agent">Hermes Agent</a></li>
+<li><a href="https://github.com/sipeed/picoclaw">PicoClaw</a></li>
+<li><a href="https://github.com/qwibitai/nanoclaw">NanoClaw</a></li>
+<li><a href="https://github.com/nullclaw/nullclaw">NullClaw</a></li>
+<li><a href="https://github.com/nearai/ironclaw">IronClaw</a></li>
+<li><a href="https://github.com/netease-youdao/LobsterAI">LobsterAI</a></li>
+<li><a href="https://github.com/TinyAGI/tinyagi">TinyClaw</a></li>
+<li><a href="https://github.com/moltis-org/moltis">Moltis</a></li>
+<li><a href="https://github.com/agentscope-ai/CoPaw">CoPaw</a></li>
+<li><a href="https://github.com/qhkm/zeptoclaw">ZeptoClaw</a></li>
+<li><a href="https://github.com/zeroclaw-labs/zeroclaw">ZeroClaw</a></li>
+</ul>
+<hr>
+<h2>OpenClaw Deep Dive</h2>
+<p>⚠️ Summary generation failed.</p>
+<hr>
+<h2>Cross-Ecosystem Comparison</h2>
+<hr>
+<h2>Peer Project Reports</h2>
+<details>
+<summary><strong>NanoBot</strong> — <a href="https://github.com/HKUDS/nanobot">HKUDS/nanobot</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>Hermes Agent</strong> — <a href="https://github.com/nousresearch/hermes-agent">nousresearch/hermes-agent</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>PicoClaw</strong> — <a href="https://github.com/sipeed/picoclaw">sipeed/picoclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>NanoClaw</strong> — <a href="https://github.com/qwibitai/nanoclaw">qwibitai/nanoclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>NullClaw</strong> — <a href="https://github.com/nullclaw/nullclaw">nullclaw/nullclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>IronClaw</strong> — <a href="https://github.com/nearai/ironclaw">nearai/ironclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>LobsterAI</strong> — <a href="https://github.com/netease-youdao/LobsterAI">netease-youdao/LobsterAI</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>TinyClaw</strong> — <a href="https://github.com/TinyAGI/tinyagi">TinyAGI/tinyagi</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>Moltis</strong> — <a href="https://github.com/moltis-org/moltis">moltis-org/moltis</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>CoPaw</strong> — <a href="https://github.com/agentscope-ai/CoPaw">agentscope-ai/CoPaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<details>
+<summary><strong>ZeptoClaw</strong> — <a href="https://github.com/qhkm/zeptoclaw">qhkm/zeptoclaw</a></summary>
+
+<p>No activity in the last 24 hours.</p>
+</details>
+
+<details>
+<summary><strong>ZeroClaw</strong> — <a href="https://github.com/zeroclaw-labs/zeroclaw">zeroclaw-labs/zeroclaw</a></summary>
+
+<p>⚠️ Summary generation failed.</p>
+</details>
+
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI 开源趋势日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-trending</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-trending</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI 开源趋势日报 2026-10-25 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-25 05:51 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
+      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-10-25</h1>
+<blockquote>
+<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ 趋势报告生成失败。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>AI Open Source Trends 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-trending-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-trending-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>AI Open Source Trends 2026-10-25 Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-25 05:51 UTC ⚠️ Trending report generation failed. This digest is auto-generated by agents-radar.</description>
+      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-10-25</h1>
+<blockquote>
+<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<p>⚠️ Trending report generation failed.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI 社区动态日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hn</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hn</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI 社区动态日报 2026-10-25 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-10-25 05:51 UTC America has lost 200k of jobs in media, film and the arts. How much is AI?（277 分，282 评论） Cerebras Deploys Trillion-Parameter AI Models（75 分，23 评论） The Importance of Limitations for Creativity and Learning (2023)（50 分，12 评论） Oai-math-revised: a community hub for revising OpenAI&amp;#39;s math write-ups（41 分，32 评论） &amp;quot;Musk&amp;quot; Documentary Pulled from Almost Every One of 472 Theaters After One Week（39 分，11 评论）...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-10-25</h1>
+<blockquote>
+<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<ol>
+<li><a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">America has lost 200k of jobs in media, film and the arts. How much is AI?</a>（277 分，282 评论）</li>
+<li><a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">Cerebras Deploys Trillion-Parameter AI Models</a>（75 分，23 评论）</li>
+<li><a href="https://ratfactor.com/cards/limitations">The Importance of Limitations for Creativity and Learning (2023)</a>（50 分，12 评论）</li>
+<li><a href="https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/">Oai-math-revised: a community hub for revising OpenAI&#39;s math write-ups</a>（41 分，32 评论）</li>
+<li><a href="https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films">&quot;Musk&quot; Documentary Pulled from Almost Every One of 472 Theaters After One Week</a>（39 分，11 评论）</li>
+<li><a href="https://twitter.com/chrislakin/status/2113358733548081528">Claude Code slyly adding users&#39; emails to outbound HTTP</a>（21 分，4 评论）</li>
+<li><a href="https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa">Musk says he was behind Starlink speed limit after service in Ukraine restored</a>（12 分，1 评论）</li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/35972959/">Talking with strangers is surprisingly informative</a>（8 分，0 评论）</li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom">Claude did not invent scorpion antivenom</a>（6 分，0 评论）</li>
+<li><a href="https://news.ycombinator.com/item?id=50219838">I&#39;m creating my own OS system. Please rate this. There&#39;s a lot written in C</a>（6 分，4 评论）</li>
+<li><a href="https://www.nbcnews.com/world/ukraine/ukraine-says-starlink-back-normal-week-limits-rcna605368">Ukraine says Starlink is back to normal after limits hobbled its drones</a>（4 分，0 评论）</li>
+<li><a href="https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/">Forced to pick, Grok&#39;s AI model chooses Republicans. OpenAI&#39;s picks Democrats</a>（4 分，0 评论）</li>
+<li><a href="https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/">Your tokens aren&#39;t valuable: No more AI</a>（4 分，1 评论）</li>
+<li><a href="https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/">Altman issues self-serving warning they&#39;ve created a monster they can&#39;t control</a>（4 分，2 评论）</li>
+<li><a href="https://roush.io/paste-buff">Show HN: The missing clipboard history for macOS that idles at 16 MB</a>（4 分，0 评论）</li>
+<li><a href="https://news.ycombinator.com/item?id=50219641">Took apart Claude Code, then turned it into a free course on harness engineering</a>（4 分，0 评论）</li>
+<li><a href="https://multipeer.sh">Show HN: Multipeer, a multiplayer infinite canvas for people and their agents</a>（4 分，4 评论）</li>
+<li><a href="https://twitter.com/intcyberdigest/status/2113815992984080865">Sweden&#39;s Government Offices will block ChatGPT and Claude on staff computers</a>（4 分，0 评论）</li>
+<li><a href="https://www.anthropic.com/research/alignment-assessment-ukaisi">Claude Mythos 5&#39;s GitHub adventure: The postmortem</a>（3 分，0 评论）</li>
+<li><a href="https://www.reddit.com/r/opensource/s/Vmk5Fd1N8H">Tokens aren&#39;t valuable: No more AI</a>（3 分，2 评论）</li>
+<li><a href="https://www.thesuburban.com/arts_and_entertainment/entertainment/documentary-film-bot-love-exploring-ai-companionship-to-debut-oct-21-on-cbc-and-cbc/article_f7277775-bd32-475f-9aa5-3ce58907374f.html">Documentary film &#39;Bot Love&#39; exploring AI companionship to debut Oct. 21</a>（3 分，1 评论）</li>
+<li><a href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/">OpenAI says it will no longer train its AI models on the live internet</a>（3 分，1 评论）</li>
+<li><a href="https://www.forbes.com/sites/thomasbrewster/2026/10/23/inside-openais-plan-to-protect-the-internet-before-hackers-break-it/">OpenAI&#39;s Plan to Protect the Internet Before Hackers Break It</a>（3 分，0 评论）</li>
+<li><a href="https://tributary.music/">Show HN: Tributary – Discover who influenced your favorite musicians</a>（3 分，0 评论）</li>
+<li><a href="https://www.lkb.fr/en/death-of-claude-cohen-tannoudji/">Claude Cohen-Tannoudji (Physics Nobel Prize 1997) has died</a>（3 分，0 评论）</li>
+<li><a href="https://www.youtube.com/watch?v=zONGVaONKe8">No One Needs Us Anymore – Claude Opus 5.5 Music Video</a>（3 分，3 评论）</li>
+<li><a href="https://www.dev-log.me/dont-embarrass-me-claude/">Don&#39;t Embarrass Me, Claude</a>（3 分，3 评论）</li>
+<li><a href="https://x.com/i/trending/2113887405459546296">Key Claude Code Engineers Shihipar and Morris Leave Anthropic</a>（2 分，0 评论）</li>
+<li><a href="https://independentvet.com/">Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you</a>（2 分，0 评论）</li>
+<li><a href="https://news.ycombinator.com/item?id=50227527">ReVault – new secure archive format</a>（2 分，2 评论）</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hacker News AI Community Digest 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hn-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hn-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hacker News AI Community Digest 2026-10-25 Source: Hacker News | 30 stories | Generated: 2026-10-25 05:51 UTC America has lost 200k of jobs in media, film and the arts. How much is AI? (277 points, 282 comments) Cerebras Deploys Trillion-Parameter AI Models (75 points, 23 comments) The Importance of Limitations for Creativity and Learning (2023) (50 points, 12 comments) Oai-math-revised: a community hub for revising OpenAI&amp;#39;s math write-ups (41 points, 32 comments) &amp;quot;Musk&amp;quot; Documentar...</description>
+      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-10-25</h1>
+<blockquote>
+<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<ol>
+<li><a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">America has lost 200k of jobs in media, film and the arts. How much is AI?</a> (277 points, 282 comments)</li>
+<li><a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">Cerebras Deploys Trillion-Parameter AI Models</a> (75 points, 23 comments)</li>
+<li><a href="https://ratfactor.com/cards/limitations">The Importance of Limitations for Creativity and Learning (2023)</a> (50 points, 12 comments)</li>
+<li><a href="https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/">Oai-math-revised: a community hub for revising OpenAI&#39;s math write-ups</a> (41 points, 32 comments)</li>
+<li><a href="https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films">&quot;Musk&quot; Documentary Pulled from Almost Every One of 472 Theaters After One Week</a> (39 points, 11 comments)</li>
+<li><a href="https://twitter.com/chrislakin/status/2113358733548081528">Claude Code slyly adding users&#39; emails to outbound HTTP</a> (21 points, 4 comments)</li>
+<li><a href="https://apnews.com/article/russia-ukraine-war-starlink-drones-a3a0139dfc23365550306dd66fe43daa">Musk says he was behind Starlink speed limit after service in Ukraine restored</a> (12 points, 1 comments)</li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/35972959/">Talking with strangers is surprisingly informative</a> (8 points, 0 comments)</li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom">Claude did not invent scorpion antivenom</a> (6 points, 0 comments)</li>
+<li><a href="https://news.ycombinator.com/item?id=50219838">I&#39;m creating my own OS system. Please rate this. There&#39;s a lot written in C</a> (6 points, 4 comments)</li>
+<li><a href="https://www.nbcnews.com/world/ukraine/ukraine-says-starlink-back-normal-week-limits-rcna605368">Ukraine says Starlink is back to normal after limits hobbled its drones</a> (4 points, 0 comments)</li>
+<li><a href="https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/">Forced to pick, Grok&#39;s AI model chooses Republicans. OpenAI&#39;s picks Democrats</a> (4 points, 0 comments)</li>
+<li><a href="https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai/">Your tokens aren&#39;t valuable: No more AI</a> (4 points, 1 comments)</li>
+<li><a href="https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/">Altman issues self-serving warning they&#39;ve created a monster they can&#39;t control</a> (4 points, 2 comments)</li>
+<li><a href="https://roush.io/paste-buff">Show HN: The missing clipboard history for macOS that idles at 16 MB</a> (4 points, 0 comments)</li>
+<li><a href="https://news.ycombinator.com/item?id=50219641">Took apart Claude Code, then turned it into a free course on harness engineering</a> (4 points, 0 comments)</li>
+<li><a href="https://multipeer.sh">Show HN: Multipeer, a multiplayer infinite canvas for people and their agents</a> (4 points, 4 comments)</li>
+<li><a href="https://twitter.com/intcyberdigest/status/2113815992984080865">Sweden&#39;s Government Offices will block ChatGPT and Claude on staff computers</a> (4 points, 0 comments)</li>
+<li><a href="https://www.anthropic.com/research/alignment-assessment-ukaisi">Claude Mythos 5&#39;s GitHub adventure: The postmortem</a> (3 points, 0 comments)</li>
+<li><a href="https://www.reddit.com/r/opensource/s/Vmk5Fd1N8H">Tokens aren&#39;t valuable: No more AI</a> (3 points, 2 comments)</li>
+<li><a href="https://www.thesuburban.com/arts_and_entertainment/entertainment/documentary-film-bot-love-exploring-ai-companionship-to-debut-oct-21-on-cbc-and-cbc/article_f7277775-bd32-475f-9aa5-3ce58907374f.html">Documentary film &#39;Bot Love&#39; exploring AI companionship to debut Oct. 21</a> (3 points, 1 comments)</li>
+<li><a href="https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/">OpenAI says it will no longer train its AI models on the live internet</a> (3 points, 1 comments)</li>
+<li><a href="https://www.forbes.com/sites/thomasbrewster/2026/10/23/inside-openais-plan-to-protect-the-internet-before-hackers-break-it/">OpenAI&#39;s Plan to Protect the Internet Before Hackers Break It</a> (3 points, 0 comments)</li>
+<li><a href="https://tributary.music/">Show HN: Tributary – Discover who influenced your favorite musicians</a> (3 points, 0 comments)</li>
+<li><a href="https://www.lkb.fr/en/death-of-claude-cohen-tannoudji/">Claude Cohen-Tannoudji (Physics Nobel Prize 1997) has died</a> (3 points, 0 comments)</li>
+<li><a href="https://www.youtube.com/watch?v=zONGVaONKe8">No One Needs Us Anymore – Claude Opus 5.5 Music Video</a> (3 points, 3 comments)</li>
+<li><a href="https://www.dev-log.me/dont-embarrass-me-claude/">Don&#39;t Embarrass Me, Claude</a> (3 points, 3 comments)</li>
+<li><a href="https://x.com/i/trending/2113887405459546296">Key Claude Code Engineers Shihipar and Morris Leave Anthropic</a> (2 points, 0 comments)</li>
+<li><a href="https://independentvet.com/">Show HN: Independent Vet – Find locally owned vets (and corporate ones) near you</a> (2 points, 0 comments)</li>
+<li><a href="https://news.ycombinator.com/item?id=50227527">ReVault – new secure archive format</a> (2 points, 2 comments)</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face 热门模型日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hf</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hf</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face 热门模型日报 2026-10-25 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-10-25 05:51 UTC deepseek-ai/DeepSeek-V4.1-Flash-1017 — 2832 赞 RecursiveSI/flint — 787 赞 black-forest-labs/flux-3-image-klein-comfy — 1519 赞 XHToken/Spark-X2.6-4B — 459 赞 Lightricks/LTX-2.5 — 9207 赞 OpenMOSS-Team/MOSS-Image-SFT — 703 赞 fishaudio/drama-3 — 994 赞 abenzerps/Qwen-Image-2.1-Uncensored-Quantized — 4985 赞 MiniMaxAI/MiniMax-M3.1-Flash — 322 赞 Qwen/Qwen3.8-27B — 18355 赞 dealignai/DeepSeek-V4.1-Flash-1017-UNCENSO...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-10-25</h1>
+<blockquote>
+<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<ol>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">deepseek-ai/DeepSeek-V4.1-Flash-1017</a> — 2832 赞</li>
+<li><a href="https://huggingface.co/RecursiveSI/flint">RecursiveSI/flint</a> — 787 赞</li>
+<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy">black-forest-labs/flux-3-image-klein-comfy</a> — 1519 赞</li>
+<li><a href="https://huggingface.co/XHToken/Spark-X2.6-4B">XHToken/Spark-X2.6-4B</a> — 459 赞</li>
+<li><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a> — 9207 赞</li>
+<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">OpenMOSS-Team/MOSS-Image-SFT</a> — 703 赞</li>
+<li><a href="https://huggingface.co/fishaudio/drama-3">fishaudio/drama-3</a> — 994 赞</li>
+<li><a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized">abenzerps/Qwen-Image-2.1-Uncensored-Quantized</a> — 4985 赞</li>
+<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash">MiniMaxAI/MiniMax-M3.1-Flash</a> — 322 赞</li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.8-27B">Qwen/Qwen3.8-27B</a> — 18355 赞</li>
+<li><a href="https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8">dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8</a> — 346 赞</li>
+<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base">OpenMOSS-Team/MOSS-Image-Base</a> — 543 赞</li>
+<li><a href="https://huggingface.co/InternScience/Sage-A1.5">InternScience/Sage-A1.5</a> — 277 赞</li>
+<li><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a> — 440 赞</li>
+<li><a href="https://huggingface.co/lodestones/Kromoss">lodestones/Kromoss</a> — 256 赞</li>
+<li><a href="https://huggingface.co/mistralai/Timestral-209M">mistralai/Timestral-209M</a> — 350 赞</li>
+<li><a href="https://huggingface.co/google/embeddinggemma-2">google/embeddinggemma-2</a> — 2902 赞</li>
+<li><a href="https://huggingface.co/unsloth/flint-GGUF">unsloth/flint-GGUF</a> — 230 赞</li>
+<li><a href="https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0">orcarouter/OrcaCyber-Nano-1.0</a> — 238 赞</li>
+<li><a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</a> — 227 赞</li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hugging Face Trending Models Digest 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hf-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-hf-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hugging Face Trending Models Digest 2026-10-25 Source: Hugging Face Hub | 30 models | Generated: 2026-10-25 05:51 UTC deepseek-ai/DeepSeek-V4.1-Flash-1017 — 2832 likes RecursiveSI/flint — 787 likes black-forest-labs/flux-3-image-klein-comfy — 1519 likes XHToken/Spark-X2.6-4B — 459 likes Lightricks/LTX-2.5 — 9207 likes OpenMOSS-Team/MOSS-Image-SFT — 703 likes fishaudio/drama-3 — 994 likes abenzerps/Qwen-Image-2.1-Uncensored-Quantized — 4985 likes MiniMaxAI/MiniMax-M3.1-Flash — 322 likes Qwen/Qwen...</description>
+      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-10-25</h1>
+<blockquote>
+<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<ol>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">deepseek-ai/DeepSeek-V4.1-Flash-1017</a> — 2832 likes</li>
+<li><a href="https://huggingface.co/RecursiveSI/flint">RecursiveSI/flint</a> — 787 likes</li>
+<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy">black-forest-labs/flux-3-image-klein-comfy</a> — 1519 likes</li>
+<li><a href="https://huggingface.co/XHToken/Spark-X2.6-4B">XHToken/Spark-X2.6-4B</a> — 459 likes</li>
+<li><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a> — 9207 likes</li>
+<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">OpenMOSS-Team/MOSS-Image-SFT</a> — 703 likes</li>
+<li><a href="https://huggingface.co/fishaudio/drama-3">fishaudio/drama-3</a> — 994 likes</li>
+<li><a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized">abenzerps/Qwen-Image-2.1-Uncensored-Quantized</a> — 4985 likes</li>
+<li><a href="https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash">MiniMaxAI/MiniMax-M3.1-Flash</a> — 322 likes</li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.8-27B">Qwen/Qwen3.8-27B</a> — 18355 likes</li>
+<li><a href="https://huggingface.co/dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8">dealignai/DeepSeek-V4.1-Flash-1017-UNCENSORED-FP8</a> — 346 likes</li>
+<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base">OpenMOSS-Team/MOSS-Image-Base</a> — 543 likes</li>
+<li><a href="https://huggingface.co/InternScience/Sage-A1.5">InternScience/Sage-A1.5</a> — 277 likes</li>
+<li><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a> — 440 likes</li>
+<li><a href="https://huggingface.co/lodestones/Kromoss">lodestones/Kromoss</a> — 256 likes</li>
+<li><a href="https://huggingface.co/mistralai/Timestral-209M">mistralai/Timestral-209M</a> — 350 likes</li>
+<li><a href="https://huggingface.co/google/embeddinggemma-2">google/embeddinggemma-2</a> — 2902 likes</li>
+<li><a href="https://huggingface.co/unsloth/flint-GGUF">unsloth/flint-GGUF</a> — 230 likes</li>
+<li><a href="https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0">orcarouter/OrcaCyber-Nano-1.0</a> — 238 likes</li>
+<li><a href="https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF">ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF</a> — 227 likes</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>技术社区 AI 动态日报 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-community</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-community</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>技术社区 AI 动态日报 2026-10-25 数据来源: Dev.to (30 篇) + Lobste.rs (7 条) | 生成时间: 2026-10-25 05:51 UTC Dev.to Hours, Not Weeks: How AI Rewrote the Clock of Software Security Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher Three Times My Test Failed and the LLM Was Right SlothOps: A Local AI Caretaker for Your Codebase DownloadsSloth: a local Gemma tool that tidies messy folders...</description>
+      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-10-25</h1>
+<blockquote>
+<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (7 条) | 生成时间: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<h3>Dev.to</h3>
+<ol>
+<li><a href="https://dev.to/james_anderson_h/security-changed-with-ai-and-small-teams-are-falling-behind-5ebg">Hours, Not Weeks: How AI Rewrote the Clock of Software Security</a></li>
+<li><a href="https://dev.to/sbis04/sloth-reads-an-open-model-reads-my-read-later-pile-overnight-then-reads-me-the-good-ones-3o14">Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones</a></li>
+<li><a href="https://dev.to/efe_genc/humanizer-has-about-60000-stars-on-12-public-tasks-my-linter-plugin-scored-267-higher-2cdg">Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher</a></li>
+<li><a href="https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2">Three Times My Test Failed and the LLM Was Right</a></li>
+<li><a href="https://dev.to/extinctsion/slothops-a-local-ai-caretaker-for-your-codebase-4nh">SlothOps: A Local AI Caretaker for Your Codebase</a></li>
+<li><a href="https://dev.to/aakash_mehta_48e67c642976/downloadssloth-a-local-gemma-tool-that-tidies-messy-folders-so-you-dont-have-to-5h5l">DownloadsSloth: a local Gemma tool that tidies messy folders so you don&#39;t have to</a></li>
+<li><a href="https://dev.to/tahrimwalid/one-face-many-agents-meet-agentwebui-1a8l">One Face, Many Agents: Meet AgentWebUI</a></li>
+<li><a href="https://dev.to/gde/gpt-6-is-coming-to-google-cloud-is-your-ai-bill-ready-j7l">GPT-6 Is Coming to Google Cloud. Is Your AI Bill Ready?</a></li>
+<li><a href="https://dev.to/panditshivam/kimi-k31-pro-104b-active-parameters-still-carry-a-28t-backpack-ah6">Kimi K3.1 Pro: 104B active parameters still carry a 2.8T backpack</a></li>
+<li><a href="https://dev.to/arslan_mecom/rag-vs-cag-vs-kag-choosing-the-right-context-layer-in-nodejs-185d">RAG vs CAG vs KAG: Choosing the Right Context Layer in NodeJS</a></li>
+<li><a href="https://dev.to/helderberto/my-ai-coding-workflow-v3-3c4c">My AI Coding Workflow, v3</a></li>
+<li><a href="https://dev.to/emmasofia/everyone-clicks-i-agree-no-one-reads-them-i-fine-tuned-a-4b-model-with-tinker-to-catch-unfair-30lm">Everyone Clicks &#39;I Agree.&#39; No One Reads Them: I Fine-Tuned a 4B Model with Tinker to Catch Unfair Terms of Service in 30 Seconds</a></li>
+<li><a href="https://dev.to/om_shree_0709/hugging-face-just-shipped-a-399-robot-duck-heres-what-it-actually-means-for-nvidia-1nog">Hugging Face Just Shipped a $399 Robot Duck. Here’s What It Actually Means for NVIDIA.</a></li>
+<li><a href="https://dev.to/robertadam987_/your-ai-agent-says-done-what-did-it-actually-verify-16jd">Your AI Agent Says “Done.” What Did It Actually Verify?</a></li>
+<li><a href="https://dev.to/ronaksarda/i-gave-my-pc-a-lazy-rude-roommate-he-does-my-chores-but-only-if-i-say-thank-you-474h">I gave my PC a lazy, rude roommate. He does my chores, but only if I say thank you.</a></li>
+</ol>
+<h3>Lobste.rs</h3>
+<ol>
+<li><a href="https://uniker.nl/">Unikernels in OCaml</a></li>
+<li><a href="https://mistral.ai/news/timestral/">Timestral: Mistral&#39;s time-series foundation models</a></li>
+<li><a href="https://nikhilism.com/post/2026/golang-racket-concurrency/">ConcurrentML: Improving on Go&#39;s concurrency model</a></li>
+<li><a href="https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/">How to Run Turing-Complete Malware in PyTorch&#39;s Backward Pass</a></li>
+<li><a href="https://arxiv.org/abs/2610.14162">Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation</a></li>
+<li><a href="https://scrawl.kitlangton.com/">Scrawl: show an agent the problem</a></li>
+<li><a href="https://arxiv.org/abs/2605.00414">Trees to Flows and Back: Unifying Decision Trees and Diffusion Models</a></li>
+</ol>
+<hr>
+<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Tech Community AI Digest 2026-10-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-25/ai-community-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-25/ai-community-en</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Tech Community AI Digest 2026-10-25 Sources: Dev.to (30 articles) + Lobste.rs (7 stories) | Generated: 2026-10-25 05:51 UTC Dev.to Hours, Not Weeks: How AI Rewrote the Clock of Software Security Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher Three Times My Test Failed and the LLM Was Right SlothOps: A Local AI Caretaker for Your Codebase DownloadsSloth: a local Gem...</description>
+      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-10-25</h1>
+<blockquote>
+<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (7 stories) | Generated: 2026-10-25 05:51 UTC</p>
+</blockquote>
+<hr>
+<h3>Dev.to</h3>
+<ol>
+<li><a href="https://dev.to/james_anderson_h/security-changed-with-ai-and-small-teams-are-falling-behind-5ebg">Hours, Not Weeks: How AI Rewrote the Clock of Software Security</a></li>
+<li><a href="https://dev.to/sbis04/sloth-reads-an-open-model-reads-my-read-later-pile-overnight-then-reads-me-the-good-ones-3o14">Sloth Reads: an open model reads my read-later pile overnight, then reads me the good ones</a></li>
+<li><a href="https://dev.to/efe_genc/humanizer-has-about-60000-stars-on-12-public-tasks-my-linter-plugin-scored-267-higher-2cdg">Humanizer has about 60,000 stars. On 12 public tasks my linter plugin scored 2.67 higher</a></li>
+<li><a href="https://dev.to/debashish_ghosal/three-times-my-test-failed-and-the-llm-was-right-43l2">Three Times My Test Failed and the LLM Was Right</a></li>
+<li><a href="https://dev.to/extinctsion/slothops-a-local-ai-caretaker-for-your-codebase-4nh">SlothOps: A Local AI Caretaker for Your Codebase</a></li>
+<li><a href="https://dev.to/aakash_mehta_48e67c642976/downloadssloth-a-local-gemma-tool-that-tidies-messy-folders-so-you-dont-have-to-5h5l">DownloadsSloth: a local Gemma tool that tidies messy folders so you don&#39;t have to</a></li>
+<li><a href="https://dev.to/tahrimwalid/one-face-many-agents-meet-agentwebui-1a8l">One Face, Many Agents: Meet AgentWebUI</a></li>
+<li><a href="https://dev.to/gde/gpt-6-is-coming-to-google-cloud-is-your-ai-bill-ready-j7l">GPT-6 Is Coming to Google Cloud. Is Your AI Bill Ready?</a></li>
+<li><a href="https://dev.to/panditshivam/kimi-k31-pro-104b-active-parameters-still-carry-a-28t-backpack-ah6">Kimi K3.1 Pro: 104B active parameters still carry a 2.8T backpack</a></li>
+<li><a href="https://dev.to/arslan_mecom/rag-vs-cag-vs-kag-choosing-the-right-context-layer-in-nodejs-185d">RAG vs CAG vs KAG: Choosing the Right Context Layer in NodeJS</a></li>
+<li><a href="https://dev.to/helderberto/my-ai-coding-workflow-v3-3c4c">My AI Coding Workflow, v3</a></li>
+<li><a href="https://dev.to/emmasofia/everyone-clicks-i-agree-no-one-reads-them-i-fine-tuned-a-4b-model-with-tinker-to-catch-unfair-30lm">Everyone Clicks &#39;I Agree.&#39; No One Reads Them: I Fine-Tuned a 4B Model with Tinker to Catch Unfair Terms of Service in 30 Seconds</a></li>
+<li><a href="https://dev.to/om_shree_0709/hugging-face-just-shipped-a-399-robot-duck-heres-what-it-actually-means-for-nvidia-1nog">Hugging Face Just Shipped a $399 Robot Duck. Here’s What It Actually Means for NVIDIA.</a></li>
+<li><a href="https://dev.to/robertadam987_/your-ai-agent-says-done-what-did-it-actually-verify-16jd">Your AI Agent Says “Done.” What Did It Actually Verify?</a></li>
+<li><a href="https://dev.to/ronaksarda/i-gave-my-pc-a-lazy-rude-roommate-he-does-my-chores-but-only-if-i-say-thank-you-474h">I gave my PC a lazy, rude roommate. He does my chores, but only if I say thank you.</a></li>
+</ol>
+<h3>Lobste.rs</h3>
+<ol>
+<li><a href="https://uniker.nl/">Unikernels in OCaml</a></li>
+<li><a href="https://mistral.ai/news/timestral/">Timestral: Mistral&#39;s time-series foundation models</a></li>
+<li><a href="https://nikhilism.com/post/2026/golang-racket-concurrency/">ConcurrentML: Improving on Go&#39;s concurrency model</a></li>
+<li><a href="https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/">How to Run Turing-Complete Malware in PyTorch&#39;s Backward Pass</a></li>
+<li><a href="https://arxiv.org/abs/2610.14162">Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation</a></li>
+<li><a href="https://scrawl.kitlangton.com/">Scrawl: show an agent the problem</a></li>
+<li><a href="https://arxiv.org/abs/2605.00414">Trees to Flows and Back: Unifying Decision Trees and Diffusion Models</a></li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>AI CLI 工具社区动态日报 2026-10-24</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-10-24/ai-cli</link>
@@ -1342,530 +2010,6 @@
 <li><p><a href="https://openai.com/index/broad-access-through-consistent-standards/">Broad Access Through Consistent Standards</a></p>
 </li>
 </ul>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI 开源趋势日报 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-trending</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-trending</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI 开源趋势日报 2026-10-22 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-22 05:55 UTC ⚠️ 趋势报告生成失败。 本日报由 agents-radar 自动生成。</description>
-      <content:encoded><![CDATA[<h1>AI 开源趋势日报 2026-10-22</h1>
-<blockquote>
-<p>数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<p>⚠️ 趋势报告生成失败。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI Open Source Trends 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-trending-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-trending-en</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI Open Source Trends 2026-10-22 Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-22 05:55 UTC ⚠️ Trending report generation failed. This digest is auto-generated by agents-radar.</description>
-      <content:encoded><![CDATA[<h1>AI Open Source Trends 2026-10-22</h1>
-<blockquote>
-<p>Sources: GitHub Trending + GitHub Search API | Generated: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<p>⚠️ Trending report generation failed.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI 社区动态日报 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hn</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hn</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI 社区动态日报 2026-10-22 数据来源: Hacker News | 共 30 条 | 生成时间: 2026-10-22 05:55 UTC Claude Duet（343 分，308 评论） OpenAI models are coming to Google Cloud（274 分，112 评论） Patch the Planet: global response coordination as agents uncover vulnerabilities（247 分，167 评论） Airbnb bans making guests do dishes and take out the trash（156 分，142 评论） Using thousands of AI agents to uncover new leads in biological data（139 分，86 评论） Claude Duet（68 分，7 评论） Launch HN: Alter (YC S25) – Access control for multi-user...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI 社区动态日报 2026-10-22</h1>
-<blockquote>
-<p>数据来源: <a href="https://news.ycombinator.com/">Hacker News</a> | 共 30 条 | 生成时间: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://claude.com/product/claude-duet">Claude Duet</a>（343 分，308 评论）</li>
-<li><a href="https://openai.com/index/openai-models-google-cloud/">OpenAI models are coming to Google Cloud</a>（274 分，112 评论）</li>
-<li><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/">Patch the Planet: global response coordination as agents uncover vulnerabilities</a>（247 分，167 评论）</li>
-<li><a href="https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update">Airbnb bans making guests do dishes and take out the trash</a>（156 分，142 评论）</li>
-<li><a href="https://openai.com/index/scaling-ai-research-for-complex-biological-data/">Using thousands of AI agents to uncover new leads in biological data</a>（139 分，86 评论）</li>
-<li><a href="https://claude.com/resources/articles/claude-duet">Claude Duet</a>（68 分，7 评论）</li>
-<li><a href="https://alterauth.com/">Launch HN: Alter (YC S25) – Access control for multi-user agents</a>（58 分，25 评论）</li>
-<li><a href="https://github.com/omnara-ai/omnara">Show HN: Omnara – Open-source alternative to Claude Managed Agents</a>（51 分，15 评论）</li>
-<li><a href="https://www.anthropic.com/public-benefit-charter">Anthropic&#39;s Public Benefit Charter</a>（47 分，59 评论）</li>
-<li><a href="https://olivergrabner.com/research/pokemon/">LLM agents play Pokemon showdown</a>（25 分，13 评论）</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report">Data centers could erase decades of air quality gains</a>（20 分，1 评论）</li>
-<li><a href="https://bloffy.co/en">Show HN: I built a Markdown and raw HTML blog platform scoring 99 on PageSpeed</a>（17 分，14 评论）</li>
-<li><a href="https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1">Anthropic disclosed an $80.7B net loss for the first half of 2026</a>（16 分，12 评论）</li>
-<li><a href="https://news.ycombinator.com/item?id=50182883">Open-source, cross-harness memory for AI agents</a>（15 分，11 评论）</li>
-<li><a href="https://news.ycombinator.com/item?id=50189266">Did I just spent 6 months building a product that no one wants</a>（12 分，15 评论）</li>
-<li><a href="https://editor.besser-pearl.org/">A free agentic app builder where LLMs only write what deterministic tools can&#39;t</a>（12 分，3 评论）</li>
-<li><a href="https://docs.litellm.ai/blog/security-incident-oct-21-2026">LiteLLM Security Update</a>（11 分，1 评论）</li>
-<li><a href="https://news.ycombinator.com/item?id=50188865">Ask HN: Are we giving away our civilization?</a>（9 分，4 评论）</li>
-<li><a href="https://www.telegraph.co.uk/business/2026/10/20/anthropic-loses-80bn-six-months/">Anthropic loses $80B in six months</a>（8 分，3 评论）</li>
-<li><a href="https://github.com/archestra-ai/archestra/releases/tag/platform-v1.4.0">Archestra 1.4: OpenAPPA and Self Hosted Runtime for Claude Code and Codex</a>（8 分，0 评论）</li>
-<li><a href="https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides">Claude Now Works with Google Docs, Sheets, and Slides</a>（8 分，0 评论）</li>
-<li><a href="https://www.theargumentmag.com/p/what-i-saw-inside-anthropic">What I saw inside Anthropic: AI lab pushes towards recursive self-improvement</a>（6 分，2 评论）</li>
-<li><a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html">Anthropic to publicly file for IPO as early as Friday, sources say</a>（5 分，1 评论）</li>
-<li><a href="https://news.ycombinator.com/item?id=50189771">The Kessler Syndrome (where blowups multiply exponentially) applied to software</a>（5 分，0 评论）</li>
-<li><a href="https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/">France&#39;s OVHcloud plans frontier AI models to become Europe&#39;s second LLM player</a>（5 分，0 评论）</li>
-<li><a href="https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj">Anthropic posts $80B loss in first half of 2026</a>（4 分，1 评论）</li>
-<li><a href="https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust">Physicist Christopher Stubbs Joins Anthropic&#39;s Long-Term Benefit Trust</a>（4 分，0 评论）</li>
-<li><a href="https://github.com/openai/openai-cli">OpenAI CLI</a>（4 分，0 评论）</li>
-<li><a href="https://jev-browser.rovira.sh">Show HN: Jev drives a browser – HN login and search in 8s for half a cent</a>（4 分，0 评论）</li>
-<li><a href="https://sierra.ai/blog/introducing-personal-agent-protocol">Personal Agent Protocol</a>（4 分，0 评论）</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hacker News AI Community Digest 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hn-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hn-en</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hacker News AI Community Digest 2026-10-22 Source: Hacker News | 30 stories | Generated: 2026-10-22 05:55 UTC Claude Duet (343 points, 308 comments) OpenAI models are coming to Google Cloud (274 points, 112 comments) Patch the Planet: global response coordination as agents uncover vulnerabilities (247 points, 167 comments) Airbnb bans making guests do dishes and take out the trash (156 points, 142 comments) Using thousands of AI agents to uncover new leads in biological data (139 points, 86 comm...</description>
-      <content:encoded><![CDATA[<h1>Hacker News AI Community Digest 2026-10-22</h1>
-<blockquote>
-<p>Source: <a href="https://news.ycombinator.com/">Hacker News</a> | 30 stories | Generated: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://claude.com/product/claude-duet">Claude Duet</a> (343 points, 308 comments)</li>
-<li><a href="https://openai.com/index/openai-models-google-cloud/">OpenAI models are coming to Google Cloud</a> (274 points, 112 comments)</li>
-<li><a href="https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/">Patch the Planet: global response coordination as agents uncover vulnerabilities</a> (247 points, 167 comments)</li>
-<li><a href="https://www.theverge.com/tech/1015844/airbnb-chores-house-rules-update">Airbnb bans making guests do dishes and take out the trash</a> (156 points, 142 comments)</li>
-<li><a href="https://openai.com/index/scaling-ai-research-for-complex-biological-data/">Using thousands of AI agents to uncover new leads in biological data</a> (139 points, 86 comments)</li>
-<li><a href="https://claude.com/resources/articles/claude-duet">Claude Duet</a> (68 points, 7 comments)</li>
-<li><a href="https://alterauth.com/">Launch HN: Alter (YC S25) – Access control for multi-user agents</a> (58 points, 25 comments)</li>
-<li><a href="https://github.com/omnara-ai/omnara">Show HN: Omnara – Open-source alternative to Claude Managed Agents</a> (51 points, 15 comments)</li>
-<li><a href="https://www.anthropic.com/public-benefit-charter">Anthropic&#39;s Public Benefit Charter</a> (47 points, 59 comments)</li>
-<li><a href="https://olivergrabner.com/research/pokemon/">LLM agents play Pokemon showdown</a> (25 points, 13 comments)</li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report">Data centers could erase decades of air quality gains</a> (20 points, 1 comments)</li>
-<li><a href="https://bloffy.co/en">Show HN: I built a Markdown and raw HTML blog platform scoring 99 on PageSpeed</a> (17 points, 14 comments)</li>
-<li><a href="https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1">Anthropic disclosed an $80.7B net loss for the first half of 2026</a> (16 points, 12 comments)</li>
-<li><a href="https://news.ycombinator.com/item?id=50182883">Open-source, cross-harness memory for AI agents</a> (15 points, 11 comments)</li>
-<li><a href="https://news.ycombinator.com/item?id=50189266">Did I just spent 6 months building a product that no one wants</a> (12 points, 15 comments)</li>
-<li><a href="https://editor.besser-pearl.org/">A free agentic app builder where LLMs only write what deterministic tools can&#39;t</a> (12 points, 3 comments)</li>
-<li><a href="https://docs.litellm.ai/blog/security-incident-oct-21-2026">LiteLLM Security Update</a> (11 points, 1 comments)</li>
-<li><a href="https://news.ycombinator.com/item?id=50188865">Ask HN: Are we giving away our civilization?</a> (9 points, 4 comments)</li>
-<li><a href="https://www.telegraph.co.uk/business/2026/10/20/anthropic-loses-80bn-six-months/">Anthropic loses $80B in six months</a> (8 points, 3 comments)</li>
-<li><a href="https://github.com/archestra-ai/archestra/releases/tag/platform-v1.4.0">Archestra 1.4: OpenAPPA and Self Hosted Runtime for Claude Code and Codex</a> (8 points, 0 comments)</li>
-<li><a href="https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides">Claude Now Works with Google Docs, Sheets, and Slides</a> (8 points, 0 comments)</li>
-<li><a href="https://www.theargumentmag.com/p/what-i-saw-inside-anthropic">What I saw inside Anthropic: AI lab pushes towards recursive self-improvement</a> (6 points, 2 comments)</li>
-<li><a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html">Anthropic to publicly file for IPO as early as Friday, sources say</a> (5 points, 1 comments)</li>
-<li><a href="https://news.ycombinator.com/item?id=50189771">The Kessler Syndrome (where blowups multiply exponentially) applied to software</a> (5 points, 0 comments)</li>
-<li><a href="https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/">France&#39;s OVHcloud plans frontier AI models to become Europe&#39;s second LLM player</a> (5 points, 0 comments)</li>
-<li><a href="https://www.aljazeera.com/news/2026/10/21/anthropic-posts-80bn-loss-in-first-half-of-2026-wsj">Anthropic posts $80B loss in first half of 2026</a> (4 points, 1 comments)</li>
-<li><a href="https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust">Physicist Christopher Stubbs Joins Anthropic&#39;s Long-Term Benefit Trust</a> (4 points, 0 comments)</li>
-<li><a href="https://github.com/openai/openai-cli">OpenAI CLI</a> (4 points, 0 comments)</li>
-<li><a href="https://jev-browser.rovira.sh">Show HN: Jev drives a browser – HN login and search in 8s for half a cent</a> (4 points, 0 comments)</li>
-<li><a href="https://sierra.ai/blog/introducing-personal-agent-protocol">Personal Agent Protocol</a> (4 points, 0 comments)</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI 研究日报 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-arxiv</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI 研究日报 2026-10-22 数据来源: ArXiv (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-10-22 05:55 UTC LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data — cs.CL, cs.LG Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation — cs.IR, cs.AI, cs.CL, cs.LG PhysiCalWorld: In-Context Physics Calibration for World Models — cs.RO, cs.AI, cs.CV A Quasipolynomial Algorithm for $\ell_\infty$ Contractions — cs.GT, cs.CC, cs.LG, math.OC Self-normalized Bernstein...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI 研究日报 2026-10-22</h1>
-<blockquote>
-<p>数据来源: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 共 50 篇论文 | 生成时间: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="http://arxiv.org/abs/2610.30132v1">LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data</a> — cs.CL, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30128v1">Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation</a> — cs.IR, cs.AI, cs.CL, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30125v1">PhysiCalWorld: In-Context Physics Calibration for World Models</a> — cs.RO, cs.AI, cs.CV</li>
-<li><a href="http://arxiv.org/abs/2610.30122v1">A Quasipolynomial Algorithm for $\ell_\infty$ Contractions</a> — cs.GT, cs.CC, cs.LG, math.OC</li>
-<li><a href="http://arxiv.org/abs/2610.30119v1">Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence</a> — cs.LG, math.PR, math.ST</li>
-<li><a href="http://arxiv.org/abs/2610.30118v1">The role of locality and weight sharing in convolutional neural networks</a> — cs.LG, cond-mat.dis-nn, cond-mat.stat-mech, stat.ML</li>
-<li><a href="http://arxiv.org/abs/2610.30116v1">Environment Duels: A Microcosm of LLM Co-Evolution</a> — cs.CL, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30114v1">The End of Consensus Research?</a> — cs.DC, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30113v1">Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research</a> — cs.CL, cs.AI, cs.CE</li>
-<li><a href="http://arxiv.org/abs/2610.30109v1">Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance</a> — math.ST, cs.IT, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30108v1">Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</a> — cs.RO, cs.AI, cs.CV, cs.MA, cs.MM</li>
-<li><a href="http://arxiv.org/abs/2610.30107v1">Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching</a> — cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30105v1">Asymmetric On-Policy Distillation Learns In-Context Exploration</a> — cs.RO, cs.AI, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30104v1">BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard</a> — cs.LG, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30103v1">Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting</a> — cs.CL</li>
-<li><a href="http://arxiv.org/abs/2610.30099v1">Differentially Private Sparse Reward Estimation with Preference Feedback</a> — cs.LG, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30097v1">AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation</a> — cs.RO, cs.AI, cs.CV</li>
-<li><a href="http://arxiv.org/abs/2610.30090v1">VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift</a> — cs.CR, cs.CL, cs.LG, cs.NI</li>
-<li><a href="http://arxiv.org/abs/2610.30086v1">Orbitol: Crystal Generation on Wyckoff Orbits</a> — cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30076v1">Circuits of LLM Classifiers</a> — cs.LG</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>ArXiv AI Research Digest 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-arxiv-en</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>ArXiv AI Research Digest 2026-10-22 Source: ArXiv (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-22 05:55 UTC LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data — cs.CL, cs.LG Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation — cs.IR, cs.AI, cs.CL, cs.LG PhysiCalWorld: In-Context Physics Calibration for World Models — cs.RO, cs.AI, cs.CV A Quasipolynomial Algorithm for $\ell_\infty$ Contractions — cs.GT, cs.CC, cs.LG, math.OC Self-n...</description>
-      <content:encoded><![CDATA[<h1>ArXiv AI Research Digest 2026-10-22</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="http://arxiv.org/abs/2610.30132v1">LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data</a> — cs.CL, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30128v1">Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation</a> — cs.IR, cs.AI, cs.CL, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30125v1">PhysiCalWorld: In-Context Physics Calibration for World Models</a> — cs.RO, cs.AI, cs.CV</li>
-<li><a href="http://arxiv.org/abs/2610.30122v1">A Quasipolynomial Algorithm for $\ell_\infty$ Contractions</a> — cs.GT, cs.CC, cs.LG, math.OC</li>
-<li><a href="http://arxiv.org/abs/2610.30119v1">Self-normalized Bernstein Inequalities for Regenerative Processes and Applications to Learning Without Independence</a> — cs.LG, math.PR, math.ST</li>
-<li><a href="http://arxiv.org/abs/2610.30118v1">The role of locality and weight sharing in convolutional neural networks</a> — cs.LG, cond-mat.dis-nn, cond-mat.stat-mech, stat.ML</li>
-<li><a href="http://arxiv.org/abs/2610.30116v1">Environment Duels: A Microcosm of LLM Co-Evolution</a> — cs.CL, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30114v1">The End of Consensus Research?</a> — cs.DC, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30113v1">Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research</a> — cs.CL, cs.AI, cs.CE</li>
-<li><a href="http://arxiv.org/abs/2610.30109v1">Minimax Optimality of the NPMLE for Gaussian Mixtures in Hellinger Distance</a> — math.ST, cs.IT, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30108v1">Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use</a> — cs.RO, cs.AI, cs.CV, cs.MA, cs.MM</li>
-<li><a href="http://arxiv.org/abs/2610.30107v1">Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching</a> — cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30105v1">Asymmetric On-Policy Distillation Learns In-Context Exploration</a> — cs.RO, cs.AI, cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30104v1">BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard</a> — cs.LG, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30103v1">Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting</a> — cs.CL</li>
-<li><a href="http://arxiv.org/abs/2610.30099v1">Differentially Private Sparse Reward Estimation with Preference Feedback</a> — cs.LG, cs.AI</li>
-<li><a href="http://arxiv.org/abs/2610.30097v1">AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation</a> — cs.RO, cs.AI, cs.CV</li>
-<li><a href="http://arxiv.org/abs/2610.30090v1">VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage - An empirical study of unknown-attack honesty, cascade gray zones, and calibration under drift</a> — cs.CR, cs.CL, cs.LG, cs.NI</li>
-<li><a href="http://arxiv.org/abs/2610.30086v1">Orbitol: Crystal Generation on Wyckoff Orbits</a> — cs.LG</li>
-<li><a href="http://arxiv.org/abs/2610.30076v1">Circuits of LLM Classifiers</a> — cs.LG</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face 热门模型日报 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hf</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hf</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face 热门模型日报 2026-10-22 数据来源: Hugging Face Hub | 共 30 个模型 | 生成时间: 2026-10-22 05:55 UTC deepseek-ai/DeepSeek-V4.1-Flash-1017 — 2212 赞 black-forest-labs/flux-3-image-klein-comfy — 1207 赞 meta-models/Muse-Spark-Open-816B-A42B — 642 赞 black-forest-labs/flux-3-image-klein — 608 赞 fishaudio/drama-3 — 896 赞 OpenMOSS-Team/MOSS-Image-SFT — 541 赞 OpenMOSS-Team/MOSS-Image-Base — 474 赞 Lightricks/LTX-2.5 — 8784 赞 google/embeddinggemma-2 — 2816 赞 jialinyyzz/humanizer — 2070 赞 Comfy-Org/MOSS-Image — 34...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face 热门模型日报 2026-10-22</h1>
-<blockquote>
-<p>数据来源: <a href="https://huggingface.co/">Hugging Face Hub</a> | 共 30 个模型 | 生成时间: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">deepseek-ai/DeepSeek-V4.1-Flash-1017</a> — 2212 赞</li>
-<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy">black-forest-labs/flux-3-image-klein-comfy</a> — 1207 赞</li>
-<li><a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B">meta-models/Muse-Spark-Open-816B-A42B</a> — 642 赞</li>
-<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein">black-forest-labs/flux-3-image-klein</a> — 608 赞</li>
-<li><a href="https://huggingface.co/fishaudio/drama-3">fishaudio/drama-3</a> — 896 赞</li>
-<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">OpenMOSS-Team/MOSS-Image-SFT</a> — 541 赞</li>
-<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base">OpenMOSS-Team/MOSS-Image-Base</a> — 474 赞</li>
-<li><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a> — 8784 赞</li>
-<li><a href="https://huggingface.co/google/embeddinggemma-2">google/embeddinggemma-2</a> — 2816 赞</li>
-<li><a href="https://huggingface.co/jialinyyzz/humanizer">jialinyyzz/humanizer</a> — 2070 赞</li>
-<li><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a> — 343 赞</li>
-<li><a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized">abenzerps/Qwen-Image-2.1-Uncensored-Quantized</a> — 4782 赞</li>
-<li><a href="https://huggingface.co/RecursiveSI/flint">RecursiveSI/flint</a> — 303 赞</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.8-27B">Qwen/Qwen3.8-27B</a> — 18151 赞</li>
-<li><a href="https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local">nvidia/Qwen3.8-Flash-Next-FP4-Local</a> — 294 赞</li>
-<li><a href="https://huggingface.co/tencent/Hy-Memory-30B-A3B">tencent/Hy-Memory-30B-A3B</a> — 277 赞</li>
-<li><a href="https://huggingface.co/datalab-to/indra-ocr">datalab-to/indra-ocr</a> — 344 赞</li>
-<li><a href="https://huggingface.co/mistralai/Timestral-209M">mistralai/Timestral-209M</a> — 266 赞</li>
-<li><a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B">LiquidAI/LFM2.5-24B-A2B</a> — 551 赞</li>
-<li><a href="https://huggingface.co/reflection/Beam-1.0-501B-A23B">reflection/Beam-1.0-501B-A23B</a> — 212 赞</li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Hugging Face Trending Models Digest 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hf-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-hf-en</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Hugging Face Trending Models Digest 2026-10-22 Source: Hugging Face Hub | 30 models | Generated: 2026-10-22 05:55 UTC deepseek-ai/DeepSeek-V4.1-Flash-1017 — 2212 likes black-forest-labs/flux-3-image-klein-comfy — 1207 likes meta-models/Muse-Spark-Open-816B-A42B — 642 likes black-forest-labs/flux-3-image-klein — 608 likes fishaudio/drama-3 — 896 likes OpenMOSS-Team/MOSS-Image-SFT — 541 likes OpenMOSS-Team/MOSS-Image-Base — 474 likes Lightricks/LTX-2.5 — 8784 likes google/embeddinggemma-2 — 2816 l...</description>
-      <content:encoded><![CDATA[<h1>Hugging Face Trending Models Digest 2026-10-22</h1>
-<blockquote>
-<p>Source: <a href="https://huggingface.co/">Hugging Face Hub</a> | 30 models | Generated: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<ol>
-<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017">deepseek-ai/DeepSeek-V4.1-Flash-1017</a> — 2212 likes</li>
-<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy">black-forest-labs/flux-3-image-klein-comfy</a> — 1207 likes</li>
-<li><a href="https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B">meta-models/Muse-Spark-Open-816B-A42B</a> — 642 likes</li>
-<li><a href="https://huggingface.co/black-forest-labs/flux-3-image-klein">black-forest-labs/flux-3-image-klein</a> — 608 likes</li>
-<li><a href="https://huggingface.co/fishaudio/drama-3">fishaudio/drama-3</a> — 896 likes</li>
-<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">OpenMOSS-Team/MOSS-Image-SFT</a> — 541 likes</li>
-<li><a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base">OpenMOSS-Team/MOSS-Image-Base</a> — 474 likes</li>
-<li><a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5</a> — 8784 likes</li>
-<li><a href="https://huggingface.co/google/embeddinggemma-2">google/embeddinggemma-2</a> — 2816 likes</li>
-<li><a href="https://huggingface.co/jialinyyzz/humanizer">jialinyyzz/humanizer</a> — 2070 likes</li>
-<li><a href="https://huggingface.co/Comfy-Org/MOSS-Image">Comfy-Org/MOSS-Image</a> — 343 likes</li>
-<li><a href="https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized">abenzerps/Qwen-Image-2.1-Uncensored-Quantized</a> — 4782 likes</li>
-<li><a href="https://huggingface.co/RecursiveSI/flint">RecursiveSI/flint</a> — 303 likes</li>
-<li><a href="https://huggingface.co/Qwen/Qwen3.8-27B">Qwen/Qwen3.8-27B</a> — 18151 likes</li>
-<li><a href="https://huggingface.co/nvidia/Qwen3.8-Flash-Next-FP4-Local">nvidia/Qwen3.8-Flash-Next-FP4-Local</a> — 294 likes</li>
-<li><a href="https://huggingface.co/tencent/Hy-Memory-30B-A3B">tencent/Hy-Memory-30B-A3B</a> — 277 likes</li>
-<li><a href="https://huggingface.co/datalab-to/indra-ocr">datalab-to/indra-ocr</a> — 344 likes</li>
-<li><a href="https://huggingface.co/mistralai/Timestral-209M">mistralai/Timestral-209M</a> — 266 likes</li>
-<li><a href="https://huggingface.co/LiquidAI/LFM2.5-24B-A2B">LiquidAI/LFM2.5-24B-A2B</a> — 551 likes</li>
-<li><a href="https://huggingface.co/reflection/Beam-1.0-501B-A23B">reflection/Beam-1.0-501B-A23B</a> — 212 likes</li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>技术社区 AI 动态日报 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-community</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-community</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>技术社区 AI 动态日报 2026-10-22 数据来源: Dev.to (30 篇) + Lobste.rs (6 条) | 生成时间: 2026-10-22 05:55 UTC Dev.to Idempotency keys for AI agents: why hashing the arguments doesn&amp;#39;t work I Fixed WebGPU on Linux. Then Forgot How I Did It. I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway AI Made Coding Cheaper. So Why Is Building Software Still So Expensive? 🛑 Why I Refuse to Give AI Root Access: Meet LazyLoop AI for Paranoid, Lazy Developers 🦥 When Your Agent Refuses to Collaborate: Why Pro...</description>
-      <content:encoded><![CDATA[<h1>技术社区 AI 动态日报 2026-10-22</h1>
-<blockquote>
-<p>数据来源: <a href="https://dev.to/">Dev.to</a> (30 篇) + <a href="https://lobste.rs/">Lobste.rs</a> (6 条) | 生成时间: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<h3>Dev.to</h3>
-<ol>
-<li><a href="https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap">Idempotency keys for AI agents: why hashing the arguments doesn&#39;t work</a></li>
-<li><a href="https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd">I Fixed WebGPU on Linux. Then Forgot How I Did It.</a></li>
-<li><a href="https://dev.to/devstackhub/i-explored-respan-gateway-a-plugin-first-open-source-llm-gateway-4d6b">I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway</a></li>
-<li><a href="https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m">AI Made Coding Cheaper. So Why Is Building Software Still So Expensive?</a></li>
-<li><a href="https://dev.to/arnab825/lazyloop-ai-do-less-busywork-get-proof-not-promises-52ao">🛑 Why I Refuse to Give AI Root Access: Meet LazyLoop AI for Paranoid, Lazy Developers 🦥</a></li>
-<li><a href="https://dev.to/rosspeili/when-your-agent-refuses-to-collaborate-why-propositional-logic-and-basic-hygiene-beat-raw-vibe-6f6">When Your Agent Refuses to Collaborate: Why Propositional Logic and Basic Hygiene Beat Raw Vibe Coding</a></li>
-<li><a href="https://dev.to/slabb/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8">Who watches the watcher when the watcher is a file in the repo?</a></li>
-<li><a href="https://dev.to/tarunsinghofficial/sie-vs-vllm-which-fits-your-embedding-and-reranking-workloads-2ac1">SIE vs vLLM: Which Fits Your Embedding and Reranking Workloads?</a></li>
-<li><a href="https://dev.to/mbuthi/treat-your-llm-agent-like-a-new-bank-teller-fpd">Treat Your LLM Agent Like a New Bank Teller</a></li>
-<li><a href="https://dev.to/tahary/slothtidy-a-zero-friction-100-local-ai-file-daemon-that-organizes-your-downloads-while-you-rest-2dfg">SlothTidy: A Zero-Friction, 100% Local AI File Daemon That Organizes Your Downloads While You Rest 🦥</a></li>
-<li><a href="https://dev.to/ani0811/slothdesk-local-first-ai-downloads-organizer-less-sorting-more-living-398">SlothDesk — Local-First AI Downloads Organizer: Less sorting. More living.</a></li>
-<li><a href="https://dev.to/valyuai/how-to-get-historical-stock-prices-via-search-api-20e8">How to Get Historical Stock Prices via Search API</a></li>
-<li><a href="https://dev.to/remojansen/your-platform-engineering-investment-is-not-paying-off-heres-why-b6l">Your Platform Engineering Investment Is Not Paying Off. Here&#39;s Why.</a></li>
-<li><a href="https://dev.to/windowsmode/your-agent-should-not-run-as-you-what-windows-now-offers-for-containing-ai-agents-1g0j">Your Agent Should Not Run as You: What Windows Now Offers for Containing AI Agents</a></li>
-<li><a href="https://dev.to/joancomadran/mcp-vs-function-calling-which-one-your-ai-agent-actually-needs-2026-5hdg">MCP vs function calling: which one your AI agent actually needs (2026)</a></li>
-</ol>
-<h3>Lobste.rs</h3>
-<ol>
-<li><a href="https://uniker.nl/">Unikernels in OCaml</a></li>
-<li><a href="https://mistral.ai/news/timestral/">Timestral: Mistral&#39;s time-series foundation models</a></li>
-<li><a href="https://nikhilism.com/post/2026/golang-racket-concurrency/">ConcurrentML: Improving on Go&#39;s concurrency model</a></li>
-<li><a href="https://already-clean.goodfire.com/">Neural Networks Are Already Clean</a></li>
-<li><a href="https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/">How to Run Turing-Complete Malware in PyTorch&#39;s Backward Pass</a></li>
-<li><a href="https://hol-light.github.io/tutorial/HTML/tutorial.html">HOL Light Tutorial</a></li>
-</ol>
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Tech Community AI Digest 2026-10-22</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-22/ai-community-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-22/ai-community-en</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Tech Community AI Digest 2026-10-22 Sources: Dev.to (30 articles) + Lobste.rs (6 stories) | Generated: 2026-10-22 05:55 UTC Dev.to Idempotency keys for AI agents: why hashing the arguments doesn&amp;#39;t work I Fixed WebGPU on Linux. Then Forgot How I Did It. I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway AI Made Coding Cheaper. So Why Is Building Software Still So Expensive? 🛑 Why I Refuse to Give AI Root Access: Meet LazyLoop AI for Paranoid, Lazy Developers 🦥 When Your Agen...</description>
-      <content:encoded><![CDATA[<h1>Tech Community AI Digest 2026-10-22</h1>
-<blockquote>
-<p>Sources: <a href="https://dev.to/">Dev.to</a> (30 articles) + <a href="https://lobste.rs/">Lobste.rs</a> (6 stories) | Generated: 2026-10-22 05:55 UTC</p>
-</blockquote>
-<hr>
-<h3>Dev.to</h3>
-<ol>
-<li><a href="https://dev.to/anis_meziani_52aab42304a8/idempotency-keys-for-ai-agents-why-hashing-the-arguments-doesnt-work-cap">Idempotency keys for AI agents: why hashing the arguments doesn&#39;t work</a></li>
-<li><a href="https://dev.to/sizzlebop/i-fixed-webgpu-on-linux-then-forgot-how-i-did-it-5hjd">I Fixed WebGPU on Linux. Then Forgot How I Did It.</a></li>
-<li><a href="https://dev.to/devstackhub/i-explored-respan-gateway-a-plugin-first-open-source-llm-gateway-4d6b">I Explored Respan Gateway: A Plugin-First, Open-Source LLM Gateway</a></li>
-<li><a href="https://dev.to/harsh2644/ai-made-coding-cheaper-so-why-is-building-software-still-so-expensive-59m">AI Made Coding Cheaper. So Why Is Building Software Still So Expensive?</a></li>
-<li><a href="https://dev.to/arnab825/lazyloop-ai-do-less-busywork-get-proof-not-promises-52ao">🛑 Why I Refuse to Give AI Root Access: Meet LazyLoop AI for Paranoid, Lazy Developers 🦥</a></li>
-<li><a href="https://dev.to/rosspeili/when-your-agent-refuses-to-collaborate-why-propositional-logic-and-basic-hygiene-beat-raw-vibe-6f6">When Your Agent Refuses to Collaborate: Why Propositional Logic and Basic Hygiene Beat Raw Vibe Coding</a></li>
-<li><a href="https://dev.to/slabb/who-watches-the-watcher-when-the-watcher-is-a-file-in-the-repo-31m8">Who watches the watcher when the watcher is a file in the repo?</a></li>
-<li><a href="https://dev.to/tarunsinghofficial/sie-vs-vllm-which-fits-your-embedding-and-reranking-workloads-2ac1">SIE vs vLLM: Which Fits Your Embedding and Reranking Workloads?</a></li>
-<li><a href="https://dev.to/mbuthi/treat-your-llm-agent-like-a-new-bank-teller-fpd">Treat Your LLM Agent Like a New Bank Teller</a></li>
-<li><a href="https://dev.to/tahary/slothtidy-a-zero-friction-100-local-ai-file-daemon-that-organizes-your-downloads-while-you-rest-2dfg">SlothTidy: A Zero-Friction, 100% Local AI File Daemon That Organizes Your Downloads While You Rest 🦥</a></li>
-<li><a href="https://dev.to/ani0811/slothdesk-local-first-ai-downloads-organizer-less-sorting-more-living-398">SlothDesk — Local-First AI Downloads Organizer: Less sorting. More living.</a></li>
-<li><a href="https://dev.to/valyuai/how-to-get-historical-stock-prices-via-search-api-20e8">How to Get Historical Stock Prices via Search API</a></li>
-<li><a href="https://dev.to/remojansen/your-platform-engineering-investment-is-not-paying-off-heres-why-b6l">Your Platform Engineering Investment Is Not Paying Off. Here&#39;s Why.</a></li>
-<li><a href="https://dev.to/windowsmode/your-agent-should-not-run-as-you-what-windows-now-offers-for-containing-ai-agents-1g0j">Your Agent Should Not Run as You: What Windows Now Offers for Containing AI Agents</a></li>
-<li><a href="https://dev.to/joancomadran/mcp-vs-function-calling-which-one-your-ai-agent-actually-needs-2026-5hdg">MCP vs function calling: which one your AI agent actually needs (2026)</a></li>
-</ol>
-<h3>Lobste.rs</h3>
-<ol>
-<li><a href="https://uniker.nl/">Unikernels in OCaml</a></li>
-<li><a href="https://mistral.ai/news/timestral/">Timestral: Mistral&#39;s time-series foundation models</a></li>
-<li><a href="https://nikhilism.com/post/2026/golang-racket-concurrency/">ConcurrentML: Improving on Go&#39;s concurrency model</a></li>
-<li><a href="https://already-clean.goodfire.com/">Neural Networks Are Already Clean</a></li>
-<li><a href="https://elonlit.com/scrivings/how-to-run-turing-complete-malware-in-pytorchs-backward-pass/">How to Run Turing-Complete Malware in PyTorch&#39;s Backward Pass</a></li>
-<li><a href="https://hol-light.github.io/tutorial/HTML/tutorial.html">HOL Light Tutorial</a></li>
-</ol>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI 工具社区动态日报 2026-10-21</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI 工具社区动态日报 2026-10-21 生成时间: 2026-10-21 05:51 UTC | 覆盖工具: 8 个 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills 横向对比 各工具详细报告 Claude Code — anthropics/claude-code Claude Code Skills 社区热点 数据来源: anthropics/skills ⚠️ Skills 摘要生成失败。 ⚠️ 摘要生成失败。 OpenAI Codex — openai/codex ⚠️ 摘要生成失败。 Gemini CLI — google-gemini/gemini-cli ⚠️ 摘要生成失败。 GitHub Copilot CLI — github/copilot-cli ⚠️ 摘要生成失败。 Kimi Code CLI — MoonshotAI/kimi-cli 过去24小时无活动。 OpenCode — ...</description>
-      <content:encoded><![CDATA[<h1>AI CLI 工具社区动态日报 2026-10-21</h1>
-<blockquote>
-<p>生成时间: 2026-10-21 05:51 UTC | 覆盖工具: 8 个</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>横向对比</h2>
-<hr>
-<h2>各工具详细报告</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills 社区热点</h2>
-<blockquote>
-<p>数据来源: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>⚠️ Skills 摘要生成失败。</p>
-<hr>
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>过去24小时无活动。</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<p>⚠️ 摘要生成失败。</p>
-</details>
-
-<hr>
-<p><em>本日报由 <a href="https://github.com/dalen666/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>AI CLI Tools Digest 2026-10-21</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-21/ai-cli-en</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>AI CLI Tools Community Digest 2026-10-21 Generated: 2026-10-21 05:51 UTC | Tools covered: 8 Claude Code OpenAI Codex Gemini CLI GitHub Copilot CLI Kimi Code CLI OpenCode Pi Qwen Code Claude Code Skills Cross-Tool Comparison Per-Tool Reports Claude Code — anthropics/claude-code Claude Code Skills Highlights Source: anthropics/skills ⚠️ Skills summary generation failed. ⚠️ Summary generation failed. OpenAI Codex — openai/codex ⚠️ Summary generation failed. Gemini CLI — google-gemini/gemini-cli ⚠️ ...</description>
-      <content:encoded><![CDATA[<h1>AI CLI Tools Community Digest 2026-10-21</h1>
-<blockquote>
-<p>Generated: 2026-10-21 05:51 UTC | Tools covered: 8</p>
-</blockquote>
-<ul>
-<li><a href="https://github.com/anthropics/claude-code">Claude Code</a></li>
-<li><a href="https://github.com/openai/codex">OpenAI Codex</a></li>
-<li><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></li>
-<li><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></li>
-<li><a href="https://github.com/MoonshotAI/kimi-cli">Kimi Code CLI</a></li>
-<li><a href="https://github.com/anomalyco/opencode">OpenCode</a></li>
-<li><a href="https://github.com/badlogic/pi-mono">Pi</a></li>
-<li><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></li>
-<li><a href="https://github.com/anthropics/skills">Claude Code Skills</a></li>
-</ul>
-<hr>
-<h2>Cross-Tool Comparison</h2>
-<hr>
-<h2>Per-Tool Reports</h2>
-<details>
-<summary><strong>Claude Code</strong> — <a href="https://github.com/anthropics/claude-code">anthropics/claude-code</a></summary>
-
-<h2>Claude Code Skills Highlights</h2>
-<blockquote>
-<p>Source: <a href="https://github.com/anthropics/skills">anthropics/skills</a></p>
-</blockquote>
-<p>⚠️ Skills summary generation failed.</p>
-<hr>
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>OpenAI Codex</strong> — <a href="https://github.com/openai/codex">openai/codex</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Gemini CLI</strong> — <a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>GitHub Copilot CLI</strong> — <a href="https://github.com/github/copilot-cli">github/copilot-cli</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Kimi Code CLI</strong> — <a href="https://github.com/MoonshotAI/kimi-cli">MoonshotAI/kimi-cli</a></summary>
-
-<p>No activity in the last 24 hours.</p>
-</details>
-
-<details>
-<summary><strong>OpenCode</strong> — <a href="https://github.com/anomalyco/opencode">anomalyco/opencode</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Pi</strong> — <a href="https://github.com/badlogic/pi-mono">badlogic/pi-mono</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
-<details>
-<summary><strong>Qwen Code</strong> — <a href="https://github.com/QwenLM/qwen-code">QwenLM/qwen-code</a></summary>
-
-<p>⚠️ Summary generation failed.</p>
-</details>
-
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/dalen666/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
