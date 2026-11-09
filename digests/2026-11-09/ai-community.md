@@ -1,0 +1,33 @@
+# 技术社区 AI 动态日报 2026-11-09
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (5 条) | 生成时间: 2026-11-09 07:48 UTC
+
+---
+
+### Dev.to
+1. [What gets refused on Seedance, and how the two review layers differ](https://dev.to/chet103cc/what-gets-refused-on-seedance-and-how-the-two-review-layers-differ-1fpa)
+2. [Thirty seconds in one job: what Seedance 2.5's controls actually do](https://dev.to/chet103cc/thirty-seconds-in-one-job-what-seedance-25s-controls-actually-do-2cno)
+3. [How much does it cost to run a text game with LLMs](https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7)
+4. [When did you last code a project fully by hand ?](https://dev.to/aarishmansur/when-did-you-last-code-a-project-fully-by-hand--3ip4)
+5. [Training MoE Models Is Complicated. Hugging Face Just Wrote the Manual.](https://dev.to/sizzlebop/training-moe-models-is-complicated-hugging-face-just-wrote-the-manual-nih)
+6. [The model said yes. The chain said no. An on-chain lock for AI agents with wallets](https://dev.to/muhammadmurtuzahussain/the-model-said-yes-the-chain-said-no-an-on-chain-lock-for-ai-agents-with-wallets-2igp)
+7. [Why Your AI Agent Is Brilliant for 20 Minutes and Then Starts Lying](https://dev.to/debashish_ghosal/why-your-ai-agent-is-brilliant-for-20-minutes-and-then-starts-lying-232j)
+8. [We Moved to a Bigger Model to Debug the Test. Then We Went Back to the Smaller One.](https://dev.to/debashish_ghosal/we-moved-to-a-bigger-model-to-debug-the-test-then-we-went-back-to-the-smaller-one-1d3)
+9. [AI SDK 7.0.163 Added Two Stream Parts in a Patch Release. My Exhaustive Switch Stopped Compiling](https://dev.to/sushilmagare10/ai-sdk-70163-added-two-stream-parts-in-a-patch-release-my-exhaustive-switch-stopped-compiling-1m14)
+10. [What unshare -n leaves behind: building a boundary for an AI recon agent](https://dev.to/gnomeman4201/what-unshare-n-leaves-behind-building-a-boundary-for-an-ai-recon-agent-75b)
+11. [My first month of hackathons: 4 local AI projects, 4 lessons](https://dev.to/devcarlat800/my-first-month-of-hackathons-4-local-ai-projects-4-lessons-2528)
+12. [Building a free AI UI builder on Cloudflare: what small models taught me](https://dev.to/timofeus_248d45d3902a91a3/building-a-free-ai-ui-builder-on-cloudflare-what-small-models-taught-me-1p8c)
+13. [Your AI Agent Is a Confused Deputy: What Developers Need to Know About AI Security](https://dev.to/izhar_ulislamkhan_5a18d/your-ai-agent-is-a-confused-deputy-what-developers-need-to-know-about-ai-security-2579)
+14. [I run 16 CLI commands, 47 content checks, and 27 AI crawler tests. Here's which ones actually matter](https://dev.to/juanauriti/i-run-16-cli-commands-47-content-checks-and-27-ai-crawler-tests-heres-which-ones-actually-matter-chl)
+15. [Three agents and one memory: a proposal pipeline for a small agency](https://dev.to/jtersoli/three-agents-and-one-memory-a-proposal-pipeline-for-a-small-agency-66j)
+
+### Lobste.rs
+1. [Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights](https://rikiyat.github.io/blog/weight-space-programming/)
+2. [Reflections on Rust in the LLM Age](https://www.youtube.com/watch?v=5D7QPOIZ7gY)
+3. [What can I realistically do with local AI on a Mac mini M5 Pro (48GB)?](https://lobste.rs/s/umsitb/what_can_i_realistically_do_with_local_ai)
+4. [Firecracker VM Escape: PwnEscape Part 2](https://pwn.ai/blog/firecracker-escape)
+5. [Catching prompt injections hidden in PDFs](https://tomclancy.info/joshua-judges-ruth.html)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
