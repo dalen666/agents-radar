@@ -1,0 +1,32 @@
+# 技术社区 AI 动态日报 2026-11-11
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (4 条) | 生成时间: 2026-11-11 07:38 UTC
+
+---
+
+### Dev.to
+1. [Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini](https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan)
+2. [Ask More of Your UI](https://dev.to/dailycontext/ask-more-of-your-ui-2nf7)
+3. [How to Build an AI Agent That Fixes Bugs Reliably: Practice in Sharkly](https://dev.to/yukioikeda/how-to-build-an-ai-agent-that-fixes-bugs-reliably-practice-in-sharkly-o63)
+4. [Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents](https://dev.to/aws/once-upon-agentic-ai-part-1-create-your-own-agent-and-forge-its-tools-with-strands-agents-22mo)
+5. [We asked dev.to to break our AI agent design. The community rebuilt it](https://dev.to/anis_meziani_52aab42304a8/we-asked-devto-to-break-our-ai-agent-design-the-community-rebuilt-it-1ckn)
+6. [Stop Trusting npm Scans: Run Untrusted Packages in an Isolated AWS Sandbox](https://dev.to/aws-builders/stop-trusting-npm-scans-run-untrusted-packages-in-an-isolated-aws-sandbox-cmm)
+7. [Top 5 AI Agent Patterns for Frontend Devs](https://dev.to/erikch/top-5-ai-agent-patterns-for-frontend-devs-5g5m)
+8. [OpenAI Introduces Control Room to Halt Risky Research Model Workloads Quickly](https://dev.to/alifar/openai-introduces-control-room-to-halt-risky-research-model-workloads-quickly-33nc)
+9. [From Attention to 3-Bit Caches: How LLMs Learned to Remember Less (MHA, GQA, MLA, MoE, Quantisation Explained)](https://dev.to/amananandrai/from-attention-to-3-bit-caches-how-llms-learned-to-remember-less-mha-gqa-mla-moe-quantisation-3obj)
+10. [Part 5: The Control That Protected an Empty Bucket](https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j)
+11. [Your agent isn't hallucinating — your rules never defined "I don't know"](https://dev.to/tokenlat/your-agent-isnt-hallucinating-your-rules-never-defined-i-dont-know-4od4)
+12. [A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub](https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstrapping-with-a-chromebook-claude-and-github-4j16)
+13. [Reverse Engineering Nvidia](https://dev.to/om_shree_0709/reverse-engineering-nvidia-53i3)
+14. [Vue.js Is My Workhorse. Now It's an Agent Skill.](https://dev.to/playfulprogramming/vuejs-is-my-workhorse-now-its-an-agent-skill-1pfk)
+15. [LLMs Aren’t the Only Game in Town: A Beginner’s Guide to JEPA, Concept Models and Decision Models](https://dev.to/amananandrai/llms-arent-the-only-game-in-town-a-beginners-guide-to-jepa-concept-models-and-decision-models-48dp)
+
+### Lobste.rs
+1. [Reflections on Rust in the LLM Age](https://www.youtube.com/watch?v=5D7QPOIZ7gY)
+2. [Firecracker VM Escape: PwnEscape Part 2](https://pwn.ai/blog/firecracker-escape)
+3. [Catching prompt injections hidden in PDFs](https://tomclancy.info/joshua-judges-ruth.html)
+4. [Online learning on the programmable dataplane (2022)](https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
