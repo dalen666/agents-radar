@@ -1,0 +1,1239 @@
+{
+  "date": "2026-11-13",
+  "generated": "2026-11-13T07:44:17.374Z",
+  "trending": [
+    {
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "stars": 739,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    },
+    {
+      "name": "openai/codex-security",
+      "stars": 643,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "url": "https://github.com/openai/codex-security"
+    },
+    {
+      "name": "nvm-sh/nvm",
+      "stars": 63,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Shell",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "name": "pookjw/HermesEnabler",
+      "stars": 218,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Objective-C",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "url": "https://github.com/pookjw/HermesEnabler"
+    },
+    {
+      "name": "we-promise/sure",
+      "stars": 967,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Ruby",
+      "description": "The personal finance app for everyone (by everyone)",
+      "url": "https://github.com/we-promise/sure"
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "stars": 151,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "name": "ashhart/TensorFold",
+      "stars": 54,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Zig",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "url": "https://github.com/ashhart/TensorFold"
+    },
+    {
+      "name": "nodejs/node",
+      "stars": 62,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "url": "https://github.com/nodejs/node"
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "stars": 816,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "name": "meta/astryx",
+      "stars": 1830,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "url": "https://github.com/meta/astryx"
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "stars": 298,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "TypeScript",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "url": "https://github.com/CopilotKit/OpenBot"
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "stars": 415,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "name": "ggml-org/llama.cpp",
+      "stars": 176,
+      "totalStars": 0,
+      "forks": 0,
+      "language": "C++",
+      "description": "LLM inference in C/C++",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    }
+  ],
+  "search": [
+    {
+      "name": "NousResearch/hermes-agent",
+      "stars": 263049,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "stars": 111419,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "name": "career-ops-hq/career-ops",
+      "stars": 82278,
+      "language": "JavaScript",
+      "query": "ai-agent",
+      "url": "https://github.com/career-ops-hq/career-ops"
+    },
+    {
+      "name": "hugohe3/ppt-master",
+      "stars": 76437,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/hugohe3/ppt-master"
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "stars": 71146,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "name": "HKUDS/nanobot",
+      "stars": 50051,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/HKUDS/nanobot"
+    },
+    {
+      "name": "zhayujie/CowAgent",
+      "stars": 47910,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/zhayujie/CowAgent"
+    },
+    {
+      "name": "siyuan-note/siyuan",
+      "stars": 47211,
+      "language": "TypeScript",
+      "query": "ai-agent",
+      "url": "https://github.com/siyuan-note/siyuan"
+    },
+    {
+      "name": "codewhale-hq/Codewhale",
+      "stars": 41176,
+      "language": "Rust",
+      "query": "ai-agent",
+      "url": "https://github.com/codewhale-hq/Codewhale"
+    },
+    {
+      "name": "can1357/oh-my-pi",
+      "stars": 38884,
+      "language": "TypeScript",
+      "query": "ai-agent",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "stars": 38679,
+      "language": "TypeScript",
+      "query": "ai-agent",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "name": "HKUDS/Vibe-Trading",
+      "stars": 38130,
+      "language": "Python",
+      "query": "ai-agent",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "name": "agentscope-ai/QwenPaw",
+      "stars": 37675,
+      "language": "TypeScript",
+      "query": "ai-agent",
+      "url": "https://github.com/agentscope-ai/QwenPaw"
+    },
+    {
+      "name": "esengine/DeepSeek-Reasonix",
+      "stars": 36146,
+      "language": "Go",
+      "query": "ai-agent",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    {
+      "name": "Twigpine/openclaude",
+      "stars": 34350,
+      "language": "TypeScript",
+      "query": "ai-agent",
+      "url": "https://github.com/Twigpine/openclaude"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "stars": 302131,
+      "language": "JavaScript",
+      "query": "llm",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "name": "firecrawl/firecrawl",
+      "stars": 201360,
+      "language": "TypeScript",
+      "query": "llm",
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "name": "Significant-Gravitas/AutoGPT",
+      "stars": 188007,
+      "language": "Python",
+      "query": "llm",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT"
+    },
+    {
+      "name": "ollama/ollama",
+      "stars": 186840,
+      "language": "Go",
+      "query": "llm",
+      "url": "https://github.com/ollama/ollama"
+    },
+    {
+      "name": "f/prompts.chat",
+      "stars": 177039,
+      "language": "MDX",
+      "query": "llm",
+      "url": "https://github.com/f/prompts.chat"
+    }
+  ],
+  "hn": [
+    {
+      "title": "Anthropic IPO",
+      "points": 904,
+      "comments": 853,
+      "author": "josephljohnston",
+      "url": "https://ipo.anthropic.com/us/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50465829"
+    },
+    {
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "points": 96,
+      "comments": 27,
+      "author": "miguelrios",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471650"
+    },
+    {
+      "title": "AWS Lambda Web Functions keep billing memory ~7 minutes after the last request",
+      "points": 73,
+      "comments": 29,
+      "author": "seanw265",
+      "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
+      "hnUrl": "https://news.ycombinator.com/item?id=50470445"
+    },
+    {
+      "title": "Show HN: Kapso – Iterative learning from enterprise data",
+      "points": 45,
+      "comments": 10,
+      "author": "alirezamshi",
+      "url": "https://news.ycombinator.com/item?id=50471281",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471281"
+    },
+    {
+      "title": "Distributed Ray Tracer",
+      "points": 42,
+      "comments": 12,
+      "author": "juliusgeo",
+      "url": "https://ray.hatchet.run",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472505"
+    },
+    {
+      "title": "Show HN: Apron Chat Protocol",
+      "points": 41,
+      "comments": 1,
+      "author": "shazow",
+      "url": "https://apron.chat/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50470343"
+    },
+    {
+      "title": "Anthropic carelessly killed a Claude Code feature users built on, no warning",
+      "points": 22,
+      "comments": 5,
+      "author": "rezzminator",
+      "url": "https://github.com/anthropics/claude-code/issues/109446",
+      "hnUrl": "https://news.ycombinator.com/item?id=50477704"
+    },
+    {
+      "title": "Claude Meetings",
+      "points": 13,
+      "comments": 0,
+      "author": "Stanleyc23",
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "hnUrl": "https://news.ycombinator.com/item?id=50473801"
+    },
+    {
+      "title": "Inception's Diffusion LLM API Is Shutting Down",
+      "points": 13,
+      "comments": 7,
+      "author": "_matthew_",
+      "url": "https://news.ycombinator.com/item?id=50470335",
+      "hnUrl": "https://news.ycombinator.com/item?id=50470335"
+    },
+    {
+      "title": "Show HN: I built a Rick and Morty explainer video generator",
+      "points": 11,
+      "comments": 19,
+      "author": "dixitbavu",
+      "url": "https://usediorama.com/rick-and-morty",
+      "hnUrl": "https://news.ycombinator.com/item?id=50477993"
+    },
+    {
+      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+      "points": 11,
+      "comments": 4,
+      "author": "lakshays",
+      "url": "https://github.com/cerulion-inc/cerulion",
+      "hnUrl": "https://news.ycombinator.com/item?id=50474106"
+    },
+    {
+      "title": "Show HN: DRS-VPT. Localize a photo in a 3D point cloud without an initial pose",
+      "points": 9,
+      "comments": 0,
+      "author": "seasponge",
+      "url": "https://github.com/ori-drs/drs-vpt",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472560"
+    },
+    {
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "points": 7,
+      "comments": 0,
+      "author": "noorsimar",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472869"
+    },
+    {
+      "title": "LLM-Anthropic 0.31",
+      "points": 6,
+      "comments": 1,
+      "author": "millspore",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50464645"
+    },
+    {
+      "title": "I asked Claude Fable 5.2 to turn my site into a 90s Silicon Graphics workstation",
+      "points": 6,
+      "comments": 6,
+      "author": "gdubs",
+      "url": "https://gregorywieber.com/indy/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50476597"
+    },
+    {
+      "title": "The Scandal Is Bigger Than Jensen Huang",
+      "points": 5,
+      "comments": 0,
+      "author": "paulpauper",
+      "url": "https://www.theatlantic.com/international/2026/11/nvidia-china-ai-regulation/689387/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50478408"
+    },
+    {
+      "title": "OpenAI, Google, Anthropic hit with lawsuit to stop AI development",
+      "points": 5,
+      "comments": 0,
+      "author": "NeuraCryption",
+      "url": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50473015"
+    },
+    {
+      "title": "OpenAI: Cyber at the Frontier",
+      "points": 5,
+      "comments": 0,
+      "author": "lkurtz",
+      "url": "https://openai.com/cyber-at-the-frontier/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471564"
+    },
+    {
+      "title": "Claude designed FPGA scaler board for 6th-gen consoles",
+      "points": 5,
+      "comments": 0,
+      "author": "brytesys",
+      "url": "https://github.com/bryfur/tang-av-scaler",
+      "hnUrl": "https://news.ycombinator.com/item?id=50476792"
+    },
+    {
+      "title": "Running 800B-parameter LLMs on consumer hardware with InferSSD",
+      "points": 5,
+      "comments": 0,
+      "author": "andyxukq",
+      "url": "https://wici.ai/article/running-800b-models-with-inferssd",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471151"
+    },
+    {
+      "title": "ParseBench-2: Severity-Aware Evaluation of Document Parsing",
+      "points": 5,
+      "comments": 0,
+      "author": "cheesyFish",
+      "url": "https://huggingface.co/datasets/llamaindex/ParseBench-2",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471095"
+    },
+    {
+      "title": "Compress any LLM 3x in one click, near-lossless, vLLM successor",
+      "points": 5,
+      "comments": 2,
+      "author": "NeuraCryption",
+      "url": "https://ecosistemastartup.com/spectra-comprime-llms-3x-en-menos-de-50-mb-de-ram/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50470363"
+    },
+    {
+      "title": "Ask HN: Do you distrust OSS projects with Claude commits?",
+      "points": 4,
+      "comments": 2,
+      "author": "rathboma",
+      "url": "https://news.ycombinator.com/item?id=50477517",
+      "hnUrl": "https://news.ycombinator.com/item?id=50477517"
+    },
+    {
+      "title": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit",
+      "points": 4,
+      "comments": 0,
+      "author": "myleshenderson",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved",
+      "hnUrl": "https://news.ycombinator.com/item?id=50469899"
+    },
+    {
+      "title": "Mythos got Claude running on AMD chips in three days, a job that took months",
+      "points": 4,
+      "comments": 5,
+      "author": "mroche",
+      "url": "https://madrobot.blog/2026/11/11/anthropic-mythos-claude-amd-chips-three-days/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50477800"
+    },
+    {
+      "title": "Fable 5.2 just revealed how shady Anthropic is [video]",
+      "points": 4,
+      "comments": 0,
+      "author": "Bender",
+      "url": "https://www.youtube.com/watch?v=4BnLL7tUGmI",
+      "hnUrl": "https://news.ycombinator.com/item?id=50476694"
+    },
+    {
+      "title": "What a week of Claude Code holds: the usage meter, per token type",
+      "points": 4,
+      "comments": 0,
+      "author": "meekoAMH",
+      "url": "https://atlas-ade.dev/docs/plan-usage-burn-data/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50467454"
+    },
+    {
+      "title": "Show HN: Wonderchat – A Zendesk alternative that doesn't charge per seat",
+      "points": 3,
+      "comments": 1,
+      "author": "walkingsunrise",
+      "url": "https://wonderchat.io/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50479411"
+    },
+    {
+      "title": "United Airlines blocks AI agents from booking flights",
+      "points": 3,
+      "comments": 1,
+      "author": "askadityapandey",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50479219"
+    },
+    {
+      "title": "AI Security Wiki",
+      "points": 3,
+      "comments": 1,
+      "author": "totetsu",
+      "url": "https://nachi065.github.io/AI-Security-Wiki/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50478007"
+    }
+  ],
+  "ph": [],
+  "arxiv": [
+    {
+      "title": "Unbundling Multimodal Vision Encoding",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "authors": [
+        "Ellis Brown",
+        "Chris Hoang",
+        "Shengyi Qian"
+      ],
+      "url": "http://arxiv.org/abs/2611.17334v1"
+    },
+    {
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "authors": [
+        "Jie Wang",
+        "Tong Zhu",
+        "JiaHao Kuang"
+      ],
+      "url": "http://arxiv.org/abs/2611.17332v1"
+    },
+    {
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Zeynep Yıldız",
+        "Satchit Chatterji",
+        "Ercan Atam"
+      ],
+      "url": "http://arxiv.org/abs/2611.17329v1"
+    },
+    {
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "authors": [
+        "Ethan Lin",
+        "Akanksha Sarkar",
+        "Ziang Liu"
+      ],
+      "url": "http://arxiv.org/abs/2611.17323v1"
+    },
+    {
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "categories": [
+        "cs.CL"
+      ],
+      "authors": [
+        "Minhae Oh",
+        "Jeonghye Kim",
+        "Jinwoo Koo"
+      ],
+      "url": "http://arxiv.org/abs/2611.17320v1"
+    },
+    {
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.SE"
+      ],
+      "authors": [
+        "Peiwen Li",
+        "Harshit Verma",
+        "Sophia Zhou"
+      ],
+      "url": "http://arxiv.org/abs/2611.17316v1"
+    },
+    {
+      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "authors": [
+        "Abigail L. Tenenbaum",
+        "R. Thomas McCoy"
+      ],
+      "url": "http://arxiv.org/abs/2611.17314v1"
+    },
+    {
+      "title": "Sketching Language Models for Context Attribution",
+      "categories": [
+        "cs.DS",
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "authors": [
+        "Christopher Liaw",
+        "Aranyak Mehta",
+        "Grigoris Velegkas"
+      ],
+      "url": "http://arxiv.org/abs/2611.17313v1"
+    },
+    {
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "authors": [
+        "Benjamin Hoover",
+        "Hugh Blayney",
+        "James C. R. Whittington"
+      ],
+      "url": "http://arxiv.org/abs/2611.17309v1"
+    },
+    {
+      "title": "Quantifying structural stability of transparent models for general insurance pricing",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "authors": [
+        "Félix Côté",
+        "Marie-Pier Côté"
+      ],
+      "url": "http://arxiv.org/abs/2611.17308v1"
+    },
+    {
+      "title": "Towards a Theory of Learnability via Debate",
+      "categories": [
+        "cs.LG"
+      ],
+      "authors": [
+        "Tosca Lechner",
+        "Vinayak Pathak",
+        "Sivan Sabato"
+      ],
+      "url": "http://arxiv.org/abs/2611.17303v1"
+    },
+    {
+      "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "authors": [
+        "Mohamed Alimoussa",
+        "Amal El Kaid"
+      ],
+      "url": "http://arxiv.org/abs/2611.17302v1"
+    },
+    {
+      "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "authors": [
+        "Gaurav Parmar",
+        "Zhengqi Li",
+        "Richard Zhang"
+      ],
+      "url": "http://arxiv.org/abs/2611.17298v1"
+    },
+    {
+      "title": "Goal Encoding in LLMs",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "authors": [
+        "Arnab Sen Sharma",
+        "Eric Todd",
+        "Sheridan Feucht"
+      ],
+      "url": "http://arxiv.org/abs/2611.17297v1"
+    },
+    {
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.DC"
+      ],
+      "authors": [
+        "Haozhe Wang",
+        "Lina Chen",
+        "Fanqi Wan"
+      ],
+      "url": "http://arxiv.org/abs/2611.17294v1"
+    },
+    {
+      "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "authors": [
+        "Jiacheng Xu",
+        "Shuo He",
+        "Fuxiang Zhang"
+      ],
+      "url": "http://arxiv.org/abs/2611.17287v1"
+    },
+    {
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "authors": [
+        "Gautam Galada",
+        "Supreeth Shastri",
+        "Sagnik Ray Choudhury"
+      ],
+      "url": "http://arxiv.org/abs/2611.17280v1"
+    },
+    {
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "categories": [
+        "cs.AI"
+      ],
+      "authors": [
+        "Pengcheng Zhou",
+        "Xuanyu Liu",
+        "Yanchen Yin"
+      ],
+      "url": "http://arxiv.org/abs/2611.17267v1"
+    },
+    {
+      "title": "Programming Quantum Circuit Parameters with Large Language Models",
+      "categories": [
+        "quant-ph",
+        "cs.LG"
+      ],
+      "authors": [
+        "Tiago de Souza Farias",
+        "Caio Moraes Porto",
+        "Matheus da Silva Fonseca"
+      ],
+      "url": "http://arxiv.org/abs/2611.17246v1"
+    },
+    {
+      "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "categories": [
+        "cs.AI"
+      ],
+      "authors": [
+        "Samidha Verma",
+        "Ankit Anand",
+        "Sayan Ranu"
+      ],
+      "url": "http://arxiv.org/abs/2611.17241v1"
+    }
+  ],
+  "hf": [
+    {
+      "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "likes": 4801,
+      "downloads": 18933,
+      "pipeline": "text-generation",
+      "author": "xtools-at",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic"
+    },
+    {
+      "id": "MiniMaxAI/MiniMax-H3-Image",
+      "likes": 915,
+      "downloads": 306718,
+      "pipeline": "text-to-image",
+      "author": "MiniMaxAI",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image"
+    },
+    {
+      "id": "NousResearch/Arete-27B",
+      "likes": 502,
+      "downloads": 4669,
+      "pipeline": "text-generation",
+      "author": "NousResearch",
+      "url": "https://huggingface.co/NousResearch/Arete-27B"
+    },
+    {
+      "id": "Lightricks/LTX-2.5",
+      "likes": 11662,
+      "downloads": 2782513,
+      "pipeline": "image-to-video",
+      "author": "Lightricks",
+      "url": "https://huggingface.co/Lightricks/LTX-2.5"
+    },
+    {
+      "id": "speridlabs/idol",
+      "likes": 2250,
+      "downloads": 29904,
+      "pipeline": "image-to-3d",
+      "author": "speridlabs",
+      "url": "https://huggingface.co/speridlabs/idol"
+    },
+    {
+      "id": "Qwen/Qwen3.8-27B",
+      "likes": 19777,
+      "downloads": 7094218,
+      "pipeline": "image-text-to-text",
+      "author": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+    },
+    {
+      "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "likes": 2996,
+      "downloads": 1599836,
+      "pipeline": "image-text-to-text",
+      "author": "DavidAU",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF"
+    },
+    {
+      "id": "Comfy-Org/MiniMax-H3-Image",
+      "likes": 314,
+      "downloads": 835593,
+      "pipeline": "text-to-image",
+      "author": "Comfy-Org",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image"
+    },
+    {
+      "id": "ccore/Qwen3.5-4B-3D-Coder",
+      "likes": 1064,
+      "downloads": 368236,
+      "pipeline": "",
+      "author": "ccore",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder"
+    },
+    {
+      "id": "black-forest-labs/flux-3-image-klein-comfy",
+      "likes": 3044,
+      "downloads": 1296849,
+      "pipeline": "image-to-image",
+      "author": "black-forest-labs",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy"
+    },
+    {
+      "id": "ricursiveAI/Ripple-65B-Preview",
+      "likes": 542,
+      "downloads": 7667,
+      "pipeline": "",
+      "author": "ricursiveAI",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+    },
+    {
+      "id": "VideoRebirthAI/hyperflow-h3-flash",
+      "likes": 245,
+      "downloads": 326487,
+      "pipeline": "image-text-to-video",
+      "author": "VideoRebirthAI",
+      "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash"
+    },
+    {
+      "id": "Zyphra/ZONOS3-Mini",
+      "likes": 251,
+      "downloads": 8543,
+      "pipeline": "text-to-speech",
+      "author": "Zyphra",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+    },
+    {
+      "id": "Viggle/Viggle-Remake",
+      "likes": 350,
+      "downloads": 152819,
+      "pipeline": "video-to-video",
+      "author": "Viggle",
+      "url": "https://huggingface.co/Viggle/Viggle-Remake"
+    },
+    {
+      "id": "unsloth/Qwen3.8-27B-GGUF",
+      "likes": 5823,
+      "downloads": 6097719,
+      "pipeline": "",
+      "author": "unsloth",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+    },
+    {
+      "id": "moonshotai/Kimi-K3.1-Pro",
+      "likes": 1990,
+      "downloads": 37486,
+      "pipeline": "image-text-to-text",
+      "author": "moonshotai",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    },
+    {
+      "id": "mradermacher/gemma-4-31B-it-ARA-heretic-GGUF",
+      "likes": 244,
+      "downloads": 96342,
+      "pipeline": "",
+      "author": "mradermacher",
+      "url": "https://huggingface.co/mradermacher/gemma-4-31B-it-ARA-heretic-GGUF"
+    },
+    {
+      "id": "facebook/sam3",
+      "likes": 6473,
+      "downloads": 2070504,
+      "pipeline": "mask-generation",
+      "author": "facebook",
+      "url": "https://huggingface.co/facebook/sam3"
+    },
+    {
+      "id": "Cactus-Compute/mirage",
+      "likes": 214,
+      "downloads": 16133,
+      "pipeline": "image-text-to-text",
+      "author": "Cactus-Compute",
+      "url": "https://huggingface.co/Cactus-Compute/mirage"
+    },
+    {
+      "id": "tencent/Qwen3.8-27B-DSpine-b16",
+      "likes": 220,
+      "downloads": 3738,
+      "pipeline": "text-generation",
+      "author": "tencent",
+      "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16"
+    }
+  ],
+  "devto": [
+    {
+      "title": "MCP Is Dead Simple. And That's Exactly the Problem",
+      "reactions": 101,
+      "comments": 63,
+      "tags": [
+        "mcp",
+        "ai",
+        "agents",
+        "typescript"
+      ],
+      "url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811"
+    },
+    {
+      "title": "Long Live Rails",
+      "reactions": 99,
+      "comments": 14,
+      "tags": [
+        "rails",
+        "ruby",
+        "rust",
+        "ai"
+      ],
+      "url": "https://dev.to/ben/long-live-rails-3p21"
+    },
+    {
+      "title": "When a Company Becomes Too Dependent on One Person",
+      "reactions": 66,
+      "comments": 0,
+      "tags": [
+        "discuss",
+        "ai",
+        "news",
+        "nvidia"
+      ],
+      "url": "https://dev.to/startupcafe/when-a-company-becomes-too-dependent-on-one-person-5032"
+    },
+    {
+      "title": "Your MCP Servers Are Silently Draining Your Context Window: The Hidden Cost of Tool-Heavy AI Agents",
+      "reactions": 41,
+      "comments": 21,
+      "tags": [
+        "ai",
+        "typescript",
+        "opensource",
+        "productivity"
+      ],
+      "url": "https://dev.to/necoz/your-mcp-servers-are-silently-draining-your-context-window-the-hidden-cost-of-tool-heavy-ai-agents-fkl"
+    },
+    {
+      "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
+      "reactions": 37,
+      "comments": 56,
+      "tags": [
+        "ai",
+        "productivity",
+        "programming",
+        "opensource"
+      ],
+      "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb"
+    },
+    {
+      "title": "AI is getting better. Here is my plan to stay ahead.",
+      "reactions": 32,
+      "comments": 15,
+      "tags": [
+        "ai",
+        "productivity",
+        "programming",
+        "discuss"
+      ],
+      "url": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822"
+    },
+    {
+      "title": "Four Applications and One Ask. Guess Which One Scared Me.",
+      "reactions": 16,
+      "comments": 9,
+      "tags": [
+        "ai",
+        "career",
+        "womenintech",
+        "discuss"
+      ],
+      "url": "https://dev.to/earlgreyhot1701d/four-applications-and-one-ask-guess-which-one-scared-me-2ia3"
+    },
+    {
+      "title": "Small Teams, Giant Leverage: How 5-Person IT Shops Are Out-Shipping Enterprise Divisions",
+      "reactions": 15,
+      "comments": 0,
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "productivity"
+      ],
+      "url": "https://dev.to/debashish_ghosal/small-teams-giant-leverage-how-5-person-it-shops-are-out-shipping-enterprise-divisions-17f5"
+    },
+    {
+      "title": "Composio vs Nango vs Scalekit: What Changes When Your Agent Goes to Production",
+      "reactions": 10,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "webdev",
+        "productivity",
+        "programming"
+      ],
+      "url": "https://dev.to/therealmrmumba/composio-vs-nango-vs-scalekit-what-changes-when-your-agent-goes-to-production-4fl2"
+    },
+    {
+      "title": "Local AI models need to be a browser feature",
+      "reactions": 8,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "llm",
+        "javascript",
+        "browser"
+      ],
+      "url": "https://dev.to/kenzic/local-ai-models-need-to-be-a-browser-feature-399l"
+    },
+    {
+      "title": "CortexDB: agent memory and a knowledge graph in one SQLite file",
+      "reactions": 8,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "agents",
+        "go",
+        "opensource"
+      ],
+      "url": "https://dev.to/alexr/cortexdb-agent-memory-and-a-knowledge-graph-in-one-sqlite-file-1p5n"
+    },
+    {
+      "title": "Reverse Engineering GPT-6 Cyber",
+      "reactions": 6,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "discuss",
+        "openai",
+        "security"
+      ],
+      "url": "https://dev.to/om_shree_0709/reverse-engineering-gpt-6-cyber-54gj"
+    },
+    {
+      "title": "Building Lightweight Windows Software: Why Performance Matters",
+      "reactions": 5,
+      "comments": 1,
+      "tags": [
+        "softwaredevelopment",
+        "ai",
+        "programming",
+        "javascript"
+      ],
+      "url": "https://dev.to/tsdc/building-lightweight-windows-software-why-performance-matters-4pg1"
+    },
+    {
+      "title": "Codex Never Crashed. It Just Quietly Did Nothing.",
+      "reactions": 5,
+      "comments": 0,
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "showdev"
+      ],
+      "url": "https://dev.to/debashish_ghosal/codex-never-crashed-it-just-quietly-did-nothing-1p5c"
+    },
+    {
+      "title": "Five of My Eight Agents Left Out the Same Caveat. A Vote Would Have Made It Official.",
+      "reactions": 4,
+      "comments": 5,
+      "tags": [
+        "ai",
+        "agents",
+        "llm",
+        "machinelearning"
+      ],
+      "url": "https://dev.to/p0rt/five-of-my-eight-agents-left-out-the-same-caveat-a-vote-would-have-made-it-official-d5j"
+    },
+    {
+      "title": "My LLM Pipeline Never Crashed. It Just Quietly Got Worse.",
+      "reactions": 3,
+      "comments": 8,
+      "tags": [
+        "ai",
+        "llm",
+        "architecture",
+        "debugging"
+      ],
+      "url": "https://dev.to/roylevy/my-llm-pipeline-never-crashed-it-just-quietly-got-worse-2jn2"
+    },
+    {
+      "title": "Why Do AI Models Need High-Dimensional Embeddings?",
+      "reactions": 3,
+      "comments": 0,
+      "tags": [
+        "deeplearning",
+        "ai",
+        "llm",
+        "embeddings"
+      ],
+      "url": "https://dev.to/karam999/why-do-ai-models-need-high-dimensional-embeddings-2no2"
+    },
+    {
+      "title": "AWS Upgrades Bedrock AgentCore for Faster AI Agent Deployment",
+      "reactions": 3,
+      "comments": 0,
+      "tags": [
+        "aws",
+        "amazonbedrock",
+        "ai",
+        "cloudcomputing"
+      ],
+      "url": "https://dev.to/vpodk/aws-upgrades-bedrock-agentcore-for-faster-ai-agent-deployment-2nog"
+    },
+    {
+      "title": "Offline voice replies on a $35 Raspberry Pi: LinnetTTS integration in Python",
+      "reactions": 2,
+      "comments": 0,
+      "tags": [
+        "machinelearning",
+        "raspberrypi",
+        "python",
+        "showdev"
+      ],
+      "url": "https://dev.to/voxrtio/offline-voice-replies-on-a-35-raspberry-pi-linnettts-integration-in-python-4la6"
+    },
+    {
+      "title": "I built a 50-year-old security model for LLM agents. It caught things I didn't expect.",
+      "reactions": 2,
+      "comments": 5,
+      "tags": [
+        "agents",
+        "cybersecurity",
+        "llm",
+        "security"
+      ],
+      "url": "https://dev.to/nice_dev_226/i-built-a-50-year-old-security-model-for-llm-agents-it-caught-things-i-didnt-expect-84m"
+    }
+  ],
+  "lobsters": [
+    {
+      "title": "How a false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "score": 85,
+      "comments": 17,
+      "tags": [
+        "devops",
+        "ml"
+      ],
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/"
+    },
+    {
+      "title": "libreagi - save OS models",
+      "score": 12,
+      "comments": 6,
+      "tags": [
+        "ai",
+        "privacy"
+      ],
+      "url": "https://libreagi.com/"
+    },
+    {
+      "title": "Writing a SIGGRAPH paper from scratch",
+      "score": 8,
+      "comments": 0,
+      "tags": [
+        "ai"
+      ],
+      "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/"
+    },
+    {
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "score": 6,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "security"
+      ],
+      "url": "https://pwn.ai/blog/firecracker-escape"
+    },
+    {
+      "title": "Catching prompt injections hidden in PDFs",
+      "score": 5,
+      "comments": 2,
+      "tags": [
+        "a11y",
+        "ai",
+        "pdf",
+        "security"
+      ],
+      "url": "https://tomclancy.info/joshua-judges-ruth.html"
+    },
+    {
+      "title": "Online learning on the programmable dataplane (2022)",
+      "score": 1,
+      "comments": 0,
+      "tags": [
+        "ai",
+        "hardware",
+        "networking",
+        "pdf"
+      ],
+      "url": "https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf"
+    }
+  ]
+}
