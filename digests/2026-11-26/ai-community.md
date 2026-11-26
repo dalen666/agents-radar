@@ -1,0 +1,34 @@
+# 技术社区 AI 动态日报 2026-11-26
+
+> 数据来源: [Dev.to](https://dev.to/) (30 篇) + [Lobste.rs](https://lobste.rs/) (6 条) | 生成时间: 2026-11-26 09:19 UTC
+
+---
+
+### Dev.to
+1. [I Built AI Test Automation. Today, I Went Back to Manual Testing.](https://dev.to/thethirdcup/i-built-ai-test-automation-today-i-went-back-to-manual-testing-mlh)
+2. [Inside APIC: The Full Engineering Teardown of a Free Photo Editor & Background Remover That Runs 100% On Your Device](https://dev.to/akhouri-systems/inside-apic-the-full-engineering-teardown-of-a-free-photo-editor-background-remover-that-runs-5h33)
+3. [Stop AI Agents Acting on Bluffs? A Strands Decider 2B Tool Gate Test](https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004)
+4. [Nostalgia and the AI Productivity Paradox](https://dev.to/gramli/nostalgia-and-the-ai-productivity-paradox-4f33)
+5. [How to Design and Test AI Phone Support Handoffs](https://dev.to/rajni_walia_e6082454c67a9/how-to-design-and-test-ai-phone-support-handoffs-68l)
+6. [The Imposter Syndrome Epidemic: Why Your Most Senior Engineers Feel Like Juniors Again](https://dev.to/debashish_ghosal/the-imposter-syndrome-epidemic-why-your-most-senior-engineers-feel-like-juniors-again-2b6e)
+7. [Your Agent’s Model Has an Expiration Date—And Silent Upgrades Are Already Changing Your Output](https://dev.to/debashish_ghosal/your-agents-model-has-an-expiration-date-read-what-vendors-actually-promise-3khb)
+8. [The Internet Wasn't Built for Agents: The 30-Year-Old Assumption That's Breaking Everything](https://dev.to/aws-builders/the-internet-wasnt-built-for-agents-the-30-year-old-assumption-thats-breaking-everything-4cl6)
+9. [Gemma 4 Function Calls on an 8 GB RTX 3050: The Setting Matters More Than the Size](https://dev.to/gde/gemma-4-function-calls-on-an-8-gb-rtx-3050-the-setting-matters-more-than-the-size-53a5)
+10. [A tool call cut at "append":tru came back as valid JSON, without append](https://dev.to/pierrelaurentmedori/a-tool-call-cut-at-appendtru-came-back-as-valid-json-without-append-173b)
+11. [Can Your Agent Review Your Cloud Architecture?](https://dev.to/aws/can-your-agent-review-your-cloud-architecture-4coh)
+12. [Thinking on Constrained Deployments: Gemma E2B on 4GB 1650](https://dev.to/gde/thinking-on-constrained-deployments-gemma-e2b-on-4gb-1650-487c)
+13. [My AI memory marked 471 notes as verified. Nothing had verified them.](https://dev.to/heinrichneb/my-ai-memory-marked-471-notes-as-verified-nothing-had-verified-them-3m87)
+14. [Benchmark LiteRT.js Without Confusing WebGPU with a Faster App](https://dev.to/gde/benchmark-litertjs-without-confusing-webgpu-with-a-faster-app-2e0n)
+15. [Exit Code 0 Is the Weakest Evidence You Have](https://dev.to/debashish_ghosal/exit-code-0-is-the-weakest-evidence-you-have-48g0)
+
+### Lobste.rs
+1. [Alice v0.6.0](https://www.alicecaml.org/blog/alice-v0-6-0/)
+2. [9/UX: a Macintosh-inspired desktop for 9front](https://progrium.github.io/9ux/)
+3. [Rebuilding my local voice assistant pipeline](https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline)
+4. [Flat/non-higher-order construction of ANF via mutable holes](https://blueberrywren.dev/blog/anf-mutable/)
+5. [Browser tabs as a container runtime](https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime)
+6. [Matrix Multiplication is Θ(n^2.25)](https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf)
+
+
+---
+*本日报由 [agents-radar](https://github.com/dalen666/agents-radar) 自动生成。*
